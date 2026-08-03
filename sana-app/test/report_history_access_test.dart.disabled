@@ -1,0 +1,223 @@
+// DEVRE DIŞI — premium kilidi ürün işlerinden sonra devreye alınacaktır.
+//
+// Bu dosya `.disabled` uzantısıyla durur; ne test koşucusu ne de analyzer onu
+// derler. Kilit yeniden bağlandığında uzantı `.dart`'a çevrilerek 8 test
+// olduğu gibi tekrar çalışır. Gerektirdiği tek şey, `ReportHistoryScreen`
+// constructor'ının yeniden `entitlementService` parametresi alması ve ücretsiz
+// görünümde yalnız en güncel raporu göstermesidir.
+//
+// Yeniden bağlama adımları: CLAUDE_HANDOFF.md → "Premium katmanı (ertelendi)".
+
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+import 'package:sana_app/core/entitlements/app_entitlement.dart';
+import 'package:sana_app/core/entitlements/entitlement_service.dart';
+import 'package:sana_app/features/ml_dictionary/models/report_parse_models.dart';
+import 'package:sana_app/features/ml_dictionary/screens/report_history_screen.dart';
+import 'package:sana_app/features/ml_dictionary/services/report_history_service.dart';
+
+void main() {
+  group('ücretsiz erişim', () {
+    testWidgets('üç kayıt varken yalnız en güncel rapor görünür', (
+      tester,
+    ) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: false);
+
+      expect(find.text('03.02.2026.pdf'), findsOneWidget);
+      expect(find.text('25.06.2026.pdf'), findsNothing);
+      expect(find.text('10.07.2026.pdf'), findsNothing);
+      expect(find.text('En güncel raporun'), findsOneWidget);
+    });
+
+    testWidgets('karşılaştırma grafiği ve checkbox görünmez', (tester) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: false);
+
+      expect(find.byType(Checkbox), findsNothing);
+      expect(find.text('Kıyaslanacak raporları seç'), findsNothing);
+      expect(find.text('Rapor karşılaştırma'), findsNothing);
+      expect(find.text('Rapor karşılaştırma premium özelliktir'), findsOneWidget);
+    });
+
+    testWidgets('premium bilgilendirme ekranı açılabilir', (tester) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: false);
+      await tester.tap(find.text('Premium özellikleri incele'));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Premium ile açılan özellikler'), findsOneWidget);
+      expect(
+        find.widgetWithText(FilledButton, 'Mağaza bağlantısı hazırlanıyor'),
+        findsOneWidget,
+      );
+    });
+
+    testWidgets('en güncel rapor silinebilir', (tester) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: false);
+      await tester.tap(find.byKey(const ValueKey('delete-r1')));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Rapor silinsin mi?'), findsOneWidget);
+      await tester.tap(find.widgetWithText(FilledButton, 'Sil'));
+      await tester.pumpAndSettle();
+
+      expect(service.deletedIds, ['r1']);
+      expect(find.text('03.02.2026.pdf'), findsNothing);
+      expect(find.text('25.06.2026.pdf'), findsOneWidget);
+    });
+  });
+
+  group('premium erişim', () {
+    testWidgets('tüm raporlar görünür', (tester) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: true);
+
+      expect(find.text('03.02.2026.pdf'), findsOneWidget);
+      expect(find.text('25.06.2026.pdf'), findsOneWidget);
+      expect(find.text('10.07.2026.pdf'), findsOneWidget);
+    });
+
+    testWidgets('iki veya daha fazla rapor seçilip kıyaslanabilir', (
+      tester,
+    ) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: true);
+
+      expect(find.text('2 rapor seçili'), findsOneWidget);
+      expect(find.text('2/3 seçili'), findsOneWidget);
+
+      await tester.tap(find.byKey(const ValueKey('select-r3')));
+      await tester.pump();
+
+      expect(find.text('3 rapor seçili'), findsOneWidget);
+      expect(find.text('3/3 seçili'), findsOneWidget);
+      expect(find.text('10.07.26 · 30 mg/L'), findsOneWidget);
+    });
+
+    testWidgets('tek rapor silme akışı çalışır', (tester) async {
+      final service = _FakeHistoryService(_sampleEntries());
+
+      await _pumpScreen(tester, service, premium: true);
+      await tester.tap(find.byKey(const ValueKey('delete-r1')));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.widgetWithText(FilledButton, 'Sil'));
+      await tester.pumpAndSettle();
+
+      expect(service.deletedIds, ['r1']);
+      expect(find.text('03.02.2026.pdf'), findsNothing);
+      expect(find.text('25.06.2026.pdf'), findsOneWidget);
+      expect(find.text('10.07.2026.pdf'), findsOneWidget);
+    });
+  });
+
+  testWidgets('free ve premium geçişi kayıtları fiziksel olarak silmez', (
+    tester,
+  ) async {
+    final service = _FakeHistoryService(_sampleEntries());
+
+    await _pumpScreen(tester, service, premium: false);
+    expect(find.text('25.06.2026.pdf'), findsNothing);
+
+    await _pumpScreen(tester, service, premium: true);
+
+    expect(service.deletedIds, isEmpty);
+    expect(service.cleared, isFalse);
+    expect(service.entries, hasLength(3));
+    expect(find.text('03.02.2026.pdf'), findsOneWidget);
+    expect(find.text('25.06.2026.pdf'), findsOneWidget);
+    expect(find.text('10.07.2026.pdf'), findsOneWidget);
+  });
+}
+
+Future<void> _pumpScreen(
+  WidgetTester tester,
+  ReportHistoryService service, {
+  required bool premium,
+}) async {
+  tester.view.physicalSize = const Size(1280, 900);
+  tester.view.devicePixelRatio = 1;
+  addTearDown(tester.view.resetPhysicalSize);
+  addTearDown(tester.view.resetDevicePixelRatio);
+
+  // Key, erişim seviyesi değiştiğinde ekranın yeniden açılmasını (yeni State)
+  // temsil eder; kullanıcı da ekranı yeniden açarak aynı sonucu görür.
+  await tester.pumpWidget(
+    MaterialApp(
+      home: ReportHistoryScreen(
+        key: ValueKey('history-$premium'),
+        service: service,
+        entitlementService: _FakeEntitlementService(premium: premium),
+      ),
+    ),
+  );
+  await tester.pumpAndSettle();
+}
+
+List<ReportHistoryEntry> _sampleEntries() => [
+  _entry('r1', '03.02.2026.pdf', DateTime(2026, 7, 24), 10),
+  _entry('r2', '25.06.2026.pdf', DateTime(2026, 7, 23), 20),
+  _entry('r3', '10.07.2026.pdf', DateTime(2026, 7, 22), 30),
+];
+
+ReportHistoryEntry _entry(
+  String id,
+  String sourceName,
+  DateTime createdAt,
+  double value,
+) => ReportHistoryEntry(
+  id: id,
+  createdAt: createdAt,
+  sourceName: sourceName,
+  results: [
+    ParsedLabResult(
+      labTest: 'CRP',
+      rawValue: value.toStringAsFixed(0),
+      value: value,
+      unit: 'mg/L',
+    ),
+  ],
+);
+
+class _FakeEntitlementService implements EntitlementService {
+  const _FakeEntitlementService({required this.premium});
+
+  final bool premium;
+
+  @override
+  Future<AppEntitlement> load() async => premium
+      ? const AppEntitlement(tier: AccessTier.premium, source: 'test')
+      : const AppEntitlement.free(source: 'test');
+}
+
+class _FakeHistoryService extends ReportHistoryService {
+  _FakeHistoryService(this.entries);
+
+  final List<ReportHistoryEntry> entries;
+  final List<String> deletedIds = <String>[];
+  bool cleared = false;
+
+  @override
+  Future<List<ReportHistoryEntry>> load() async => List.of(entries);
+
+  @override
+  Future<void> delete(String id) async {
+    deletedIds.add(id);
+    entries.removeWhere((entry) => entry.id == id);
+  }
+
+  @override
+  Future<void> clear() async {
+    cleared = true;
+    entries.clear();
+  }
+}

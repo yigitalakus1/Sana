@@ -1,0 +1,31 @@
+{
+  "batch_id": "medlineplus-common-01",
+  "selection_policy": "Direct MedlinePlus lab-test pages ordered by best positive COMMON_TEST_RANK; numeric or panel-oriented results; existing ten sources and non-routine categories excluded.",
+  "sources": [
+    {"source_key": "medlineplus:2951-2:en", "turkish_name": "Elektrolit Paneli", "best_common_rank": 5},
+    {"source_key": "medlineplus:2075-0:en", "turkish_name": "Klorür", "best_common_rank": 8},
+    {"source_key": "medlineplus:3094-0:en", "turkish_name": "BUN (Kan Üre Azotu)", "best_common_rank": 9},
+    {"source_key": "medlineplus:2028-9:en", "turkish_name": "Karbondioksit (CO2)", "best_common_rank": 11},
+    {"source_key": "medlineplus:787-2:en", "turkish_name": "MCV", "best_common_rank": 14},
+    {"source_key": "medlineplus:785-6:en", "turkish_name": "Eritrosit İndeksleri (MCH/MCHC)", "best_common_rank": 15},
+    {"source_key": "medlineplus:6690-2:en", "turkish_name": "Lökosit (WBC)", "best_common_rank": 21},
+    {"source_key": "medlineplus:1975-2:en", "turkish_name": "Bilirubin", "best_common_rank": 22},
+    {"source_key": "medlineplus:2885-2:en", "turkish_name": "Globulin", "best_common_rank": 23},
+    {"source_key": "medlineplus:6768-6:en", "turkish_name": "Alkalen Fosfataz (ALP)", "best_common_rank": 26},
+    {"source_key": "medlineplus:4544-3:en", "turkish_name": "Hematokrit", "best_common_rank": 28},
+    {"source_key": "medlineplus:10466-1:en", "turkish_name": "Anyon Açığı", "best_common_rank": 29},
+    {"source_key": "medlineplus:751-8:en", "turkish_name": "Lökosit Dağılımı", "best_common_rank": 30},
+    {"source_key": "medlineplus:1751-7:en", "turkish_name": "Albumin", "best_common_rank": 39},
+    {"source_key": "medlineplus:11556-8:en", "turkish_name": "Arter Kan Gazı", "best_common_rank": 45},
+    {"source_key": "medlineplus:19123-9:en", "turkish_name": "Magnezyum", "best_common_rank": 51},
+    {"source_key": "medlineplus:5902-2:en", "turkish_name": "PT/INR", "best_common_rank": 54},
+    {"source_key": "medlineplus:2777-1:en", "turkish_name": "Fosfat", "best_common_rank": 55},
+    {"source_key": "medlineplus:2571-8:en", "turkish_name": "Trigliserid", "best_common_rank": 66},
+    {"source_key": "medlineplus:28542-9:en", "turkish_name": "MPV", "best_common_rank": 80},
+    {"source_key": "medlineplus:24321-2:en", "turkish_name": "Temel Metabolik Panel (BMP)", "best_common_rank": 84},
+    {"source_key": "medlineplus:24323-8:en", "turkish_name": "Kapsamlı Metabolik Panel (CMP)", "best_common_rank": 87},
+    {"source_key": "medlineplus:4548-4:en", "turkish_name": "HbA1c", "best_common_rank": 88},
+    {"source_key": "medlineplus:1759-0:en", "turkish_name": "Total Protein ve A/G Oranı", "best_common_rank": 101},
+    {"source_key": "medlineplus:10839-9:en", "turkish_name": "Troponin", "best_common_rank": 107}
+  ]
+}

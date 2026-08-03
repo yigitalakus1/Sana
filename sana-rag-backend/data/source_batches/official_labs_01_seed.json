@@ -1,0 +1,328 @@
+{
+  "batch_id": "official_labs_01",
+  "documents": [
+    {
+      "lab_test": "Sodyum",
+      "title": "Sodyum",
+      "source_title": "Dünya Sağlık Örgütü - Temel İn Vitro Tanı Listesi",
+      "source_url": "https://www.who.int/publications/i/item/9789240081093",
+      "sections": {
+        "Nedir?": "Sodyum testi, kanın sıvı ve elektrolit dengesinde rol alan sodyum miktarını ölçer. Sonuç diğer elektrolitler ve kişinin sağlık bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Sıvı ve elektrolit dengesini değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Sodyum sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Sodyum sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Sodyum sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Sodyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Sodyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Potasyum",
+      "title": "Potasyum",
+      "source_title": "Dünya Sağlık Örgütü - Temel İn Vitro Tanı Listesi",
+      "source_url": "https://www.who.int/publications/i/item/9789240081093",
+      "sections": {
+        "Nedir?": "Potasyum testi, kas ve sinir işlevleriyle ilişkili elektrolitlerden biri olan potasyumun kandaki miktarını ölçer. Sonuç diğer elektrolitler ve kişinin sağlık bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Sıvı ve elektrolit dengesini değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Potasyum sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Potasyum sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Potasyum sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Potasyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Potasyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Fibrinojen",
+      "title": "Fibrinojen",
+      "source_title": "Dünya Sağlık Örgütü - Temel İn Vitro Tanı Listesi",
+      "source_url": "https://www.who.int/publications/i/item/9789240081093",
+      "sections": {
+        "Nedir?": "Fibrinojen testi, pıhtı oluşumunda görev alan fibrinojenin miktarını veya etkinliğini değerlendirir. Sonuç diğer pıhtılaşma testleri ve klinik bulgularla birlikte yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Pıhtılaşma sürecini değerlendirmeye ve bazı pıhtılaşma bozukluklarının araştırılmasına yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Fibrinojen sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Fibrinojen sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Fibrinojen sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Fibrinojen sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Fibrinojen sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Çinko",
+      "title": "Çinko",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Çinko testi, kandaki çinko miktarını ölçer. Çinko birçok hücresel süreçte rol alan bir eser elementtir. Sonuç kişinin sağlık bilgileriyle birlikte değerlendirilir ve tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vücuttaki çinko durumunu değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Çinko sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Çinko sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Çinko sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Çinko sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Çinko sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Protein C",
+      "title": "Protein C",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Protein C testi, kanın pıhtılaşma dengesinde görev alan Protein C'nin etkinliğini veya miktarını değerlendirir. Sonuç diğer pıhtılaşma testleri ve klinik bilgilerle birlikte yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Pıhtılaşma sisteminin doğal düzenleyici bileşenlerinden Protein C'yi değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Protein C sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Protein C sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Protein C sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Protein C sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Protein C sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Protein S",
+      "title": "Protein S",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Protein S testi, kanın pıhtılaşma dengesinde Protein C ile birlikte görev alan Protein S'nin etkinliğini veya miktarını değerlendirir. Sonuç diğer pıhtılaşma testleri ve klinik bilgilerle birlikte yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Pıhtılaşma sisteminin doğal düzenleyici bileşenlerinden Protein S'yi değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Protein S sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Protein S sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Protein S sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Protein S sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Protein S sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Bakır",
+      "title": "Bakır",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Bakır testi, kandaki bakır miktarını ölçer. Bakır çeşitli enzim ve hücresel süreçlerde rol alan bir eser elementtir. Sonuç diğer testler ve kişinin sağlık bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vücuttaki bakır durumunu değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Bakır sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Bakır sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Bakır sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Bakır sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Bakır sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "HDL Kolesterol",
+      "title": "HDL Kolesterol",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "HDL kolesterol testi, kolesterolü kanda taşıyan yüksek yoğunluklu lipoproteinlerle ilişkili kolesterol miktarını ölçer. Sonuç diğer kan yağları ve kişisel risk bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kan yağları profilini ve kalp damar sağlığıyla ilişkili risk değerlendirmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek HDL Kolesterol sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük HDL Kolesterol sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "HDL Kolesterol sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "HDL Kolesterol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "HDL Kolesterol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Serbest T4",
+      "title": "Serbest T4",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Serbest T4 testi, kandaki proteinlere bağlı olmayan tiroksin hormonunu ölçer. Sonuç çoğunlukla TSH ve gerektiğinde diğer tiroid testleriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Tiroid bezinin işlevini değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Serbest T4 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Serbest T4 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Serbest T4 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Serbest T4 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Serbest T4 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Büyüme Hormonu",
+      "title": "Büyüme Hormonu",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Büyüme hormonu testi, hipofiz bezinden salgılanan büyüme hormonunun kandaki düzeyini ölçer. Salgı gün içinde değişebildiği için sonuç test koşulları ve diğer hormonlarla birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Büyüme hormonu üretimiyle ilişkili süreçleri değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Büyüme Hormonu sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Büyüme Hormonu sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Büyüme Hormonu sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Büyüme Hormonu sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Büyüme Hormonu sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Serum ACE",
+      "title": "Serum ACE",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Serum ACE testi, kandaki anjiyotensin dönüştürücü enzim düzeyini ölçer. Sonuç özgül değildir ve klinik bulgularla birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Anjiyotensin dönüştürücü enzim düzeyini değerlendirmek ve ilgili klinik araştırmaları desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Serum ACE sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Serum ACE sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Serum ACE sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Serum ACE sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Serum ACE sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Lipoprotein(a)",
+      "title": "Lipoprotein(a)",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Lipoprotein(a) testi, kanda bulunan ve yapısı genetik özelliklerden güçlü biçimde etkilenen bir lipoprotein türünü ölçer. Sonuç diğer kan yağları ve kişisel risk bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kalp damar sağlığıyla ilişkili risk değerlendirmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Lipoprotein(a) sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Lipoprotein(a) sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Lipoprotein(a) sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Lipoprotein(a) sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Lipoprotein(a) sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "LDL Kolesterol",
+      "title": "LDL Kolesterol",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "LDL kolesterol testi, kolesterolü kanda taşıyan düşük yoğunluklu lipoproteinlerle ilişkili kolesterol miktarını ölçer. Sonuç diğer kan yağları ve kişisel risk bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kan yağları profilini ve kalp damar sağlığıyla ilişkili risk değerlendirmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek LDL Kolesterol sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük LDL Kolesterol sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "LDL Kolesterol sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "LDL Kolesterol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "LDL Kolesterol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Folat",
+      "title": "Folat",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "Folat testi, kandaki folat düzeyini değerlendirir. Folat kan hücrelerinin yapımı ve hücresel süreçler için gerekli bir vitamindir. Sonuç diğer kan değerleri ve kişinin sağlık bilgileriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vücuttaki folat durumunu ve folat eksikliği olasılığını değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Folat sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Folat sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Folat sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Folat sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Folat sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "LDH İzoenzimleri",
+      "title": "LDH İzoenzimleri",
+      "source_title": "T.C. Sağlık Bakanlığı - Akılcı Laboratuvar Kullanımı",
+      "source_url": "https://ankarameslekdh.saglik.gov.tr/TR-367953/akilci-laboratuvar-kullanimi.html",
+      "sections": {
+        "Nedir?": "LDH izoenzimleri testi, laktat dehidrogenaz enziminin farklı dokularla ilişkili biçimlerinin dağılımını değerlendirir. Sonuç toplam LDH ve diğer klinik bulgularla birlikte yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "LDH değişikliğinin olası doku kaynağını araştırmaya yardımcı olmak için kullanılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "LDH İzoenzimleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "LDH İzoenzimleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "LDH İzoenzimleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Oral Glukoz Tolerans Testi",
+      "title": "Oral Glukoz Tolerans Testi",
+      "source_title": "Türk Klinik Biyokimya Derneği - Toplum İçin",
+      "source_url": "https://tkbd.org/toplum-icin",
+      "sections": {
+        "Nedir?": "Oral glukoz tolerans testi, glukoz içeren bir içecek sonrasında belirlenen zamanlarda kan glukozunun ölçüldüğü bir testtir. Hazırlık ve örnekleme koşulları sonucun değerlendirilmesi için önemlidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vücudun glukoz yüküne verdiği yanıtı değerlendirmek ve şeker metabolizmasıyla ilgili araştırmaları desteklemek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Oral Glukoz Tolerans Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Oral Glukoz Tolerans Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Oral Glukoz Tolerans Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Gestasyonel Diyabet Tarama Testi",
+      "title": "Gestasyonel Diyabet Tarama Testi",
+      "source_title": "Türk Klinik Biyokimya Derneği - Toplum İçin",
+      "source_url": "https://tkbd.org/toplum-icin",
+      "sections": {
+        "Nedir?": "Gestasyonel diyabet tarama testi, gebelik sırasında glukoz içeren bir içecek sonrasında alınan kan örneğinde glukozun ölçüldüğü bir tarama testidir. Hazırlık, gebelik haftası ve örnekleme koşulları değerlendirmede dikkate alınır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Gebelikte şeker metabolizmasıyla ilgili ileri değerlendirme gereksinimini taramaya yardımcı olmak için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Gestasyonel Diyabet Tarama Testi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Gestasyonel Diyabet Tarama Testi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Gestasyonel Diyabet Tarama Testi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Gestasyonel Diyabet Tarama Testi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Gestasyonel Diyabet Tarama Testi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    }
+  ]
+}

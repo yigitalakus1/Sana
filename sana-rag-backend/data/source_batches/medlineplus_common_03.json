@@ -1,0 +1,31 @@
+{
+  "batch_id":"medlineplus-common-03",
+  "selection_policy":"Next common direct MedlinePlus lab-test pages; routine hormone, metabolic, hematology and immune tests prioritized; duplicate, medicine-level and infection-screening pages excluded.",
+  "sources":[
+    {"source_key":"medlineplus:2986-8:en","turkish_name":"Testosteron","best_common_rank":309},
+    {"source_key":"medlineplus:2695-5:en","turkish_name":"Osmolalite","best_common_rank":329},
+    {"source_key":"medlineplus:33959-8:en","turkish_name":"Prokalsitonin","best_common_rank":334},
+    {"source_key":"medlineplus:2458-8:en","turkish_name":"İmmünoglobulinler","best_common_rank":370},
+    {"source_key":"medlineplus:24325-3:en","turkish_name":"Karaciğer Fonksiyon Testleri","best_common_rank":378},
+    {"source_key":"medlineplus:43134-6:en","turkish_name":"D Vitamini","best_common_rank":390},
+    {"source_key":"medlineplus:17849-1:en","turkish_name":"Eritrosit Sayımı","best_common_rank":425},
+    {"source_key":"medlineplus:14805-6:en","turkish_name":"LDH","best_common_rank":427},
+    {"source_key":"medlineplus:4498-2:en","turkish_name":"Kompleman","best_common_rank":439},
+    {"source_key":"medlineplus:16362-6:en","turkish_name":"Amonyak","best_common_rank":456},
+    {"source_key":"medlineplus:2039-6:en","turkish_name":"CEA","best_common_rank":459},
+    {"source_key":"medlineplus:15067-2:en","turkish_name":"FSH","best_common_rank":462},
+    {"source_key":"medlineplus:2143-6:en","turkish_name":"Kortizol","best_common_rank":475},
+    {"source_key":"medlineplus:29771-3:en","turkish_name":"Dışkıda Gizli Kan","best_common_rank":484},
+    {"source_key":"medlineplus:2243-4:en","turkish_name":"Östrojen","best_common_rank":485},
+    {"source_key":"medlineplus:800-3:en","turkish_name":"Periferik Yayma","best_common_rank":487},
+    {"source_key":"medlineplus:11572-5:en","turkish_name":"Romatoid Faktör","best_common_rank":497},
+    {"source_key":"medlineplus:1834-1:en","turkish_name":"AFP","best_common_rank":502},
+    {"source_key":"medlineplus:2842-3:en","turkish_name":"Prolaktin","best_common_rank":508},
+    {"source_key":"medlineplus:33944-0:en","turkish_name":"Serbest Hafif Zincirler","best_common_rank":509},
+    {"source_key":"medlineplus:2839-9:en","turkish_name":"Progesteron","best_common_rank":557},
+    {"source_key":"medlineplus:10501-5:en","turkish_name":"LH","best_common_rank":567},
+    {"source_key":"medlineplus:14196-0:en","turkish_name":"Retikülosit","best_common_rank":573},
+    {"source_key":"medlineplus:8098-6:en","turkish_name":"Tiroid Antikorları","best_common_rank":619},
+    {"source_key":"medlineplus:4542-7:en","turkish_name":"Haptoglobin","best_common_rank":625}
+  ]
+}

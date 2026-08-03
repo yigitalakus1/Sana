@@ -1,0 +1,347 @@
+{
+  "batch_id": "common_report_values_03",
+  "documents": [
+    {
+      "lab_test": "MCH",
+      "title": "MCH (Ortalama Eritrosit Hemoglobini)",
+      "source_title": "MedlinePlus - Red Blood Cell Indices",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "sections": {
+        "Nedir?": "MCH, bir kırmızı kan hücresindeki ortalama hemoglobin miktarını gösteren eritrosit indeksidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kırmızı kan hücrelerinin özelliklerini değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek MCH sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük MCH sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "MCH sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "MCH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "MCH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "MCHC",
+      "title": "MCHC (Ortalama Eritrosit Hemoglobin Konsantrasyonu)",
+      "source_title": "MedlinePlus - Red Blood Cell Indices",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "sections": {
+        "Nedir?": "MCHC, kırmızı kan hücrelerindeki ortalama hemoglobin yoğunluğunu gösteren eritrosit indeksidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kırmızı kan hücrelerinin hemoglobin içeriğini değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek MCHC sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük MCHC sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "MCHC sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "MCHC sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "MCHC sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "RDW",
+      "title": "RDW (Eritrosit Dağılım Genişliği)",
+      "source_title": "MedlinePlus - Red Blood Cell Indices",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "sections": {
+        "Nedir?": "RDW, kırmızı kan hücrelerinin boyutlarının birbirinden ne kadar farklı olduğunu gösteren eritrosit indeksidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kırmızı kan hücresi boyut dağılımını değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek RDW sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük RDW sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "RDW sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "RDW sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "RDW sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Nötrofil",
+      "title": "Nötrofil",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "sections": {
+        "Nedir?": "Nötrofiller, beyaz kan hücrelerinin bir türüdür ve vücudun mikroplara karşı savunmasında görev alır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Nötrofil sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Nötrofil sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Nötrofil sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Nötrofil sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Nötrofil sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Lenfosit",
+      "title": "Lenfosit",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "sections": {
+        "Nedir?": "Lenfositler, bağışıklık yanıtında görev alan beyaz kan hücrelerinin bir türüdür. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Lenfosit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Lenfosit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Lenfosit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Lenfosit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Lenfosit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Monosit",
+      "title": "Monosit",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "sections": {
+        "Nedir?": "Monositler, mikropların ve hasarlı hücrelerin temizlenmesine katkı sağlayan beyaz kan hücrelerinin bir türüdür. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Monosit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Monosit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Monosit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Monosit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Monosit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Eozinofil",
+      "title": "Eozinofil",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "sections": {
+        "Nedir?": "Eozinofiller, parazitlere karşı savunma, alerjik yanıt ve iltihap süreçlerinde rol alan beyaz kan hücreleridir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Eozinofil sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Eozinofil sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Eozinofil sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Eozinofil sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Eozinofil sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Bazofil",
+      "title": "Bazofil",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "sections": {
+        "Nedir?": "Bazofiller, alerjik yanıtlar ve bağışıklık süreçlerinde rol alan beyaz kan hücrelerinin bir türüdür. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Bazofil sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Bazofil sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Bazofil sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Bazofil sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Bazofil sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "PDW",
+      "title": "PDW (Trombosit Dağılım Genişliği)",
+      "source_title": "NIH NCBI Bookshelf - Complete Blood Count",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK604207/",
+      "sections": {
+        "Nedir?": "PDW, trombositlerin boyutlarının birbirinden ne kadar farklı olduğunu gösteren otomatik kan sayımı indeksidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Trombositlerle ilgili diğer ölçümleri tamamlayan bir dağılım göstergesi olarak raporlanabilir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek PDW sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük PDW sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "PDW sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "PDW sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "PDW sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Plateletkrit",
+      "title": "Plateletkrit (PCT)",
+      "source_title": "NIH NCBI Bookshelf - Complete Blood Count",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK604207/",
+      "sections": {
+        "Nedir?": "Plateletkrit, trombositlerin kan hacmi içindeki toplam hacim oranını gösteren otomatik kan sayımı indeksidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Trombosit sayısı ve hacim göstergeleriyle birlikte değerlendirilebilen bir trombosit indeksi olarak raporlanabilir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Plateletkrit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Plateletkrit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Plateletkrit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Plateletkrit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Plateletkrit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Total Demir Bağlama Kapasitesi",
+      "title": "Total Demir Bağlama Kapasitesi (TDBK/TIBC)",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "sections": {
+        "Nedir?": "Total demir bağlama kapasitesi, demirin transferrin ve diğer proteinlere bağlanabilme kapasitesini değerlendiren demir testidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vücudun demir durumunu diğer demir testleriyle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Total Demir Bağlama Kapasitesi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Total Demir Bağlama Kapasitesi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Total Demir Bağlama Kapasitesi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Total Demir Bağlama Kapasitesi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Total Demir Bağlama Kapasitesi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Doymamış Demir Bağlama Kapasitesi",
+      "title": "Doymamış Demir Bağlama Kapasitesi (UIBC)",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "sections": {
+        "Nedir?": "Doymamış demir bağlama kapasitesi, kandaki demir taşıma proteinlerinin henüz demirle dolmamış bağlama kapasitesini değerlendiren demir testidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Demir durumunu serum demiri ve diğer demir testleriyle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Doymamış Demir Bağlama Kapasitesi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Doymamış Demir Bağlama Kapasitesi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Doymamış Demir Bağlama Kapasitesi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Doymamış Demir Bağlama Kapasitesi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Doymamış Demir Bağlama Kapasitesi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Transferrin",
+      "title": "Transferrin",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "sections": {
+        "Nedir?": "Transferrin, demiri kanda taşıyan bir proteindir; transferrin testi bu proteinin miktarını değerlendirir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vücudun demir taşıma durumunu diğer demir testleriyle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Transferrin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Transferrin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Transferrin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Transferrin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Transferrin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Transferrin Saturasyonu",
+      "title": "Transferrin Saturasyonu",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "sections": {
+        "Nedir?": "Transferrin saturasyonu, demir taşıyan transferrinin ne kadarının demirle bağlı olduğunu ifade eden hesaplanmış bir demir göstergesidir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Demir durumunu serum demiri, transferrin ve bağlama kapasitesiyle birlikte değerlendirmeye yardımcı olmak için kullanılır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Transferrin Saturasyonu sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Transferrin Saturasyonu sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Transferrin Saturasyonu sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Transferrin Saturasyonu sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Transferrin Saturasyonu sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Direkt Bilirubin",
+      "title": "Direkt Bilirubin",
+      "source_title": "MedlinePlus - Bilirubin Blood Test",
+      "source_url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "sections": {
+        "Nedir?": "Direkt bilirubin, karaciğerde işlenmiş ve suda çözünebilir hale gelmiş bilirubin bölümünü ölçer. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bilirubin düzeylerini ve karaciğer-safra sistemiyle ilişkili değerlendirmeyi diğer testlerle birlikte desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Direkt Bilirubin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Direkt Bilirubin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Direkt Bilirubin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Direkt Bilirubin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Direkt Bilirubin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İndirekt Bilirubin",
+      "title": "İndirekt Bilirubin",
+      "source_title": "MedlinePlus - Bilirubin Blood Test",
+      "source_url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "sections": {
+        "Nedir?": "İndirekt bilirubin, henüz karaciğerde işlenmemiş bilirubin bölümünü ifade eder ve bazı raporlarda hesaplanmış olarak verilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bilirubin düzeylerini diğer karaciğer ve kan testleriyle birlikte değerlendirmeyi desteklemek için kullanılır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İndirekt Bilirubin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İndirekt Bilirubin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İndirekt Bilirubin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İndirekt Bilirubin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İndirekt Bilirubin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Serbest T3",
+      "title": "Serbest T3 (FT3)",
+      "source_title": "MedlinePlus - Triiodothyronine T3 Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/triiodothyronine-t3-tests/",
+      "sections": {
+        "Nedir?": "Serbest T3, kandaki proteinlere bağlı olmayan ve dokulara girebilen T3 hormonunu ölçer. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Tiroid işlevini TSH, T4 ve klinik bilgilerle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Serbest T3 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Serbest T3 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Serbest T3 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Serbest T3 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Serbest T3 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Üre",
+      "title": "Üre",
+      "source_title": "MedlinePlus - BUN Blood Urea Nitrogen",
+      "source_url": "https://medlineplus.gov/lab-tests/bun-blood-urea-nitrogen/",
+      "sections": {
+        "Nedir?": "Üre, proteinlerin parçalanması sırasında oluşan ve büyük ölçüde böbrekler tarafından vücuttan uzaklaştırılan bir atık maddedir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Böbrek işlevi ve protein yıkımıyla ilişkili değerlendirmeyi diğer testlerle birlikte desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Üre sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Üre sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Üre sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Üre sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Üre sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    }
+  ]
+}

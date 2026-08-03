@@ -1,0 +1,31 @@
+{
+  "batch_id": "medlineplus-common-02",
+  "selection_policy": "Next direct MedlinePlus lab-test pages ordered by positive COMMON_TEST_RANK; duplicate pages, medicine levels and sensitive infection screening excluded.",
+  "sources": [
+    {"source_key":"medlineplus:630-4:en","turkish_name":"Bakteri Kültürü","best_common_rank":78},
+    {"source_key":"medlineplus:14979-9:en","turkish_name":"aPTT ve Pıhtılaşma Faktörleri","best_common_rank":93},
+    {"source_key":"medlineplus:43396-1:en","turkish_name":"Kolesterol","best_common_rank":116},
+    {"source_key":"medlineplus:3040-3:en","turkish_name":"Lipaz","best_common_rank":122},
+    {"source_key":"medlineplus:50558-6:en","turkish_name":"İdrarda Nitrit","best_common_rank":124},
+    {"source_key":"medlineplus:2887-8:en","turkish_name":"İdrarda Protein","best_common_rank":133},
+    {"source_key":"medlineplus:50563-6:en","turkish_name":"İdrarda Ürobilinojen","best_common_rank":143},
+    {"source_key":"medlineplus:890-4:en","turkish_name":"Eritrosit Antikor Taraması","best_common_rank":157},
+    {"source_key":"medlineplus:8247-9:en","turkish_name":"İdrarda Mukus","best_common_rank":161},
+    {"source_key":"medlineplus:58410-2:en","turkish_name":"Tam Kan Sayımı","best_common_rank":162},
+    {"source_key":"medlineplus:4537-7:en","turkish_name":"Sedimentasyon","best_common_rank":164},
+    {"source_key":"medlineplus:2157-6:en","turkish_name":"Kreatin Kinaz","best_common_rank":170},
+    {"source_key":"medlineplus:5787-7:en","turkish_name":"İdrarda Epitel Hücresi","best_common_rank":172},
+    {"source_key":"medlineplus:53327-3:en","turkish_name":"İdrarda Bilirubin","best_common_rank":174},
+    {"source_key":"medlineplus:2498-4:en","turkish_name":"Demir Testleri","best_common_rank":175},
+    {"source_key":"medlineplus:2857-1:en","turkish_name":"PSA","best_common_rank":177},
+    {"source_key":"medlineplus:30934-4:en","turkish_name":"BNP ve NT-proBNP","best_common_rank":180},
+    {"source_key":"medlineplus:3084-1:en","turkish_name":"Ürik Asit","best_common_rank":181},
+    {"source_key":"medlineplus:32133-1:en","turkish_name":"Laktat","best_common_rank":213},
+    {"source_key":"medlineplus:9318-7:en","turkish_name":"Mikroalbumin Kreatinin Oranı","best_common_rank":243},
+    {"source_key":"medlineplus:2731-8:en","turkish_name":"Paratiroid Hormonu","best_common_rank":249},
+    {"source_key":"medlineplus:48058-2:en","turkish_name":"D-dimer","best_common_rank":267},
+    {"source_key":"medlineplus:1798-8:en","turkish_name":"Amilaz","best_common_rank":269},
+    {"source_key":"medlineplus:2324-2:en","turkish_name":"GGT","best_common_rank":274},
+    {"source_key":"medlineplus:49936-8:en","turkish_name":"Kalsiyum","best_common_rank":278}
+  ]
+}

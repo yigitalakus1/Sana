@@ -1,0 +1,480 @@
+{
+  "batch_id": "medlineplus-common-02",
+  "documents": [
+    {
+      "lab_test": "Bakteri Kültürü",
+      "title": "Bakteri Kültürü",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/bacteria-culture-test",
+      "sections": {
+        "Nedir?": "Bakteri kültürü, kan, idrar veya başka bir vücut örneğinde hastalığa yol açabilecek bakterileri araştırır. Örnekte bakteri ürerse türü belirlenebilir. Bazı kültürlerde bakterilerin belirli ilaçlara duyarlılığı da laboratuvarda incelenebilir.",
+        "Neden ölçülür?": "Bir vücut örneğinde hastalığa yol açabilecek bakterileri araştırmak ve varsa türünü belirlemek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Bakteri Kültürü sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Bakteri Kültürü sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Bakteri Kültürü sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "aPTT",
+      "title": "Aktive Parsiyel Tromboplastin Zamanı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/coagulation-factor-tests",
+      "sections": {
+        "Nedir?": "Pıhtılaşma faktörü testleri, kanın pıhtı oluşturma sürecindeki proteinlerin işlevi hakkında bilgi verir. Aktive parsiyel tromboplastin zamanı, pıhtı oluşmasının ne kadar sürdüğünü ölçen testlerden biridir. Sonuçlar kanama veya pıhtılaşma sorunları değerlendirilirken diğer testlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Kanın pıhtı oluşturma süresini ve pıhtılaşma faktörlerinin işlevini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek aPTT sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük aPTT sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "aPTT sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "aPTT sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "aPTT sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Kolesterol",
+      "title": "Kolesterol Düzeyleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/cholesterol-levels",
+      "sections": {
+        "Nedir?": "Kolesterol, kanda bulunan ve vücudun hücreler ile hormonlar üretmek için kullandığı yağ benzeri bir maddedir. Kolesterol testi toplam kolesterol ile farklı taşıyıcı parçacıklardaki kolesterolü değerlendirebilir. Sonuçlar kalp ve damar sağlığıyla ilişkili risk değerlendirmesinde diğer bilgilerle birlikte kullanılır.",
+        "Neden ölçülür?": "Kandaki farklı kolesterol türlerini değerlendirmek ve kalp damar riski değerlendirmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Kolesterol içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kolesterol içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Kolesterol içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Lipaz",
+      "title": "Lipaz",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/lipase-tests",
+      "sections": {
+        "Nedir?": "Lipaz, yağların sindirilmesine yardımcı olan ve büyük ölçüde pankreas tarafından üretilen bir enzimdir. Lipaz testi kandaki enzim miktarını ölçer. Sonuç pankreasla ilişkili durumlar değerlendirilirken belirtiler ve diğer testlerle birlikte ele alınır.",
+        "Neden ölçülür?": "Pankreasla ilişkili durumları değerlendirmek için kandaki lipaz enzimi ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Lipaz sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Lipaz sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Lipaz sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Lipaz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Lipaz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Nitrit",
+      "title": "İdrarda Nitrit",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/nitrites-in-urine",
+      "sections": {
+        "Nedir?": "Nitrit testi idrarda nitrit bulunup bulunmadığını araştırır. Bazı bakteriler idrardaki nitratları nitrite dönüştürebilir. Pozitif sonuç idrar yolu enfeksiyonu olasılığını destekleyebilir, ancak negatif sonuç enfeksiyonu tek başına dışlamaz.",
+        "Neden ölçülür?": "İdrarda bazı bakterilerin varlığına işaret edebilecek nitriti araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Nitrit sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Nitrit sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Nitrit sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Protein",
+      "title": "İdrarda Protein",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/protein-in-urine",
+      "sections": {
+        "Nedir?": "İdrarda protein testi, idrardaki protein miktarını değerlendirir. Böbrekler normalde proteinlerin büyük bölümünü kanda tutar. Sonuç böbrek işlevleri değerlendirilirken diğer idrar ve kan testleriyle birlikte ele alınır.",
+        "Neden ölçülür?": "Böbreklerin proteinleri kanda tutma işlevini değerlendirmek için idrardaki protein ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İdrarda Protein sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İdrarda Protein sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Protein sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Protein sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Protein sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Ürobilinojen",
+      "title": "İdrarda Ürobilinojen",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/urobilinogen-in-urine",
+      "sections": {
+        "Nedir?": "Ürobilinojen, bilirubinin bağırsaklarda parçalanması sırasında oluşan bir maddedir ve idrarda az miktarda bulunabilir. İdrar ürobilinojen testi bu maddenin miktarını değerlendirir. Sonuç karaciğer, safra yolları ve alyuvarların parçalanmasıyla ilgili süreçler incelenirken kullanılır.",
+        "Neden ölçülür?": "Karaciğer, safra yolları ve alyuvar parçalanmasıyla ilişkili süreçleri değerlendirmek için idrarda ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Ürobilinojen sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Ürobilinojen sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Ürobilinojen sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Ürobilinojen sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Ürobilinojen sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Eritrosit Antikor Taraması",
+      "title": "Eritrosit Antikor Taraması",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-antibody-screen",
+      "sections": {
+        "Nedir?": "Eritrosit antikor taraması, alyuvarların yüzeyindeki yapılara karşı oluşmuş antikorları araştırır. Bu antikorlar kan nakli sırasında veya gebelikte önem taşıyabilir. Sonuç uygun kanın belirlenmesi ve gebelikle ilişkili risklerin değerlendirilmesinde kullanılır.",
+        "Neden ölçülür?": "Alyuvar yapılarına karşı oluşmuş antikorları kan nakli veya gebelik bağlamında araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Eritrosit Antikor Taraması sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Eritrosit Antikor Taraması sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Eritrosit Antikor Taraması sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Mukus",
+      "title": "İdrarda Mukus",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/mucus-in-urine",
+      "sections": {
+        "Nedir?": "Mukus, idrar yollarını kaplayan dokular tarafından üretilen kaygan bir maddedir. İdrarda az miktarda mukus bulunabilir. Miktarın artması idrar örneğindeki diğer bulgular ve belirtilerle birlikte değerlendirilir.",
+        "Neden ölçülür?": "İdrar örneğindeki mukus miktarını diğer idrar bulgularıyla birlikte değerlendirmek için incelenir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İdrarda Mukus sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İdrarda Mukus sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Mukus sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Mukus sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Mukus sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Tam Kan Sayımı",
+      "title": "Tam Kan Sayımı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc",
+      "sections": {
+        "Nedir?": "Tam kan sayımı, kandaki alyuvarlar, akyuvarlar ve trombositler hakkında birlikte bilgi veren bir test grubudur. Hemoglobin, hematokrit ve hücrelerin büyüklüğü gibi ölçümleri de içerebilir. Genel sağlık ve kanla ilişkili durumlar değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "Alyuvarlar, akyuvarlar, trombositler ve bunlarla ilişkili ölçümleri birlikte değerlendirmek için istenir.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Tam Kan Sayımı içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Tam Kan Sayımı içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Tam Kan Sayımı içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Sedimentasyon",
+      "title": "Eritrosit Sedimentasyon Hızı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/erythrocyte-sedimentation-rate-esr",
+      "sections": {
+        "Nedir?": "Eritrosit sedimentasyon hızı, alyuvarların bir tüpün dibine ne kadar hızlı çöktüğünü ölçer. Vücutta iltihaplanma olduğunda bu hız değişebilir. Test iltihabın nedenini veya yerini tek başına göstermez ve diğer bulgularla birlikte değerlendirilir.",
+        "Neden ölçülür?": "Vücutta iltihaplanma olasılığını araştırmayı veya izlemeyi desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Sedimentasyon sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Sedimentasyon sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Sedimentasyon sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Sedimentasyon sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Sedimentasyon sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Kreatin Kinaz",
+      "title": "Kreatin Kinaz",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/creatine-kinase",
+      "sections": {
+        "Nedir?": "Kreatin kinaz, başlıca iskelet kası, kalp ve beyinde bulunan bir enzimdir. Bu dokulardaki hücreler hasar gördüğünde kandaki miktarı artabilir. Test kas hasarı olasılığı değerlendirilirken belirtiler ve diğer ölçümlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Kas ve diğer dokulardaki hücre hasarı olasılığını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Kreatin Kinaz sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Kreatin Kinaz sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Kreatin Kinaz sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kreatin Kinaz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Kreatin Kinaz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Epitel Hücresi",
+      "title": "İdrarda Epitel Hücresi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/epithelial-cells-in-urine",
+      "sections": {
+        "Nedir?": "Epitel hücreleri vücudun yüzeylerini ve idrar yollarını kaplayan hücrelerdir. İdrarda az sayıda epitel hücresi bulunabilir. Hücrelerin miktarı ve türü, örneğin niteliği ve idrar yollarıyla ilgili durumlar değerlendirilirken diğer bulgularla birlikte incelenir.",
+        "Neden ölçülür?": "İdrar örneğinin niteliğini ve idrar yollarıyla ilişkili bulguları değerlendirmek için incelenir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İdrarda Epitel Hücresi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İdrarda Epitel Hücresi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Epitel Hücresi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Epitel Hücresi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Epitel Hücresi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Bilirubin",
+      "title": "İdrarda Bilirubin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/bilirubin-in-urine",
+      "sections": {
+        "Nedir?": "Bilirubin, alyuvarların parçalanması sırasında oluşan sarı renkli bir maddedir. Sağlıklı işleyişte bilirubin genellikle idrarda saptanmaz. İdrarda bilirubin bulunması karaciğer ve safra yollarıyla ilişkili süreçler değerlendirilirken diğer testlerle birlikte ele alınır.",
+        "Neden ölçülür?": "Karaciğer ve safra yollarının bilirubini işleme sürecini değerlendirmeye yardımcı olmak için araştırılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Bilirubin sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Bilirubin sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Bilirubin sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Demir Testleri",
+      "title": "Demir Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests",
+      "sections": {
+        "Nedir?": "Demir, alyuvarların oksijen taşımasına yardımcı olan hemoglobinin üretimi için gerekli bir mineraldir. Demir testleri kandaki demiri ve demirin taşınmasıyla ilişkili proteinleri değerlendirebilir. Sonuçlar vücudun demir durumu incelenirken birlikte yorumlanır.",
+        "Neden ölçülür?": "Kandaki demiri ve demirin taşınmasıyla ilişkili ölçümleri birlikte değerlendirmek için istenir.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Demir Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Demir Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Demir Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "PSA",
+      "title": "Prostata Özgü Antijen",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/prostate-specific-antigen-psa-test",
+      "sections": {
+        "Nedir?": "Prostata özgü antijen, prostat hücreleri tarafından üretilen bir proteindir. Test kandaki miktarını ölçer ve prostat sağlığının değerlendirilmesinde kullanılabilir. Sonuç kanser dışındaki prostat durumlarından da etkilenebildiği için tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Prostat sağlığını değerlendirmek ve değişiklikleri izlemek için kandaki prostata özgü antijen ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek PSA sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük PSA sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "PSA sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "PSA sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "PSA sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "BNP",
+      "title": "BNP ve NT-proBNP",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/natriuretic-peptide-tests-bnp-nt-probnp",
+      "sections": {
+        "Nedir?": "Natriüretik peptitler, kalp üzerindeki basınç arttığında daha fazla salınabilen hormonlardır. Kan testi bu hormonların farklı türlerini ölçebilir. Sonuç kalbin pompalama işlevi ve kalp yetersizliği olasılığı değerlendirilirken diğer bulgularla birlikte kullanılır.",
+        "Neden ölçülür?": "Kalbin üzerindeki basınç ve pompalama işleviyle ilişkili durumları değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "BNP içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "BNP içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "BNP içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Ürik Asit",
+      "title": "Ürik Asit",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/uric-acid-test",
+      "sections": {
+        "Nedir?": "Ürik asit, pürin adlı maddelerin parçalanması sırasında oluşan bir atık üründür. Büyük bölümü böbrekler aracılığıyla idrarla uzaklaştırılır. Kandaki veya idrardaki miktarı gut ve böbrek taşı gibi durumlar değerlendirilirken diğer bulgularla birlikte kullanılabilir.",
+        "Neden ölçülür?": "Pürinlerin parçalanmasıyla oluşan ürik asidin kandaki veya idrardaki miktarını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Ürik Asit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Ürik Asit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Ürik Asit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Ürik Asit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Ürik Asit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Laktat",
+      "title": "Laktat",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/lactate-test",
+      "sections": {
+        "Nedir?": "Laktat, hücreler enerji üretirken oluşabilen bir maddedir. Dokular yeterli oksijen kullanamadığında veya bazı başka durumlarda kandaki miktarı artabilir. Test laktik asit birikimi ve dokuların oksijenlenmesi değerlendirilirken diğer bulgularla birlikte kullanılır.",
+        "Neden ölçülür?": "Dokuların oksijen kullanımı ve laktik asit birikimiyle ilişkili durumları değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Laktat sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Laktat sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Laktat sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Bilinç değişikliği, ciddi nefes darlığı veya dolaşım bozukluğu belirtileri varsa acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Laktat sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Laktat sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Mikroalbumin Kreatinin Oranı",
+      "title": "Mikroalbumin Kreatinin Oranı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/microalbumin-creatinine-ratio",
+      "sections": {
+        "Nedir?": "Mikroalbumin kreatinin oranı, idrardaki albumin miktarını kreatininle karşılaştırır. Bu oran idrarın yoğunluğundaki değişikliklerin etkisini azaltmaya yardımcı olur. Test böbrek hasarının erken belirtilerini araştırmak ve izlemek için kullanılabilir.",
+        "Neden ölçülür?": "İdrardaki albumini kreatininle karşılaştırarak böbrek hasarının erken belirtilerini araştırmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Mikroalbumin Kreatinin Oranı sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Mikroalbumin Kreatinin Oranı sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Mikroalbumin Kreatinin Oranı sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Mikroalbumin Kreatinin Oranı sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Mikroalbumin Kreatinin Oranı sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "PTH",
+      "title": "Paratiroid Hormonu",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/parathyroid-hormone-pth-test",
+      "sections": {
+        "Nedir?": "Paratiroid hormonu, boyundaki paratiroid bezleri tarafından üretilir. Kandaki kalsiyum ve fosfat dengesinin düzenlenmesine yardımcı olur. Test paratiroid bezleri ile kalsiyum dengesine ilişkin durumlar değerlendirilirken diğer ölçümlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Paratiroid bezlerinin çalışması ile kalsiyum ve fosfat dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek PTH sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük PTH sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "PTH sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "PTH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "PTH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "D-dimer",
+      "title": "D-dimer",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/d-dimer-test",
+      "sections": {
+        "Nedir?": "D-dimer, vücutta oluşan bir kan pıhtısı çözünürken ortaya çıkan bir protein parçasıdır. Düşük sonuç bazı pıhtılaşma durumlarının olasılığını azaltmaya yardımcı olabilir. Yüksek sonuç tek başına pıhtının yerini veya nedenini göstermez ve ek değerlendirme gerektirir.",
+        "Neden ölçülür?": "Vücutta pıhtı oluşumu ve çözünmesiyle ilişkili bir parçayı ölçerek pıhtı olasılığının değerlendirilmesini desteklemek için istenir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek D-dimer sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük D-dimer sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "D-dimer sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Ani nefes darlığı, göğüs ağrısı, tek taraflı bacak şişliği veya bayılma varsa acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "D-dimer sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "D-dimer sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Amilaz",
+      "title": "Amilaz",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/amylase-test",
+      "sections": {
+        "Nedir?": "Amilaz, karbonhidratların sindirilmesine yardımcı olan ve çoğunlukla pankreas ile tükürük bezlerinde üretilen bir enzimdir. Test kan veya idrardaki amilaz miktarını ölçebilir. Sonuç pankreas ve tükürük bezleriyle ilişkili durumlar değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "Pankreas ve tükürük bezleriyle ilişkili durumları değerlendirmek için kan veya idrarda ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Amilaz sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Amilaz sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Amilaz sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Amilaz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Amilaz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "GGT",
+      "title": "Gama Glutamil Transferaz",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/gamma-glutamyl-transferase-ggt-test",
+      "sections": {
+        "Nedir?": "Gama glutamil transferaz, çoğunlukla karaciğerde bulunan bir enzimdir. Kandaki miktarı karaciğer ve safra yollarıyla ilişkili süreçler hakkında bilgi verebilir. Test özellikle alkalen fosfataz sonucunun kaynağını değerlendirmeye yardımcı olmak için diğer testlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Karaciğer ve safra yollarıyla ilişkili süreçleri, özellikle alkalen fosfatazla birlikte değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek GGT sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük GGT sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "GGT sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "GGT sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "GGT sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Kalsiyum",
+      "title": "Kalsiyum",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/calcium-blood-test",
+      "sections": {
+        "Nedir?": "Kalsiyum, kemik ve dişlerin yapısında bulunan, sinirlerin, kasların ve kalbin çalışmasına katkı sağlayan bir mineraldir. Kan testi toplam veya serbest kalsiyum miktarını değerlendirebilir. Sonuç paratiroid bezleri, böbrekler ve kemiklerle ilişkili süreçler incelenirken kullanılır.",
+        "Neden ölçülür?": "Kemik, sinir, kas ve kalp işlevleriyle ilişkili kalsiyum dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Kalsiyum sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Kalsiyum sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Kalsiyum sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kalsiyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Kalsiyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    }
+  ]
+}

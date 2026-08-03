@@ -1,0 +1,880 @@
+{
+  "batch_id": "medlineplus-remaining-direct",
+  "documents": [
+    {
+      "lab_test": "Kordon Kanı Testleri",
+      "title": "Kordon Kanı Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/cord-blood-testing-and-banking",
+      "sections": {
+        "Nedir?": "Göbek kordonundan alınan kandaki sağlık bilgilerini değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Göbek kordonundan alınan kandaki sağlık bilgilerini değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Kordon Kanı Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kordon Kanı Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Kordon Kanı Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Terapötik İlaç İzlemi",
+      "title": "Terapötik İlaç İzlemi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/therapeutic-drug-monitoring",
+      "sections": {
+        "Nedir?": "Belirli ilaçların kandaki miktarını güvenli izleme amacıyla değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Belirli ilaçların kandaki miktarını güvenli izleme amacıyla değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Terapötik İlaç İzlemi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Terapötik İlaç İzlemi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Terapötik İlaç İzlemi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Kan Alkol Düzeyi",
+      "title": "Kan Alkol Düzeyi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-alcohol-level",
+      "sections": {
+        "Nedir?": "Kandaki etanol miktarını değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kandaki etanol miktarını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Kan Alkol Düzeyi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Kan Alkol Düzeyi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Kan Alkol Düzeyi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kan Alkol Düzeyi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Kan Alkol Düzeyi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Madde Tarama Testi",
+      "title": "Madde Tarama Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/drug-testing",
+      "sections": {
+        "Nedir?": "Bir örnekte belirli maddeleri veya bunların parçalanma ürünlerini araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte belirli maddeleri veya bunların parçalanma ürünlerini araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Madde Tarama Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Madde Tarama Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Madde Tarama Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Asetaminofen Düzeyi",
+      "title": "Asetaminofen Düzeyi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/acetaminophen-level",
+      "sections": {
+        "Nedir?": "Kandaki asetaminofen miktarını olası aşırı maruziyet bağlamında değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kandaki asetaminofen miktarını olası aşırı maruziyet bağlamında değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Asetaminofen Düzeyi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Asetaminofen Düzeyi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Asetaminofen Düzeyi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Olası aşırı doz veya zehirlenme şüphesinde acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Asetaminofen Düzeyi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Asetaminofen Düzeyi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Salisilat Düzeyi",
+      "title": "Salisilat Düzeyi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/salicylates-level",
+      "sections": {
+        "Nedir?": "Kandaki salisilat miktarını olası aşırı maruziyet bağlamında değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kandaki salisilat miktarını olası aşırı maruziyet bağlamında değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Salisilat Düzeyi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Salisilat Düzeyi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Salisilat Düzeyi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Olası aşırı doz veya zehirlenme şüphesinde acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Salisilat Düzeyi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Salisilat Düzeyi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Opioid Testi",
+      "title": "Opioid Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/opioid-testing",
+      "sections": {
+        "Nedir?": "Bir örnekte opioidleri veya bunların parçalanma ürünlerini araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte opioidleri veya bunların parçalanma ürünlerini araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Opioid Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Opioid Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Opioid Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Kızamık ve Kabakulak Testleri",
+      "title": "Kızamık ve Kabakulak Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/measles-and-mumps-tests",
+      "sections": {
+        "Nedir?": "İlgili virüslere karşı bağışıklığı veya enfeksiyon bulgularını değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "İlgili virüslere karşı bağışıklığı veya enfeksiyon bulgularını değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Kızamık ve Kabakulak Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kızamık ve Kabakulak Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Kızamık ve Kabakulak Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Maya Enfeksiyonu Testi",
+      "title": "Maya Enfeksiyonu Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/yeast-infection-tests",
+      "sections": {
+        "Nedir?": "Bir örnekte enfeksiyona yol açabilecek maya mantarlarını araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte enfeksiyona yol açabilecek maya mantarlarını araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Maya Enfeksiyonu Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Maya Enfeksiyonu Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Maya Enfeksiyonu Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Beyin Omurilik Sıvısı Analizi",
+      "title": "Beyin Omurilik Sıvısı Analizi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/cerebrospinal-fluid-csf-analysis",
+      "sections": {
+        "Nedir?": "Beyin ve omuriliği çevreleyen sıvının hücre, protein ve başka özelliklerini değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Beyin ve omuriliği çevreleyen sıvının hücre, protein ve başka özelliklerini değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Beyin Omurilik Sıvısı Analizi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Beyin Omurilik Sıvısı Analizi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Beyin Omurilik Sıvısı Analizi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Kemik İliği Testleri",
+      "title": "Kemik İliği Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/bone-marrow-tests",
+      "sections": {
+        "Nedir?": "Kemik iliğindeki kan hücresi üretimini ve hücresel özellikleri değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kemik iliğindeki kan hücresi üretimini ve hücresel özellikleri değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Kemik İliği Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kemik İliği Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Kemik İliği Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Bakteriyel Vajinozis Testi",
+      "title": "Bakteriyel Vajinozis Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/bacterial-vaginosis-test",
+      "sections": {
+        "Nedir?": "Vajinal örnekte bakteri dengesindeki değişiklikleri değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Vajinal örnekte bakteri dengesindeki değişiklikleri değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Bakteriyel Vajinozis Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Bakteriyel Vajinozis Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Bakteriyel Vajinozis Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Hızlı Tanı Testleri",
+      "title": "Hızlı Tanı Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/rapid-tests",
+      "sections": {
+        "Nedir?": "Bir enfeksiyon veya sağlık bulgusunu kısa sürede araştırmak için kullanılan testleri değerlendirir. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir enfeksiyon veya sağlık bulgusunu kısa sürede araştırmak için kullanılan testleri değerlendirir.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Hızlı Tanı Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Hızlı Tanı Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Hızlı Tanı Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "CA 19-9",
+      "title": "CA 19-9",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ca-19-9-blood-test-pancreatic-cancer",
+      "sections": {
+        "Nedir?": "Bilinen bazı pankreas ve safra yolu kanserlerinin izlenmesini desteklemek için ölçülür; tek başına tarama testi değildir. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bilinen bazı pankreas ve safra yolu kanserlerinin izlenmesini desteklemek için ölçülür; tek başına tarama testi değildir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek CA 19-9 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük CA 19-9 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "CA 19-9 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "CA 19-9 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "CA 19-9 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Dışkıda Parazit Testi",
+      "title": "Dışkıda Parazit Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ova-and-parasite-test",
+      "sections": {
+        "Nedir?": "Dışkı örneğinde parazitleri ve yumurtalarını araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Dışkı örneğinde parazitleri ve yumurtalarını araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Dışkıda Parazit Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Dışkıda Parazit Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Dışkıda Parazit Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "AFP Tümör Belirteci",
+      "title": "AFP Tümör Belirteci",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/alpha-fetoprotein-afp-tumor-marker-test",
+      "sections": {
+        "Nedir?": "Bilinen bazı karaciğer ve üreme hücresi tümörlerinin izlenmesini desteklemek için ölçülür; tek başına tarama testi değildir. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bilinen bazı karaciğer ve üreme hücresi tümörlerinin izlenmesini desteklemek için ölçülür; tek başına tarama testi değildir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek AFP Tümör Belirteci sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük AFP Tümör Belirteci sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "AFP Tümör Belirteci sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "AFP Tümör Belirteci sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "AFP Tümör Belirteci sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Parainfluenza Testi",
+      "title": "Parainfluenza Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/parainfluenza-tests",
+      "sections": {
+        "Nedir?": "Solunum yolu örneğinde parainfluenza virüsünü araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Solunum yolu örneğinde parainfluenza virüsünü araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Parainfluenza Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Parainfluenza Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Parainfluenza Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Trisiklik Antidepresan Taraması",
+      "title": "Trisiklik Antidepresan Taraması",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/tricyclic-antidepressant-tca-screen",
+      "sections": {
+        "Nedir?": "Bir örnekte trisiklik antidepresanları olası aşırı maruziyet bağlamında araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte trisiklik antidepresanları olası aşırı maruziyet bağlamında araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Trisiklik Antidepresan Taraması sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Olası aşırı doz veya zehirlenme şüphesinde acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Trisiklik Antidepresan Taraması sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Trisiklik Antidepresan Taraması sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "CMV Testi",
+      "title": "Sitomegalovirüs Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/cytomegalovirus-cmv-tests",
+      "sections": {
+        "Nedir?": "Bir örnekte sitomegalovirüse karşı antikorları veya virüse ait genetik maddeyi araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte sitomegalovirüse karşı antikorları veya virüse ait genetik maddeyi araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "CMV Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "CMV Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "CMV Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Helicobacter pylori Testi",
+      "title": "Helicobacter pylori Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/helicobacter-pylori-h-pylori-tests",
+      "sections": {
+        "Nedir?": "Mideyle ilişkili bakteriyi dışkı, nefes veya başka örneklerde araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Mideyle ilişkili bakteriyi dışkı, nefes veya başka örneklerde araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Helicobacter pylori Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Helicobacter pylori Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Helicobacter pylori Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Boğmaca Testi",
+      "title": "Boğmaca Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/whooping-cough-diagnosis",
+      "sections": {
+        "Nedir?": "Solunum yolu örneğinde boğmacaya yol açan bakteriyi araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Solunum yolu örneğinde boğmacaya yol açan bakteriyi araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Boğmaca Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Boğmaca Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Boğmaca Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Beta İki Mikroglobulin",
+      "title": "Beta İki Mikroglobulin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/beta-2-microglobulin-b2m-tumor-marker-test",
+      "sections": {
+        "Nedir?": "Böbrek işlevi ve bilinen bazı kan hastalıklarının izlenmesini desteklemek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Böbrek işlevi ve bilinen bazı kan hastalıklarının izlenmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Beta İki Mikroglobulin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Beta İki Mikroglobulin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Beta İki Mikroglobulin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Beta İki Mikroglobulin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Beta İki Mikroglobulin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Pnömokok Testi",
+      "title": "Pnömokok Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/pneumococcal-disease-tests",
+      "sections": {
+        "Nedir?": "Bir örnekte pnömokok bakterisine ait antijen veya başka bulguları araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte pnömokok bakterisine ait antijen veya başka bulguları araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Pnömokok Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Pnömokok Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Pnömokok Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "CA 15-3",
+      "title": "CA 15-3 Tümör Belirteci",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/tumor-marker-tests",
+      "sections": {
+        "Nedir?": "Bilinen bazı meme kanserlerinin izlenmesini desteklemek için ölçülür; tek başına tarama testi değildir. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bilinen bazı meme kanserlerinin izlenmesini desteklemek için ölçülür; tek başına tarama testi değildir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek CA 15-3 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük CA 15-3 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "CA 15-3 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "CA 15-3 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "CA 15-3 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Ağır Metal Kan Testi",
+      "title": "Ağır Metal Kan Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/heavy-metal-blood-test",
+      "sections": {
+        "Nedir?": "Ağır metal kan testi, kanda bulunabilen ve yüksek miktarlarda zararlı olabilen bir ya da birden fazla metalin düzeyini ölçen test grubudur. Panelde en sık kurşun, cıva, arsenik, kadmiyum ve krom değerlendirilir; hangi metallerin ölçüldüğü laboratuvara ve istenen panele göre değişir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kurşun, cıva, arsenik, kadmiyum veya krom gibi belirli metallere maruz kalınıp kalınmadığını ve kandaki miktarlarını değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bir metalin laboratuvar sınırının üzerinde bulunması o metale maruziyet olabileceğini gösterebilir; ancak tek başına zehirlenmenin kaynağını veya klinik ağırlığını kanıtlamaz. Anlamı ölçülen metal, düzey, maruziyet zamanı, belirtiler ve kullanılan referans sınırıyla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Normal veya düşük düzeyler çoğu zaman belirgin bir ağır metal maruziyetini desteklemez. Bununla birlikte bazı metaller kandan hızla ayrılıp dokularda birikebildiği için düşük ya da normal kan sonucu geçmiş veya aralıklı maruziyeti her zaman dışlamaz; şüphe sürerse farklı örneklerle ek test gerekebilir.",
+        "Ne zaman doktora danışılmalı?": "Sonuçta herhangi bir metal yüksek işaretlendiyse, bilinen iş veya çevre maruziyeti varsa ya da bulantı, karın ağrısı, uyuşma, kas güçsüzlüğü, nefes darlığı veya bilinç-davranış değişikliği gibi yeni belirtiler bulunuyorsa sağlık uzmanıyla gecikmeden görüşün. Ani ve yoğun maruziyet şüphesinde acil sağlık hizmetine başvurun.",
+        "Doktora sorulabilecek sorular": "Panelde hangi metaller ölçüldü ve her biri için kullanılan sınır nedir? Örneğin alınma zamanı olası maruziyetle uyumlu mu? İdrar gibi başka bir örnekle doğrulama veya tekrar test gerekiyor mu? İş, çevre, gıda ya da takviye kaynaklı olası maruziyetler nasıl araştırılmalı?"
+      },
+      "doctor_questions": [
+        "Panelde hangi metaller ölçüldü ve her biri için kullanılan sınır nedir?",
+        "Örneğin alınma zamanı olası maruziyetle uyumlu mu?",
+        "İdrar gibi başka bir örnekle doğrulama veya tekrar test gerekiyor mu?",
+        "İş, çevre, gıda ya da takviye kaynaklı olası maruziyetler nasıl araştırılmalı?"
+      ]
+    },
+    {
+      "lab_test": "Besin Alerjisi Testi",
+      "title": "Besin Alerjisi Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/food-allergy-testing",
+      "sections": {
+        "Nedir?": "Belirli besinlere karşı bağışıklık yanıtını değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Belirli besinlere karşı bağışıklık yanıtını değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Besin Alerjisi Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Besin Alerjisi Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Besin Alerjisi Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Mononükleoz Testi",
+      "title": "Mononükleoz Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/mononucleosis-mono-tests",
+      "sections": {
+        "Nedir?": "Mononükleozla ilişkili antikorları veya virüs bulgularını araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Mononükleozla ilişkili antikorları veya virüs bulgularını araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Mononükleoz Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Mononükleoz Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Mononükleoz Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Hemoglobin Elektroforezi",
+      "title": "Hemoglobin Elektroforezi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/hemoglobin-electrophoresis",
+      "sections": {
+        "Nedir?": "Kandaki farklı hemoglobin türlerini ayırıp değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kandaki farklı hemoglobin türlerini ayırıp değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Hemoglobin Elektroforezi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Hemoglobin Elektroforezi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Hemoglobin Elektroforezi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Düz Kas Antikoru",
+      "title": "Düz Kas Antikoru",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/smooth-muscle-antibody-sma-test",
+      "sections": {
+        "Nedir?": "Karaciğerle ilişkili bazı otoimmün durumların değerlendirilmesini desteklemek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Karaciğerle ilişkili bazı otoimmün durumların değerlendirilmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Düz Kas Antikoru sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Düz Kas Antikoru sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Düz Kas Antikoru sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Antikor Seroloji Testleri",
+      "title": "Antikor Seroloji Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/antibody-serology-tests",
+      "sections": {
+        "Nedir?": "Geçirilmiş veya mevcut enfeksiyonlara karşı oluşan antikorları değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Geçirilmiş veya mevcut enfeksiyonlara karşı oluşan antikorları değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Antikor Seroloji Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Antikor Seroloji Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Antikor Seroloji Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Herpes Testi",
+      "title": "Herpes Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/herpes-hsv-test",
+      "sections": {
+        "Nedir?": "Bir örnekte herpes virüsünü veya virüse karşı oluşan antikorları araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte herpes virüsünü veya virüse karşı oluşan antikorları araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Herpes Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Herpes Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Herpes Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Kalsiyum",
+      "title": "İdrarda Kalsiyum",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/calcium-in-urine-test",
+      "sections": {
+        "Nedir?": "İdrarla atılan kalsiyum miktarını böbrek ve kemik sağlığı bağlamında değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "İdrarla atılan kalsiyum miktarını böbrek ve kemik sağlığı bağlamında değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İdrarda Kalsiyum sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İdrarda Kalsiyum sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Kalsiyum sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Kalsiyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Kalsiyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Renin",
+      "title": "Renin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/renin-test",
+      "sections": {
+        "Nedir?": "Kan basıncı ve sıvı dengesinde rol oynayan renin etkinliğini aldosteronla birlikte değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kan basıncı ve sıvı dengesinde rol oynayan renin etkinliğini aldosteronla birlikte değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Renin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Renin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Renin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Renin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Renin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Diyabet Testleri",
+      "title": "Diyabet Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/diabetes-tests",
+      "sections": {
+        "Nedir?": "Kan şekeri düzenlenmesini ve diyabet olasılığını değerlendiren testleri birlikte ele alır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kan şekeri düzenlenmesini ve diyabet olasılığını değerlendiren testleri birlikte ele alır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Diyabet Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Diyabet Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Diyabet Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Legionella Testi",
+      "title": "Legionella Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/legionella-tests",
+      "sections": {
+        "Nedir?": "Bir örnekte Legionella bakterisine ait antijen veya genetik maddeyi araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Bir örnekte Legionella bakterisine ait antijen veya genetik maddeyi araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Legionella Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Legionella Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Legionella Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "On Yedi Hidroksiprogesteron",
+      "title": "On Yedi Hidroksiprogesteron",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/17-hydroxyprogesterone",
+      "sections": {
+        "Nedir?": "Böbrek üstü bezlerinin hormon üretimini değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Böbrek üstü bezlerinin hormon üretimini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek On Yedi Hidroksiprogesteron sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük On Yedi Hidroksiprogesteron sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "On Yedi Hidroksiprogesteron sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "On Yedi Hidroksiprogesteron sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "On Yedi Hidroksiprogesteron sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Glukoz",
+      "title": "İdrarda Glukoz",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/glucose-in-urine-test",
+      "sections": {
+        "Nedir?": "İdrarda glukoz bulunup bulunmadığını veya miktarını değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "İdrarda glukoz bulunup bulunmadığını veya miktarını değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Glukoz sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Glukoz sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Glukoz sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Galaktozemi Testleri",
+      "title": "Galaktozemi Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/galactosemia-tests",
+      "sections": {
+        "Nedir?": "Yenidoğanda galaktozun işlenmesiyle ilişkili kalıtsal durumları taramak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Yenidoğanda galaktozun işlenmesiyle ilişkili kalıtsal durumları taramak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Galaktozemi Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Galaktozemi Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Galaktozemi Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "T3 Testleri",
+      "title": "Triiyodotironin Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/triiodothyronine-t3-tests",
+      "sections": {
+        "Nedir?": "Tiroid hormon düzeylerini ve tiroid işlevini değerlendirmek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Tiroid hormon düzeylerini ve tiroid işlevini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "T3 Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "T3 Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "T3 Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Dışkıda Lökosit",
+      "title": "Dışkıda Lökosit",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/white-blood-cell-wbc-in-stool",
+      "sections": {
+        "Nedir?": "Dışkıda beyaz kan hücrelerini bağırsak iltihabı bağlamında araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Dışkıda beyaz kan hücrelerini bağırsak iltihabı bağlamında araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Dışkıda Lökosit sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Dışkıda Lökosit sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Dışkıda Lökosit sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Miyastenia Gravis Testleri",
+      "title": "Miyastenia Gravis Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/myasthenia-gravis-tests",
+      "sections": {
+        "Nedir?": "Sinir ve kas iletişimiyle ilişkili antikorları değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Sinir ve kas iletişimiyle ilişkili antikorları değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Miyastenia Gravis Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Miyastenia Gravis Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Miyastenia Gravis Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Down Sendromu Testleri",
+      "title": "Down Sendromu Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/down-syndrome-tests",
+      "sections": {
+        "Nedir?": "Gebelikte kromozom farklılığı olasılığını tarama veya tanı yöntemleriyle değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Gebelikte kromozom farklılığı olasılığını tarama veya tanı yöntemleriyle değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Down Sendromu Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Down Sendromu Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Down Sendromu Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Lyme Hastalığı Testleri",
+      "title": "Lyme Hastalığı Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/lyme-disease-tests",
+      "sections": {
+        "Nedir?": "Lyme hastalığına yol açan bakteriye karşı antikorları veya etkene ait bulguları araştırmak için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Lyme hastalığına yol açan bakteriye karşı antikorları veya etkene ait bulguları araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Lyme Hastalığı Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Lyme Hastalığı Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Lyme Hastalığı Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "AMH",
+      "title": "Anti Müllerian Hormon",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/anti-mullerian-hormone-test",
+      "sections": {
+        "Nedir?": "Yumurtalık rezervi ve üreme sağlığıyla ilişkili değerlendirmeleri desteklemek için ölçülür. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Yumurtalık rezervi ve üreme sağlığıyla ilişkili değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek AMH sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük AMH sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "AMH sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "AMH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "AMH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Semen Analizi",
+      "title": "Semen Analizi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/semen-analysis",
+      "sections": {
+        "Nedir?": "Semenin hacmi ile sperm hücrelerinin sayı, hareket ve biçim özelliklerini değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Semenin hacmi ile sperm hücrelerinin sayı, hareket ve biçim özelliklerini değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Semen Analizi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Semen Analizi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Semen Analizi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Böbrek Taşı Analizi",
+      "title": "Böbrek Taşı Analizi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/kidney-stone-analysis",
+      "sections": {
+        "Nedir?": "Çıkarılan böbrek taşının kimyasal yapısını değerlendirmek için yapılır. Sonuç kullanılan örnek ve yöntemle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Çıkarılan böbrek taşının kimyasal yapısını değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Böbrek Taşı Analizi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Böbrek Taşı Analizi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Böbrek Taşı Analizi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    }
+  ]
+}

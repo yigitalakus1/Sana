@@ -1,0 +1,480 @@
+{
+  "batch_id": "medlineplus-common-04",
+  "documents": [
+    {
+      "lab_test": "ANA",
+      "title": "Antinükleer Antikor",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ana-antinuclear-antibody-test",
+      "sections": {
+        "Nedir?": "Antinükleer antikorlar, bağışıklık sisteminin hücre çekirdeğindeki yapılara karşı üretebildiği antikorlardır. Test otoimmün hastalık olasılığı değerlendirilirken kullanılır. Pozitif sonuç tek başına belirli bir hastalığın tanısını koydurmaz.",
+        "Neden ölçülür?": "Otoimmün hastalık olasılığının değerlendirilmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "ANA sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "ANA sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "ANA sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "SHBG",
+      "title": "Cinsiyet Hormonu Bağlayıcı Globulin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/shbg-blood-test",
+      "sections": {
+        "Nedir?": "Cinsiyet hormonu bağlayıcı globulin, testosteron ve östrojen gibi hormonları kanda taşıyan bir proteindir. Test kandaki miktarını ölçer. Sonuç cinsiyet hormonlarının vücutta kullanılabilir miktarı değerlendirilirken diğer hormon testleriyle birlikte ele alınır.",
+        "Neden ölçülür?": "Testosteron ve östrojenin kullanılabilir miktarını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek SHBG sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük SHBG sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "SHBG sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "SHBG sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "SHBG sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Prealbumin",
+      "title": "Prealbumin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/prealbumin-blood-test",
+      "sections": {
+        "Nedir?": "Prealbumin, karaciğer tarafından üretilen ve bazı maddeleri kanda taşıyan bir proteindir. Kan testi bu proteinin miktarını ölçer. Sonuç beslenme durumu ve bazı sağlık sorunları değerlendirilirken diğer bulgularla birlikte kullanılır.",
+        "Neden ölçülür?": "Beslenme durumu ve karaciğerin protein üretimiyle ilişkili süreçleri değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Prealbumin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Prealbumin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Prealbumin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Prealbumin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Prealbumin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Çölyak Taraması",
+      "title": "Çölyak Taraması",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/celiac-disease-screening",
+      "sections": {
+        "Nedir?": "Çölyak taraması, bağışıklık sisteminin glutene karşı tepkisiyle ilişkili antikorları kanda araştırır. Test çölyak hastalığı olasılığının değerlendirilmesini destekler. Sonuç tek başına tanı koydurmaz ve başka değerlendirmeler gerekebilir.",
+        "Neden ölçülür?": "Glutene karşı bağışıklık yanıtıyla ilişkili antikorları araştırmak için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Çölyak Taraması içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Çölyak Taraması içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Çölyak Taraması içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "İdrar Kristalleri",
+      "title": "İdrar Kristalleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/crystals-in-urine",
+      "sections": {
+        "Nedir?": "İdrar kristalleri, idrardaki bazı maddelerin katı parçacıklar oluşturmasıyla meydana gelir. Az miktarda bazı kristaller görülebilir. Kristalin türü ve miktarı böbrek taşı veya başka idrar yolu durumları değerlendirilirken diğer bulgularla birlikte incelenir.",
+        "Neden ölçülür?": "İdrardaki kristal türü ve miktarını böbrek taşı ve idrar yolu durumları açısından değerlendirmek için incelenir.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "İdrar Kristalleri sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrar Kristalleri sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "İdrar Kristalleri sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "DHEA-S",
+      "title": "DHEA Sülfat",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/dhea-sulfate-test",
+      "sections": {
+        "Nedir?": "DHEA sülfat, büyük ölçüde böbrek üstü bezleri tarafından üretilen bir hormondur. Vücut bu hormonu bazı cinsiyet hormonlarının üretiminde kullanır. Test böbrek üstü bezi işlevi ve hormon dengesine ilişkin durumlar değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "Böbrek üstü bezi işlevi ve hormon dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek DHEA-S sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük DHEA-S sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "DHEA-S sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "DHEA-S sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "DHEA-S sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "CCP Antikoru",
+      "title": "CCP Antikoru",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ccp-antibody-test",
+      "sections": {
+        "Nedir?": "CCP antikorları, bağışıklık sisteminin bazı proteinlere karşı üretebildiği antikorlardır. Kan testi romatoid artrit olasılığının değerlendirilmesini destekler. Sonuç belirtiler, muayene ve başka testlerle birlikte ele alınır.",
+        "Neden ölçülür?": "Romatoid artrit olasılığının değerlendirilmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "CCP Antikoru sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "CCP Antikoru sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "CCP Antikoru sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Tiroglobulin",
+      "title": "Tiroglobulin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/thyroglobulin",
+      "sections": {
+        "Nedir?": "Tiroglobulin, tiroid bezi tarafından üretilen bir proteindir ve tiroid hormonlarının üretiminde rol oynar. Test çoğunlukla tiroid kanseri tedavisinden sonraki izlemi desteklemek için kullanılır. Tek başına tiroid kanseri taraması veya tanısı değildir.",
+        "Neden ölçülür?": "Özellikle tiroid kanseri tedavisinden sonraki izlemi desteklemek için ölçülür; tek başına tarama testi değildir.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Tiroglobulin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Tiroglobulin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Tiroglobulin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Tiroglobulin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Tiroglobulin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Alerji Kan Testi",
+      "title": "Alerji Kan Testi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/allergy-blood-test",
+      "sections": {
+        "Nedir?": "Alerji kan testi, bağışıklık sisteminin alerjenlere karşı ürettiği belirli antikorları ölçer. Sonuç hangi maddelere karşı duyarlılık olabileceğinin değerlendirilmesini destekler. Pozitif sonuç belirtilerle birlikte yorumlanır ve tek başına klinik alerjiyi kanıtlamaz.",
+        "Neden ölçülür?": "Belirli alerjenlere karşı antikor yanıtını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Alerji Kan Testi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Alerji Kan Testi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Alerji Kan Testi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Otoantikor Testleri",
+      "title": "Otoantikor Testleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/autoantibody-testing",
+      "sections": {
+        "Nedir?": "Otoantikorlar, bağışıklık sisteminin vücudun kendi hücre ve dokularına karşı üretebildiği antikorlardır. Farklı testler farklı otoantikorları araştırır. Sonuçlar otoimmün durumlar değerlendirilirken belirtiler ve diğer testlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Bağışıklık sisteminin vücudun kendi dokularına karşı ürettiği antikorları değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Otoantikor Testleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Otoantikor Testleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Otoantikor Testleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Homosistein",
+      "title": "Homosistein",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/homocysteine-test",
+      "sections": {
+        "Nedir?": "Homosistein, proteinlerin yapı taşlarından biri olan metiyonin parçalanırken oluşan bir amino asittir. Kandaki miktarı bazı vitaminlerin durumu ve kalp damar riski değerlendirilirken kullanılabilir. Sonuç tek başına hastalık tanısı koydurmaz.",
+        "Neden ölçülür?": "Vitamin durumu ve kalp damar riskiyle ilişkili değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Homosistein sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Homosistein sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Homosistein sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Homosistein sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Homosistein sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "GFR",
+      "title": "Glomerüler Filtrasyon Hızı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/glomerular-filtration-rate-gfr-test",
+      "sections": {
+        "Nedir?": "Glomerüler filtrasyon hızı, böbreklerin kandaki atıkları ne kadar iyi süzdüğünü tahmin eden bir değerdir. Çoğunlukla kandaki kreatinin ile yaş ve başka bilgiler kullanılarak hesaplanır. Sonuç böbrek işlevlerinin değerlendirilmesi ve izlenmesinde kullanılır.",
+        "Neden ölçülür?": "Böbreklerin kandaki atıkları süzme işlevini değerlendirmek ve izlemek için hesaplanır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek GFR sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük GFR sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "GFR sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "GFR sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "GFR sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Protein Elektroforezi",
+      "title": "Protein Elektroforezi ve İmmünfiksasyon",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/protein-electrophoresis-by-immunofixation-blood-test",
+      "sections": {
+        "Nedir?": "Protein elektroforezi, kandaki proteinleri elektriksel özelliklerine göre gruplara ayırır. İmmünfiksasyon belirli protein türlerini daha ayrıntılı inceleyebilir. Sonuç bağışıklık sistemi ve plazma hücreleriyle ilişkili durumlar değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "Kandaki protein gruplarını ve belirli protein türlerini değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Protein Elektroforezi içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Protein Elektroforezi içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Protein Elektroforezi içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "İnsülin",
+      "title": "İnsülin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/insulin-in-blood",
+      "sections": {
+        "Nedir?": "İnsülin, pankreas tarafından üretilen ve glikozun hücrelere girmesine yardımcı olan bir hormondur. Kan testi insülin miktarını ölçer. Sonuç kan şekeri düzenlenmesi ve pankreas işlevleri değerlendirilirken glikoz gibi testlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Kan şekeri düzenlenmesi ve pankreasın insülin üretimini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İnsülin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İnsülin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İnsülin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İnsülin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İnsülin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Serüloplazmin",
+      "title": "Serüloplazmin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ceruloplasmin-test",
+      "sections": {
+        "Nedir?": "Serüloplazmin, karaciğerde üretilen ve bakırın kanda taşınmasına yardımcı olan bir proteindir. Test kandaki miktarını ölçer. Sonuç bakır metabolizması ve karaciğerle ilişkili durumlar değerlendirilirken diğer testlerle birlikte kullanılır.",
+        "Neden ölçülür?": "Bakır metabolizması ve karaciğerle ilişkili durumları değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Serüloplazmin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Serüloplazmin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Serüloplazmin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Serüloplazmin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Serüloplazmin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "C-peptid",
+      "title": "C-peptid",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/c-peptide-test",
+      "sections": {
+        "Nedir?": "C-peptid, pankreas insülin üretirken aynı anda oluşan bir maddedir. Kandaki miktarı vücudun kendi insülin üretimi hakkında bilgi verir. Test kan şekeri sorunları ve pankreas işlevleri değerlendirilirken kullanılabilir.",
+        "Neden ölçülür?": "Vücudun kendi insülin üretimini ve pankreas işlevini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek C-peptid sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük C-peptid sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "C-peptid sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "C-peptid sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "C-peptid sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İdrarda Keton",
+      "title": "İdrarda Keton",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ketones-in-urine",
+      "sections": {
+        "Nedir?": "Ketonlar, vücut enerji için glikoz yerine yağları kullandığında oluşan maddelerdir. İdrar testi keton bulunup bulunmadığını veya miktarını değerlendirir. Yüksek keton birikimi özellikle diyabet bağlamında ciddi olabilir ve diğer bulgularla birlikte değerlendirilir.",
+        "Neden ölçülür?": "Vücudun enerji için yağ kullanması sırasında oluşan ketonları idrarda değerlendirmek için yapılır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "İdrarda Keton sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Diyabetle birlikte kusma, karın ağrısı, hızlı solunum veya bilinç değişikliği varsa acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İdrarda Keton sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "İdrarda Keton sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "E Vitamini",
+      "title": "E Vitamini",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/vitamin-e-tocopherol-test",
+      "sections": {
+        "Nedir?": "E vitamini, hücreleri hasardan korumaya yardımcı olan ve bağışıklık işlevlerinde rol oynayan bir vitamindir. Test kandaki E vitamini miktarını ölçer. Sonuç emilim sorunları veya E vitamini durumu değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "E vitamini durumunu ve emilimle ilişkili sorunları değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek E Vitamini sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük E Vitamini sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "E Vitamini sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "E Vitamini sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "E Vitamini sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Aldosteron",
+      "title": "Aldosteron",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/aldosterone-test",
+      "sections": {
+        "Nedir?": "Aldosteron, böbrek üstü bezleri tarafından üretilen ve tuz, su ile kan basıncı dengesinde rol oynayan bir hormondur. Test kan veya idrardaki miktarını ölçebilir. Sonuç renin ve elektrolit testleriyle birlikte değerlendirilir.",
+        "Neden ölçülür?": "Tuz, su, kan basıncı ve böbrek üstü bezi işlevlerini reninle birlikte değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Aldosteron sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Aldosteron sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Aldosteron sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Aldosteron sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Aldosteron sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Dışkıda Kalprotektin",
+      "title": "Dışkıda Kalprotektin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/calprotectin-stool-test",
+      "sections": {
+        "Nedir?": "Kalprotektin, iltihap sırasında bazı beyaz kan hücrelerinden salınan bir proteindir. Dışkı testi bağırsaklardaki iltihaplanmanın değerlendirilmesine yardımcı olur. Sonuç iltihabın nedenini tek başına göstermez.",
+        "Neden ölçülür?": "Bağırsaklardaki iltihaplanmayı değerlendirmek için dışkıda ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Dışkıda Kalprotektin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Dışkıda Kalprotektin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Dışkıda Kalprotektin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Dışkıda Kalprotektin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Dışkıda Kalprotektin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "IGF-1",
+      "title": "İnsülin Benzeri Büyüme Faktörü",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/igf-1-insulin-like-growth-factor-1-test",
+      "sections": {
+        "Nedir?": "İnsülin benzeri büyüme faktörü, büyük ölçüde karaciğer tarafından üretilen ve büyüme hormonunun etkilerini taşıyan bir proteindir. Kandaki miktarı gün içinde büyüme hormonuna göre daha kararlıdır. Test büyüme ve hipofiz işlevleri değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "Büyüme hormonu etkilerini, büyüme ve hipofiz işlevlerini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek IGF-1 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük IGF-1 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "IGF-1 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "IGF-1 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "IGF-1 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Metilmalonik Asit",
+      "title": "Metilmalonik Asit",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/methylmalonic-acid-mma-test",
+      "sections": {
+        "Nedir?": "Metilmalonik asit, vücudun enerji üretimi sırasında oluşan bir maddedir. B vitamini yetersiz olduğunda kandaki veya idrardaki miktarı artabilir. Test özellikle ilgili vitamin eksikliği olasılığını değerlendirmeye yardımcı olur.",
+        "Neden ölçülür?": "İlgili B vitamini eksikliği olasılığını değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Metilmalonik Asit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Metilmalonik Asit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Metilmalonik Asit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Metilmalonik Asit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Metilmalonik Asit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Kanda Keton",
+      "title": "Kanda Keton",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/ketones-in-blood",
+      "sections": {
+        "Nedir?": "Ketonlar, vücut enerji için yağları parçaladığında oluşan maddelerdir. Kan testi keton miktarını ölçer. Yüksek keton düzeyi özellikle diyabet bağlamında ciddi olabilir ve belirtilerle kan şekeri sonuçlarıyla birlikte değerlendirilir.",
+        "Neden ölçülür?": "Kandaki keton birikimini, özellikle diyabet bağlamında değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Kanda Keton sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Kanda Keton sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Kanda Keton sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Diyabetle birlikte kusma, karın ağrısı, hızlı solunum veya bilinç değişikliği varsa acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kanda Keton sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Kanda Keton sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "ACTH",
+      "title": "Adrenokortikotropik Hormon",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/adrenocorticotropic-hormone-acth",
+      "sections": {
+        "Nedir?": "Adrenokortikotropik hormon, hipofiz bezi tarafından üretilir ve böbrek üstü bezlerini kortizol üretmesi için uyarır. Test kandaki miktarını ölçer. Sonuç kortizol testiyle birlikte hipofiz ve böbrek üstü bezi işlevleri değerlendirilirken kullanılır.",
+        "Neden ölçülür?": "Hipofiz ve böbrek üstü bezi işlevlerini kortizolle birlikte değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek ACTH sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük ACTH sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "ACTH sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "ACTH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "ACTH sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Alfa Bir Antitripsin",
+      "title": "Alfa Bir Antitripsin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/alpha-1-antitrypsin-testing",
+      "sections": {
+        "Nedir?": "Alfa bir antitripsin, karaciğer tarafından üretilen ve akciğerleri bazı enzimlerin etkisinden koruyan bir proteindir. Kan testi miktarını ve gerektiğinde protein türünü değerlendirebilir. Sonuç kalıtsal eksiklik ile akciğer veya karaciğer sorunları araştırılırken kullanılır.",
+        "Neden ölçülür?": "Kalıtsal protein eksikliği ile akciğer ve karaciğerle ilişkili durumları değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Alfa Bir Antitripsin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Alfa Bir Antitripsin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Alfa Bir Antitripsin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Alfa Bir Antitripsin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Alfa Bir Antitripsin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    }
+  ]
+}

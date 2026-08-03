@@ -1,0 +1,106 @@
+{
+  "batch_id": "medlineplus-common-01",
+  "generator": "codex-grounded-manual-v1",
+  "drafts": [
+    {
+      "source_key": "medlineplus:2951-2:en",
+      "content": "Elektrolitler, vücut sıvılarında elektrik yükü taşıyan minerallerdir. Su dengesine, asit baz dengesine, besin ve atıkların taşınmasına, kasların, sinirlerin ve kalbin çalışmasına katkı sağlar. Elektrolit paneli genellikle sodyum, klorür, potasyum ve bikarbonat düzeylerini birlikte değerlendirir."
+    },
+    {
+      "source_key": "medlineplus:2075-0:en",
+      "content": "Klorür, vücut sıvılarındaki temel elektrolitlerden biridir. Sıvı ve asit baz dengesinin yanı sıra kan hacmi ve basıncının korunmasına katkı sağlar. Klorür testi çoğunlukla diğer elektrolitlerle birlikte değerlendirilir."
+    },
+    {
+      "source_key": "medlineplus:3094-0:en",
+      "content": "Kan üre azotu testi, proteinlerin parçalanması sırasında oluşan üre azotu adlı atık maddenin kandaki miktarını ölçer. Bu madde kanla böbreklere taşınır ve böbrekler aracılığıyla vücuttan uzaklaştırılır. Sonuç, böbrek işlevlerinin değerlendirilmesi ve izlenmesinde diğer bulgularla birlikte kullanılır."
+    },
+    {
+      "source_key": "medlineplus:2028-9:en",
+      "content": "Kandaki karbondioksit testi, çoğunlukla bikarbonat biçiminde bulunan karbondioksit miktarını ölçer. Karbondioksit, metabolizma sırasında oluşan ve akciğerler yoluyla uzaklaştırılan bir atık maddedir. Sonuç, elektrolit ve asit baz dengesinin değerlendirilmesine yardımcı olur."
+    },
+    {
+      "source_key": "medlineplus:787-2:en",
+      "content": "Ortalama eritrosit hacmi, alyuvarların ortalama büyüklüğünü gösterir. Alyuvarlar oksijeni akciğerlerden vücudun dokularına taşır. Bu ölçüm tam kan sayımının bir parçasıdır ve kansızlık gibi kanla ilgili durumların değerlendirilmesinde diğer sonuçlarla birlikte kullanılır."
+    },
+    {
+      "source_key": "medlineplus:785-6:en",
+      "content": "Eritrosit indeksleri, alyuvarların büyüklüğü, biçimi ve özellikleri hakkında bilgi verir. Bu ölçümler hücrelerin ortalama hacmini, hemoglobin miktarını ve hücreler arasındaki büyüklük farklarını kapsar. Sonuçlar, kansızlığın özelliklerini değerlendirmede diğer kan bulgularıyla birlikte kullanılır."
+    },
+    {
+      "source_key": "medlineplus:6690-2:en",
+      "content": "Lökositler, bağışıklık sisteminin enfeksiyonlara ve diğer tehditlere karşı görev yapan hücreleridir. Lökosit sayımı kandaki toplam beyaz kan hücresi miktarını ölçer. Sonuç, enfeksiyonlar, bağışıklık sistemiyle ilgili durumlar ve başka sağlık sorunları değerlendirilirken diğer bulgularla birlikte ele alınır."
+    },
+    {
+      "source_key": "medlineplus:1975-2:en",
+      "content": "Bilirubin, alyuvarların parçalanması sırasında oluşan sarı renkli bir maddedir. Karaciğer bilirubini işler ve safra yoluyla vücuttan uzaklaştırılmasına katkı sağlar. Kan bilirubin testi karaciğer sağlığı ve sarılık değerlendirmesinde kullanılır; toplam, doğrudan ve dolaylı bilirubin sonuçları birlikte incelenebilir."
+    },
+    {
+      "source_key": "medlineplus:2885-2:en",
+      "content": "Globulinler, karaciğer ve bağışıklık sistemi tarafından üretilen bir grup kan proteinidir. Enfeksiyonlara karşı savunma, pıhtılaşma ve karaciğer ile böbrek işlevleri gibi süreçlerde rol alırlar. Globulinler toplam protein ölçümü veya protein elektroforezi kapsamında değerlendirilebilir."
+    },
+    {
+      "source_key": "medlineplus:6768-6:en",
+      "content": "Alkalen fosfataz, başlıca karaciğer, safra yolları ve kemiklerde bulunan bir enzimdir. Kan testi bu enzimin kandaki düzeyini ölçer. Sonucun olağan aralığın dışında olması farklı nedenlerle ilişkili olabilir ve bu test tek başına kaynağı belirlemez."
+    },
+    {
+      "source_key": "medlineplus:4544-3:en",
+      "content": "Hematokrit, kan hacminin ne kadarının alyuvarlardan oluştuğunu gösterir. Alyuvarlar oksijeni akciğerlerden vücut dokularına taşır. Tam kan sayımının bir parçası olan bu sonuç, kanla ilgili durumlar ve sıvı dengesi değerlendirilirken diğer bulgularla birlikte ele alınır."
+    },
+    {
+      "source_key": "medlineplus:10466-1:en",
+      "content": "Anyon açığı, elektrolit testi sonuçlarından hesaplanan bir değerdir. Kanda elektrik yükü taşıyan parçacıklar arasındaki farkı yansıtır ve asit baz dengesinin değerlendirilmesine yardımcı olur. Sonuç tek başına yorumlanmaz, diğer testler ve klinik bilgilerle birlikte ele alınır."
+    },
+    {
+      "source_key": "medlineplus:751-8:en",
+      "content": "Lökosit dağılımı testi, kandaki farklı beyaz kan hücresi türlerinin miktarlarını ölçer. Bu hücreler arasında nötrofiller, lenfositler, monositler, eozinofiller ve bazofiller bulunur. Sonuçlar enfeksiyonlar ve bağışıklık sistemiyle ilgili durumlar değerlendirilirken diğer bulgularla birlikte kullanılır."
+    },
+    {
+      "source_key": "medlineplus:1751-7:en",
+      "content": "Albumin, karaciğer tarafından üretilen bir kan proteinidir. Sıvının damar içinde tutulmasına yardımcı olur ve hormonlar, vitaminler ile enzimler gibi maddeleri taşır. Albumin testi genel sağlık, beslenme durumu, karaciğer ve böbrek işlevleri değerlendirilirken kullanılabilir."
+    },
+    {
+      "source_key": "medlineplus:11556-8:en",
+      "content": "Arter kan gazı testi, atardamardan alınan örnekte oksijen ve karbondioksit düzeylerini ölçer. Akciğerlerin kana oksijen aktarma ve karbondioksiti uzaklaştırma işlevleri hakkında bilgi verir. Ayrıca kanın asit baz dengesinin değerlendirilmesine yardımcı olur."
+    },
+    {
+      "source_key": "medlineplus:19123-9:en",
+      "content": "Magnezyum, kasların, sinirlerin ve kalbin çalışmasına katkı sağlayan bir mineral ve elektrolittir. Kemik sağlığı, bağışıklık işlevleri, kan basıncı ve kan şekeri düzenlenmesinde de rol oynar. Kandaki magnezyum düzeyi böbrekler ve bağırsakların düzenleyici etkileriyle ilişkilidir."
+    },
+    {
+      "source_key": "medlineplus:5902-2:en",
+      "content": "Protrombin zamanı testi, kanın pıhtı oluşturmasının ne kadar sürdüğünü ölçer. Uluslararası normalleştirilmiş oran, farklı laboratuvar ve ölçüm yöntemlerinden gelen sonuçların karşılaştırılmasını kolaylaştırır. Bu test pıhtılaşmanın değerlendirilmesinde ve bazı pıhtı önleyici ilaçların etkisinin izlenmesinde kullanılır."
+    },
+    {
+      "source_key": "medlineplus:2777-1:en",
+      "content": "Fosfat, kemik ve dişlerin yapısına katkı sağlayan bir elektrolittir. Enerji üretimi ile sinir ve kas işlevlerinde de rol oynar. Kandaki fosfat düzeyi böbrekler ve bağırsaklar tarafından düzenlenir ve kalsiyum dengesiyle yakından ilişkilidir."
+    },
+    {
+      "source_key": "medlineplus:2571-8:en",
+      "content": "Trigliseridler kanda bulunan bir yağ türüdür. Vücut bunları enerji için kullanır ve ihtiyaç fazlasını depolar. Yüksek trigliserid düzeyleri kalp damar hastalıkları ve pankreas iltihabı riski değerlendirilirken diğer bulgularla birlikte ele alınır."
+    },
+    {
+      "source_key": "medlineplus:28542-9:en",
+      "content": "Ortalama trombosit hacmi, kandaki trombositlerin ortalama büyüklüğünü gösterir. Trombositler kanın pıhtılaşmasında görev alır. Bu ölçüm trombositlerin işlevi hakkında bilgi sağlayabilir ve genellikle trombosit sayısı ile tam kan sayımındaki diğer sonuçlarla birlikte değerlendirilir."
+    },
+    {
+      "source_key": "medlineplus:24321-2:en",
+      "content": "Temel metabolik panel, vücudun sıvı dengesi, metabolizması ve böbrek işlevleri hakkında bilgi veren bir grup kan testidir. Glikoz, kalsiyum, elektrolitler, kan üre azotu ve kreatinin gibi ölçümleri içerir. Sonuçlar birbirleriyle ve diğer sağlık bilgileriyle birlikte değerlendirilir."
+    },
+    {
+      "source_key": "medlineplus:24323-8:en",
+      "content": "Kapsamlı metabolik panel, metabolizma ve vücudun kimyasal dengesi hakkında bilgi veren bir grup kan testidir. Glikoz, kalsiyum, elektrolitler, albumin, toplam protein ve karaciğerle ilişkili enzimler gibi ölçümleri içerir. Sonuçlar böbrek ve karaciğer işlevleri dahil genel sağlık değerlendirmesinde birlikte ele alınır."
+    },
+    {
+      "source_key": "medlineplus:4548-4:en",
+      "content": "Glikozillenmiş hemoglobin testi, glikozun alyuvarlardaki hemoglobine bağlanmış bölümünü ölçer. Sonuç, son birkaç aydaki ortalama kan şekeri düzeyi hakkında bilgi verir. Diyabetin değerlendirilmesi ve izlenmesinde diğer sağlık bilgileriyle birlikte kullanılır."
+    },
+    {
+      "source_key": "medlineplus:1759-0:en",
+      "content": "Toplam protein testi, kandaki albumin ve globulinlerin toplam miktarını ölçer. Albumin globulin oranı, bu iki protein grubunun birbirine göre miktarını gösterir. Sonuçlar sıvı taşınması, bağışıklık, beslenme durumu ile karaciğer ve böbrek işlevleri değerlendirilirken kullanılabilir."
+    },
+    {
+      "source_key": "medlineplus:10839-9:en",
+      "content": "Troponin, kalp kası hücrelerinde bulunan bir proteindir. Kalp kası hasar gördüğünde kandaki troponin düzeyi yükselebilir. Test özellikle kalp krizi değerlendirmesini destekler, ancak başka kalp hasarı nedenlerinde de yükseklik görülebileceği için sonuç diğer bulgularla birlikte ele alınır."
+    }
+  ]
+}

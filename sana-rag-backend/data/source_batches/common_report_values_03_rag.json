@@ -1,0 +1,319 @@
+{
+  "batch_id": "common_report_values_03",
+  "review_status": "approved",
+  "reviewed_by": "Sana official source review",
+  "reviewed_at": "2026-07-21",
+  "review_notes": "MedlinePlus ve NIH sayfalarıyla karşılaştırıldı; referans aralığı, tanı ve tedavi önerisi eklenmedi.",
+  "items": [
+    {
+      "source_key": "common-report:mch",
+      "source_title": "MedlinePlus - Red Blood Cell Indices",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "lab_test": "MCH",
+      "slug": "mch",
+      "title": "MCH (Ortalama Eritrosit Hemoglobini)",
+      "aliases": [
+        "mch",
+        "mean corpuscular hemoglobin",
+        "ortalama eritrosit hemoglobini"
+      ],
+      "definition": "MCH, bir kırmızı kan hücresindeki ortalama hemoglobin miktarını gösteren eritrosit indeksidir. Tek başına tanı koydurmaz.",
+      "purpose": "Kırmızı kan hücrelerinin özelliklerini değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:mchc",
+      "source_title": "MedlinePlus - Red Blood Cell Indices",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "lab_test": "MCHC",
+      "slug": "mchc",
+      "title": "MCHC (Ortalama Eritrosit Hemoglobin Konsantrasyonu)",
+      "aliases": [
+        "mchc",
+        "mean corpuscular hemoglobin concentration",
+        "ortalama eritrosit hemoglobin konsantrasyonu"
+      ],
+      "definition": "MCHC, kırmızı kan hücrelerindeki ortalama hemoglobin yoğunluğunu gösteren eritrosit indeksidir. Tek başına tanı koydurmaz.",
+      "purpose": "Kırmızı kan hücrelerinin hemoglobin içeriğini değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:rdw",
+      "source_title": "MedlinePlus - Red Blood Cell Indices",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices/",
+      "lab_test": "RDW",
+      "slug": "rdw",
+      "title": "RDW (Eritrosit Dağılım Genişliği)",
+      "aliases": [
+        "rdw",
+        "rdw cv",
+        "rdw-cv",
+        "rdw sd",
+        "rdw-sd",
+        "red cell distribution width",
+        "eritrosit dağılım genişliği"
+      ],
+      "definition": "RDW, kırmızı kan hücrelerinin boyutlarının birbirinden ne kadar farklı olduğunu gösteren eritrosit indeksidir. Tek başına tanı koydurmaz.",
+      "purpose": "Kırmızı kan hücresi boyut dağılımını değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:nötrofil",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "lab_test": "Nötrofil",
+      "slug": "notrofil",
+      "title": "Nötrofil",
+      "aliases": [
+        "nötrofil",
+        "notrofil",
+        "neutrophil",
+        "neu",
+        "neut",
+        "neutrofil"
+      ],
+      "definition": "Nötrofiller, beyaz kan hücrelerinin bir türüdür ve vücudun mikroplara karşı savunmasında görev alır. Tek başına tanı koydurmaz.",
+      "purpose": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:lenfosit",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "lab_test": "Lenfosit",
+      "slug": "lenfosit",
+      "title": "Lenfosit",
+      "aliases": [
+        "lenfosit",
+        "lymphocyte",
+        "lym",
+        "lymph"
+      ],
+      "definition": "Lenfositler, bağışıklık yanıtında görev alan beyaz kan hücrelerinin bir türüdür. Tek başına tanı koydurmaz.",
+      "purpose": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:monosit",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "lab_test": "Monosit",
+      "slug": "monosit",
+      "title": "Monosit",
+      "aliases": [
+        "monosit",
+        "monocyte",
+        "mono",
+        "mon"
+      ],
+      "definition": "Monositler, mikropların ve hasarlı hücrelerin temizlenmesine katkı sağlayan beyaz kan hücrelerinin bir türüdür. Tek başına tanı koydurmaz.",
+      "purpose": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:eozinofil",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "lab_test": "Eozinofil",
+      "slug": "eozinofil",
+      "title": "Eozinofil",
+      "aliases": [
+        "eozinofil",
+        "eosinophil",
+        "eos"
+      ],
+      "definition": "Eozinofiller, parazitlere karşı savunma, alerjik yanıt ve iltihap süreçlerinde rol alan beyaz kan hücreleridir. Tek başına tanı koydurmaz.",
+      "purpose": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:bazofil",
+      "source_title": "MedlinePlus - Blood Differential",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential/",
+      "lab_test": "Bazofil",
+      "slug": "bazofil",
+      "title": "Bazofil",
+      "aliases": [
+        "bazofil",
+        "basophil",
+        "baso"
+      ],
+      "definition": "Bazofiller, alerjik yanıtlar ve bağışıklık süreçlerinde rol alan beyaz kan hücrelerinin bir türüdür. Tek başına tanı koydurmaz.",
+      "purpose": "Beyaz kan hücresi dağılımını değerlendirmek için mutlak sayı veya yüzde olarak ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:pdw",
+      "source_title": "NIH NCBI Bookshelf - Complete Blood Count",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK604207/",
+      "lab_test": "PDW",
+      "slug": "pdw",
+      "title": "PDW (Trombosit Dağılım Genişliği)",
+      "aliases": [
+        "pdw",
+        "platelet distribution width",
+        "trombosit dağılım genişliği"
+      ],
+      "definition": "PDW, trombositlerin boyutlarının birbirinden ne kadar farklı olduğunu gösteren otomatik kan sayımı indeksidir. Tek başına tanı koydurmaz.",
+      "purpose": "Trombositlerle ilgili diğer ölçümleri tamamlayan bir dağılım göstergesi olarak raporlanabilir.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:plateletkrit",
+      "source_title": "NIH NCBI Bookshelf - Complete Blood Count",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK604207/",
+      "lab_test": "Plateletkrit",
+      "slug": "plateletkrit",
+      "title": "Plateletkrit (PCT)",
+      "aliases": [
+        "plateletkrit",
+        "plateletcrit",
+        "trombositkrit",
+        "pct hemogram"
+      ],
+      "definition": "Plateletkrit, trombositlerin kan hacmi içindeki toplam hacim oranını gösteren otomatik kan sayımı indeksidir. Tek başına tanı koydurmaz.",
+      "purpose": "Trombosit sayısı ve hacim göstergeleriyle birlikte değerlendirilebilen bir trombosit indeksi olarak raporlanabilir.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:total demir bağlama kapasitesi",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "lab_test": "Total Demir Bağlama Kapasitesi",
+      "slug": "total-demir-baglama-kapasitesi",
+      "title": "Total Demir Bağlama Kapasitesi (TDBK/TIBC)",
+      "aliases": [
+        "total demir bağlama kapasitesi",
+        "tdbk",
+        "tibc",
+        "tıbc",
+        "total iron binding capacity"
+      ],
+      "definition": "Total demir bağlama kapasitesi, demirin transferrin ve diğer proteinlere bağlanabilme kapasitesini değerlendiren demir testidir. Tek başına tanı koydurmaz.",
+      "purpose": "Vücudun demir durumunu diğer demir testleriyle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:doymamış demir bağlama kapasitesi",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "lab_test": "Doymamış Demir Bağlama Kapasitesi",
+      "slug": "doymamis-demir-baglama-kapasitesi",
+      "title": "Doymamış Demir Bağlama Kapasitesi (UIBC)",
+      "aliases": [
+        "doymamış demir bağlama kapasitesi",
+        "uibc",
+        "uıbc",
+        "unsaturated iron binding capacity"
+      ],
+      "definition": "Doymamış demir bağlama kapasitesi, kandaki demir taşıma proteinlerinin henüz demirle dolmamış bağlama kapasitesini değerlendiren demir testidir. Tek başına tanı koydurmaz.",
+      "purpose": "Demir durumunu serum demiri ve diğer demir testleriyle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:transferrin",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "lab_test": "Transferrin",
+      "slug": "transferrin",
+      "title": "Transferrin",
+      "aliases": [
+        "transferrin",
+        "transferrin düzeyi",
+        "transferrin level"
+      ],
+      "definition": "Transferrin, demiri kanda taşıyan bir proteindir; transferrin testi bu proteinin miktarını değerlendirir. Tek başına tanı koydurmaz.",
+      "purpose": "Vücudun demir taşıma durumunu diğer demir testleriyle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:transferrin saturasyonu",
+      "source_title": "MedlinePlus - Iron Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/iron-tests/",
+      "lab_test": "Transferrin Saturasyonu",
+      "slug": "transferrin-saturasyonu",
+      "title": "Transferrin Saturasyonu",
+      "aliases": [
+        "transferrin saturasyonu",
+        "transferrin saturation",
+        "tsat",
+        "t sat",
+        "demir saturasyonu"
+      ],
+      "definition": "Transferrin saturasyonu, demir taşıyan transferrinin ne kadarının demirle bağlı olduğunu ifade eden hesaplanmış bir demir göstergesidir. Tek başına tanı koydurmaz.",
+      "purpose": "Demir durumunu serum demiri, transferrin ve bağlama kapasitesiyle birlikte değerlendirmeye yardımcı olmak için kullanılır.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:direkt bilirubin",
+      "source_title": "MedlinePlus - Bilirubin Blood Test",
+      "source_url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "lab_test": "Direkt Bilirubin",
+      "slug": "direkt-bilirubin",
+      "title": "Direkt Bilirubin",
+      "aliases": [
+        "direkt bilirubin",
+        "direct bilirubin",
+        "konjuge bilirubin",
+        "dbil",
+        "d bil"
+      ],
+      "definition": "Direkt bilirubin, karaciğerde işlenmiş ve suda çözünebilir hale gelmiş bilirubin bölümünü ölçer. Tek başına tanı koydurmaz.",
+      "purpose": "Bilirubin düzeylerini ve karaciğer-safra sistemiyle ilişkili değerlendirmeyi diğer testlerle birlikte desteklemek için ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:i̇ndirekt bilirubin",
+      "source_title": "MedlinePlus - Bilirubin Blood Test",
+      "source_url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test/",
+      "lab_test": "İndirekt Bilirubin",
+      "slug": "indirekt-bilirubin",
+      "title": "İndirekt Bilirubin",
+      "aliases": [
+        "indirekt bilirubin",
+        "indirect bilirubin",
+        "unkonjuge bilirubin",
+        "ibil",
+        "i bil"
+      ],
+      "definition": "İndirekt bilirubin, henüz karaciğerde işlenmemiş bilirubin bölümünü ifade eder ve bazı raporlarda hesaplanmış olarak verilir. Tek başına tanı koydurmaz.",
+      "purpose": "Bilirubin düzeylerini diğer karaciğer ve kan testleriyle birlikte değerlendirmeyi desteklemek için kullanılır.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:serbest t3",
+      "source_title": "MedlinePlus - Triiodothyronine T3 Tests",
+      "source_url": "https://medlineplus.gov/lab-tests/triiodothyronine-t3-tests/",
+      "lab_test": "Serbest T3",
+      "slug": "serbest-t3",
+      "title": "Serbest T3 (FT3)",
+      "aliases": [
+        "serbest t3",
+        "free t3",
+        "ft3",
+        "f t3",
+        "free triiodothyronine"
+      ],
+      "definition": "Serbest T3, kandaki proteinlere bağlı olmayan ve dokulara girebilen T3 hormonunu ölçer. Tek başına tanı koydurmaz.",
+      "purpose": "Tiroid işlevini TSH, T4 ve klinik bilgilerle birlikte değerlendirmeye yardımcı olmak için ölçülür.",
+      "result_kind": "scalar"
+    },
+    {
+      "source_key": "common-report:üre",
+      "source_title": "MedlinePlus - BUN Blood Urea Nitrogen",
+      "source_url": "https://medlineplus.gov/lab-tests/bun-blood-urea-nitrogen/",
+      "lab_test": "Üre",
+      "slug": "ure",
+      "title": "Üre",
+      "aliases": [
+        "üre",
+        "urea",
+        "serum üre",
+        "kan üre"
+      ],
+      "definition": "Üre, proteinlerin parçalanması sırasında oluşan ve büyük ölçüde böbrekler tarafından vücuttan uzaklaştırılan bir atık maddedir. Tek başına tanı koydurmaz.",
+      "purpose": "Böbrek işlevi ve protein yıkımıyla ilişkili değerlendirmeyi diğer testlerle birlikte desteklemek için ölçülür.",
+      "result_kind": "scalar"
+    }
+  ]
+}

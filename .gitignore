@@ -1,0 +1,56 @@
+# AI assistant and local agent files
+.claude/
+.codex/
+.agents/
+CLAUDE.md
+CLAUDE_HANDOFF.md
+AGENTS.md
+**/.claude/
+**/.codex/
+**/.agents/
+**/CLAUDE.md
+**/CLAUDE_HANDOFF.md
+**/AGENTS.md
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+
+# Local application state and private review records
+.sana-local/
+**/clinical_editorial_signoffs.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+
+# Flutter, Dart and IDE output
+**/.dart_tool/
+**/.pub-cache/
+**/.idea/
+**/build/
+**/coverage/
+**/*.iml
+**/.flutter-plugins-dependencies
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.swp

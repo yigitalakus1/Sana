@@ -1,0 +1,24 @@
+---
+lab_test: Gebelik Testi
+source_title: MedlinePlus
+source_url: https://medlineplus.gov/lab-tests/pregnancy-test
+safety_level: general
+---
+
+## Nedir?
+Gebelik testi, döllenmeden sonra vücutta üretilen insan koryonik gonadotropin hormonunu kan veya idrarda araştırır. Sonuç gebelik olasılığını değerlendirmek için kullanılır. Testin zamanı sonucu etkileyebilir.
+
+## Neden ölçülür?
+Gebelikle ilişkili hormonu kan veya idrarda araştırmak için yapılır.
+
+## Yüksek ne anlama gelebilir?
+Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.
+
+## Düşük ne anlama gelebilir?
+Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.
+
+## Ne zaman doktora danışılmalı?
+Gebelik Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.
+
+## Doktora sorulabilecek sorular
+Gebelik Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?

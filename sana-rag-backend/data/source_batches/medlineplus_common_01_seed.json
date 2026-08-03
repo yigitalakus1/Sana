@@ -1,0 +1,480 @@
+{
+  "batch_id": "medlineplus-common-01",
+  "documents": [
+    {
+      "lab_test": "Elektrolit Paneli",
+      "title": "Elektrolit Paneli",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/electrolyte-panel",
+      "sections": {
+        "Nedir?": "Elektrolitler, vücut sıvılarında elektrik yükü taşıyan minerallerdir. Su dengesine, asit baz dengesine, besin ve atıkların taşınmasına, kasların, sinirlerin ve kalbin çalışmasına katkı sağlar. Elektrolit paneli genellikle sodyum, klorür, potasyum ve bikarbonat düzeylerini birlikte değerlendirir.",
+        "Neden ölçülür?": "Vücudun sıvı ve asit baz dengesini değerlendirmek ve elektrolitlerdeki değişiklikleri araştırmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Elektrolit Paneli içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Elektrolit Paneli içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Elektrolit Paneli içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Klorür",
+      "title": "Klorür",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/chloride-blood-test",
+      "sections": {
+        "Nedir?": "Klorür, vücut sıvılarındaki temel elektrolitlerden biridir. Sıvı ve asit baz dengesinin yanı sıra kan hacmi ve basıncının korunmasına katkı sağlar. Klorür testi çoğunlukla diğer elektrolitlerle birlikte değerlendirilir.",
+        "Neden ölçülür?": "Sıvı ve asit baz dengesini değerlendirmek için çoğunlukla diğer elektrolitlerle birlikte ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Klorür sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Klorür sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Klorür sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Klorür sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Klorür sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "BUN",
+      "title": "Kan Üre Azotu",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/bun-blood-urea-nitrogen",
+      "sections": {
+        "Nedir?": "Kan üre azotu testi, proteinlerin parçalanması sırasında oluşan üre azotu adlı atık maddenin kandaki miktarını ölçer. Bu madde kanla böbreklere taşınır ve böbrekler aracılığıyla vücuttan uzaklaştırılır. Sonuç, böbrek işlevlerinin değerlendirilmesi ve izlenmesinde diğer bulgularla birlikte kullanılır.",
+        "Neden ölçülür?": "Böbreklerin atık maddeleri uzaklaştırma işlevini değerlendirmek ve izlemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek BUN sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük BUN sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "BUN sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "BUN sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "BUN sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Karbondioksit",
+      "title": "Kandaki Karbondioksit",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/carbon-dioxide-co2-in-blood",
+      "sections": {
+        "Nedir?": "Kandaki karbondioksit testi, çoğunlukla bikarbonat biçiminde bulunan karbondioksit miktarını ölçer. Karbondioksit, metabolizma sırasında oluşan ve akciğerler yoluyla uzaklaştırılan bir atık maddedir. Sonuç, elektrolit ve asit baz dengesinin değerlendirilmesine yardımcı olur.",
+        "Neden ölçülür?": "Elektrolit ve asit baz dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Karbondioksit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Karbondioksit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Karbondioksit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Karbondioksit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Karbondioksit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "MCV",
+      "title": "Ortalama Eritrosit Hacmi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/mcv-mean-corpuscular-volume",
+      "sections": {
+        "Nedir?": "Ortalama eritrosit hacmi, alyuvarların ortalama büyüklüğünü gösterir. Alyuvarlar oksijeni akciğerlerden vücudun dokularına taşır. Bu ölçüm tam kan sayımının bir parçasıdır ve kansızlık gibi kanla ilgili durumların değerlendirilmesinde diğer sonuçlarla birlikte kullanılır.",
+        "Neden ölçülür?": "Alyuvarların ortalama büyüklüğünü değerlendirmek ve kansızlığın özelliklerini araştırmaya yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek MCV sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük MCV sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "MCV sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "MCV sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "MCV sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Eritrosit İndeksleri",
+      "title": "Eritrosit İndeksleri",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/red-blood-cell-rbc-indices",
+      "sections": {
+        "Nedir?": "Eritrosit indeksleri, alyuvarların büyüklüğü, biçimi ve özellikleri hakkında bilgi verir. Bu ölçümler hücrelerin ortalama hacmini, hemoglobin miktarını ve hücreler arasındaki büyüklük farklarını kapsar. Sonuçlar, kansızlığın özelliklerini değerlendirmede diğer kan bulgularıyla birlikte kullanılır.",
+        "Neden ölçülür?": "Alyuvarların büyüklük ve hemoglobin özelliklerini değerlendirmek için tam kan sayımının bir parçası olarak kullanılır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Eritrosit İndeksleri içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Eritrosit İndeksleri içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Eritrosit İndeksleri içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Lökosit",
+      "title": "Lökosit Sayımı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/white-blood-count-wbc",
+      "sections": {
+        "Nedir?": "Lökositler, bağışıklık sisteminin enfeksiyonlara ve diğer tehditlere karşı görev yapan hücreleridir. Lökosit sayımı kandaki toplam beyaz kan hücresi miktarını ölçer. Sonuç, enfeksiyonlar, bağışıklık sistemiyle ilgili durumlar ve başka sağlık sorunları değerlendirilirken diğer bulgularla birlikte ele alınır.",
+        "Neden ölçülür?": "Bağışıklık sistemi hücrelerinin toplam sayısını değerlendirmek ve enfeksiyon gibi durumların araştırılmasını desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Lökosit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Lökosit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Lökosit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Lökosit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Lökosit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Bilirubin",
+      "title": "Bilirubin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/bilirubin-blood-test",
+      "sections": {
+        "Nedir?": "Bilirubin, alyuvarların parçalanması sırasında oluşan sarı renkli bir maddedir. Karaciğer bilirubini işler ve safra yoluyla vücuttan uzaklaştırılmasına katkı sağlar. Kan bilirubin testi karaciğer sağlığı ve sarılık değerlendirmesinde kullanılır; toplam, doğrudan ve dolaylı bilirubin sonuçları birlikte incelenebilir.",
+        "Neden ölçülür?": "Karaciğer ve safra yollarının bilirubini işleme ve uzaklaştırma sürecini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Bilirubin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Bilirubin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Bilirubin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Bilirubin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Bilirubin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Globulin",
+      "title": "Globulin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/globulin-test",
+      "sections": {
+        "Nedir?": "Globulinler, karaciğer ve bağışıklık sistemi tarafından üretilen bir grup kan proteinidir. Enfeksiyonlara karşı savunma, pıhtılaşma ve karaciğer ile böbrek işlevleri gibi süreçlerde rol alırlar. Globulinler toplam protein ölçümü veya protein elektroforezi kapsamında değerlendirilebilir.",
+        "Neden ölçülür?": "Kandaki globulin proteinlerini ve bunlarla ilişkili karaciğer, böbrek ve bağışıklık süreçlerini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Globulin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Globulin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Globulin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Globulin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Globulin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Alkalen Fosfataz",
+      "title": "Alkalen Fosfataz",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/alkaline-phosphatase",
+      "sections": {
+        "Nedir?": "Alkalen fosfataz, başlıca karaciğer, safra yolları ve kemiklerde bulunan bir enzimdir. Kan testi bu enzimin kandaki düzeyini ölçer. Sonucun olağan aralığın dışında olması farklı nedenlerle ilişkili olabilir ve bu test tek başına kaynağı belirlemez.",
+        "Neden ölçülür?": "Karaciğer, safra yolları ve kemiklerle ilişkili süreçleri değerlendiren testlerin bir parçası olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Alkalen Fosfataz sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Alkalen Fosfataz sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Alkalen Fosfataz sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Alkalen Fosfataz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Alkalen Fosfataz sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Hematokrit",
+      "title": "Hematokrit",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/hematocrit-test",
+      "sections": {
+        "Nedir?": "Hematokrit, kan hacminin ne kadarının alyuvarlardan oluştuğunu gösterir. Alyuvarlar oksijeni akciğerlerden vücut dokularına taşır. Tam kan sayımının bir parçası olan bu sonuç, kanla ilgili durumlar ve sıvı dengesi değerlendirilirken diğer bulgularla birlikte ele alınır.",
+        "Neden ölçülür?": "Kanın alyuvarlardan oluşan bölümünü değerlendirmek için tam kan sayımının bir parçası olarak ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Hematokrit sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Hematokrit sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Hematokrit sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Hematokrit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Hematokrit sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Anyon Açığı",
+      "title": "Anyon Açığı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/anion-gap-blood-test",
+      "sections": {
+        "Nedir?": "Anyon açığı, elektrolit testi sonuçlarından hesaplanan bir değerdir. Kanda elektrik yükü taşıyan parçacıklar arasındaki farkı yansıtır ve asit baz dengesinin değerlendirilmesine yardımcı olur. Sonuç tek başına yorumlanmaz, diğer testler ve klinik bilgilerle birlikte ele alınır.",
+        "Neden ölçülür?": "Elektrolit sonuçlarından yararlanarak kandaki asit baz dengesini değerlendirmeye yardımcı olmak için hesaplanır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Anyon Açığı sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Anyon Açığı sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Anyon Açığı sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Anyon Açığı sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Anyon Açığı sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Lökosit Dağılımı",
+      "title": "Lökosit Dağılımı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/blood-differential",
+      "sections": {
+        "Nedir?": "Lökosit dağılımı testi, kandaki farklı beyaz kan hücresi türlerinin miktarlarını ölçer. Bu hücreler arasında nötrofiller, lenfositler, monositler, eozinofiller ve bazofiller bulunur. Sonuçlar enfeksiyonlar ve bağışıklık sistemiyle ilgili durumlar değerlendirilirken diğer bulgularla birlikte kullanılır.",
+        "Neden ölçülür?": "Farklı beyaz kan hücresi türlerinin miktarlarını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Lökosit Dağılımı içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Lökosit Dağılımı içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Lökosit Dağılımı içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Albumin",
+      "title": "Albumin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/albumin-blood-test",
+      "sections": {
+        "Nedir?": "Albumin, karaciğer tarafından üretilen bir kan proteinidir. Sıvının damar içinde tutulmasına yardımcı olur ve hormonlar, vitaminler ile enzimler gibi maddeleri taşır. Albumin testi genel sağlık, beslenme durumu, karaciğer ve böbrek işlevleri değerlendirilirken kullanılabilir.",
+        "Neden ölçülür?": "Beslenme durumu ile karaciğer ve böbrek işlevlerinin değerlendirilmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Albumin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Albumin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Albumin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Albumin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Albumin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Arter Kan Gazı",
+      "title": "Arter Kan Gazı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/arterial-blood-gas-abg-test",
+      "sections": {
+        "Nedir?": "Arter kan gazı testi, atardamardan alınan örnekte oksijen ve karbondioksit düzeylerini ölçer. Akciğerlerin kana oksijen aktarma ve karbondioksiti uzaklaştırma işlevleri hakkında bilgi verir. Ayrıca kanın asit baz dengesinin değerlendirilmesine yardımcı olur.",
+        "Neden ölçülür?": "Akciğerlerin oksijen aktarımı ve karbondioksit uzaklaştırma işlevleri ile asit baz dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Arter Kan Gazı içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Arter Kan Gazı içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Arter Kan Gazı içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Magnezyum",
+      "title": "Magnezyum",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/magnesium-blood-test",
+      "sections": {
+        "Nedir?": "Magnezyum, kasların, sinirlerin ve kalbin çalışmasına katkı sağlayan bir mineral ve elektrolittir. Kemik sağlığı, bağışıklık işlevleri, kan basıncı ve kan şekeri düzenlenmesinde de rol oynar. Kandaki magnezyum düzeyi böbrekler ve bağırsakların düzenleyici etkileriyle ilişkilidir.",
+        "Neden ölçülür?": "Kas, sinir ve kalp işlevleriyle ilişkili magnezyum dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Magnezyum sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Magnezyum sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Magnezyum sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Magnezyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Magnezyum sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "PT INR",
+      "title": "Protrombin Zamanı ve INR",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/prothrombin-time-test-and-inr-ptinr",
+      "sections": {
+        "Nedir?": "Protrombin zamanı testi, kanın pıhtı oluşturmasının ne kadar sürdüğünü ölçer. Uluslararası normalleştirilmiş oran, farklı laboratuvar ve ölçüm yöntemlerinden gelen sonuçların karşılaştırılmasını kolaylaştırır. Bu test pıhtılaşmanın değerlendirilmesinde ve bazı pıhtı önleyici ilaçların etkisinin izlenmesinde kullanılır.",
+        "Neden ölçülür?": "Kanın pıhtı oluşturma süresini değerlendirmek ve gerektiğinde pıhtılaşma sürecini izlemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek PT INR sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük PT INR sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "PT INR sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "PT INR sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "PT INR sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Fosfat",
+      "title": "Fosfat",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/phosphate-in-blood",
+      "sections": {
+        "Nedir?": "Fosfat, kemik ve dişlerin yapısına katkı sağlayan bir elektrolittir. Enerji üretimi ile sinir ve kas işlevlerinde de rol oynar. Kandaki fosfat düzeyi böbrekler ve bağırsaklar tarafından düzenlenir ve kalsiyum dengesiyle yakından ilişkilidir.",
+        "Neden ölçülür?": "Kemik, enerji, sinir ve kas işlevleriyle ilişkili fosfat dengesini değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Fosfat sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Fosfat sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Fosfat sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Fosfat sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Fosfat sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Trigliserid",
+      "title": "Trigliserid",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/triglycerides-test",
+      "sections": {
+        "Nedir?": "Trigliseridler kanda bulunan bir yağ türüdür. Vücut bunları enerji için kullanır ve ihtiyaç fazlasını depolar. Yüksek trigliserid düzeyleri kalp damar hastalıkları ve pankreas iltihabı riski değerlendirilirken diğer bulgularla birlikte ele alınır.",
+        "Neden ölçülür?": "Kandaki trigliserid miktarını ve kalp damar sağlığıyla ilişkili risk değerlendirmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Trigliserid sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Trigliserid sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Trigliserid sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Trigliserid sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Trigliserid sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "MPV",
+      "title": "Ortalama Trombosit Hacmi",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/mpv-blood-test",
+      "sections": {
+        "Nedir?": "Ortalama trombosit hacmi, kandaki trombositlerin ortalama büyüklüğünü gösterir. Trombositler kanın pıhtılaşmasında görev alır. Bu ölçüm trombositlerin işlevi hakkında bilgi sağlayabilir ve genellikle trombosit sayısı ile tam kan sayımındaki diğer sonuçlarla birlikte değerlendirilir.",
+        "Neden ölçülür?": "Trombositlerin ortalama büyüklüğünü değerlendirmek için trombosit sayısı ve diğer kan sonuçlarıyla birlikte ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek MPV sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük MPV sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "MPV sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "MPV sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "MPV sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Temel Metabolik Panel",
+      "title": "Temel Metabolik Panel",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/basic-metabolic-panel-bmp",
+      "sections": {
+        "Nedir?": "Temel metabolik panel, vücudun sıvı dengesi, metabolizması ve böbrek işlevleri hakkında bilgi veren bir grup kan testidir. Glikoz, kalsiyum, elektrolitler, kan üre azotu ve kreatinin gibi ölçümleri içerir. Sonuçlar birbirleriyle ve diğer sağlık bilgileriyle birlikte değerlendirilir.",
+        "Neden ölçülür?": "Sıvı dengesi, metabolizma ve böbrek işlevleri hakkında birlikte bilgi veren ölçümleri değerlendirmek için istenir.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Temel Metabolik Panel içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Temel Metabolik Panel içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Temel Metabolik Panel içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Kapsamlı Metabolik Panel",
+      "title": "Kapsamlı Metabolik Panel",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp",
+      "sections": {
+        "Nedir?": "Kapsamlı metabolik panel, metabolizma ve vücudun kimyasal dengesi hakkında bilgi veren bir grup kan testidir. Glikoz, kalsiyum, elektrolitler, albumin, toplam protein ve karaciğerle ilişkili enzimler gibi ölçümleri içerir. Sonuçlar böbrek ve karaciğer işlevleri dahil genel sağlık değerlendirmesinde birlikte ele alınır.",
+        "Neden ölçülür?": "Metabolizma, kimyasal denge, karaciğer ve böbrek işlevleri hakkında birlikte bilgi veren ölçümleri değerlendirmek için istenir.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Kapsamlı Metabolik Panel içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kapsamlı Metabolik Panel içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Kapsamlı Metabolik Panel içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "HbA1c",
+      "title": "Glikozillenmiş Hemoglobin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test",
+      "sections": {
+        "Nedir?": "Glikozillenmiş hemoglobin testi, glikozun alyuvarlardaki hemoglobine bağlanmış bölümünü ölçer. Sonuç, son birkaç aydaki ortalama kan şekeri düzeyi hakkında bilgi verir. Diyabetin değerlendirilmesi ve izlenmesinde diğer sağlık bilgileriyle birlikte kullanılır.",
+        "Neden ölçülür?": "Son birkaç aydaki ortalama kan şekeri düzeyi hakkında bilgi edinmek ve diyabet değerlendirmesini desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek HbA1c sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük HbA1c sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "HbA1c sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "HbA1c sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "HbA1c sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Total Protein",
+      "title": "Total Protein ve Albumin Globulin Oranı",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/total-protein-and-albumin-globulin-a-g-ratio",
+      "sections": {
+        "Nedir?": "Toplam protein testi, kandaki albumin ve globulinlerin toplam miktarını ölçer. Albumin globulin oranı, bu iki protein grubunun birbirine göre miktarını gösterir. Sonuçlar sıvı taşınması, bağışıklık, beslenme durumu ile karaciğer ve böbrek işlevleri değerlendirilirken kullanılabilir.",
+        "Neden ölçülür?": "Kandaki albumin ve globulin miktarlarını ve bu protein gruplarının oranını değerlendirmek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Total Protein içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Total Protein içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Total Protein içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Troponin",
+      "title": "Troponin",
+      "source_title": "MedlinePlus",
+      "source_url": "https://medlineplus.gov/lab-tests/troponin-test",
+      "sections": {
+        "Nedir?": "Troponin, kalp kası hücrelerinde bulunan bir proteindir. Kalp kası hasar gördüğünde kandaki troponin düzeyi yükselebilir. Test özellikle kalp krizi değerlendirmesini destekler, ancak başka kalp hasarı nedenlerinde de yükseklik görülebileceği için sonuç diğer bulgularla birlikte ele alınır.",
+        "Neden ölçülür?": "Kalp kası hasarı olasılığını değerlendirmek, özellikle kalp krizi araştırmasını desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Troponin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Troponin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Troponin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Yeni veya şiddetli göğüs ağrısı, nefes darlığı, soğuk terleme ya da bayılma varsa acil sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Troponin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Troponin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    }
+  ]
+}

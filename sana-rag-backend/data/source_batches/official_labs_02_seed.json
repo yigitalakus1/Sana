@@ -1,0 +1,461 @@
+{
+  "batch_id": "official_labs_02",
+  "documents": [
+    {
+      "lab_test": "Yenidoğan Metabolik ve Endokrin Tarama Paneli",
+      "title": "Yenidoğan Metabolik ve Endokrin Tarama Paneli",
+      "source_title": "T.C. Sağlık Bakanlığı - Ulusal Yenidoğan Metabolik ve Endokrin Tarama Programı",
+      "source_url": "https://hsgm.saglik.gov.tr/depo/ihale-ilanlari/2023/Ulusal_YenidoganMetabolik_ve_Endrokrin_Tarama_Programi_Laboratuvar_Hizmeti/Teknik_Sartname.pdf",
+      "sections": {
+        "Nedir?": "Yenidoğan metabolik ve endokrin tarama paneli, topuk kanından birden fazla belirtecin incelendiği ulusal tarama sürecidir. Tarama sonucu kesin tanı değildir ve gerektiğinde doğrulama testleriyle değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Yenidoğan döneminde belirti vermeden seyredebildiği için program kapsamına alınan bazı metabolik ve endokrin durumları taramaya yardımcı olmak için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Yenidoğan Metabolik ve Endokrin Tarama Paneli içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Yenidoğan Metabolik ve Endokrin Tarama Paneli içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Yenidoğan Metabolik ve Endokrin Tarama Paneli içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Fenilalanin",
+      "title": "Fenilalanin ve Yenidoğan FKÜ Taraması",
+      "source_title": "T.C. Sağlık Bakanlığı - Ulusal Yenidoğan Metabolik ve Endokrin Tarama Programı",
+      "source_url": "https://hsgm.saglik.gov.tr/depo/ihale-ilanlari/2023/Ulusal_YenidoganMetabolik_ve_Endrokrin_Tarama_Programi_Laboratuvar_Hizmeti/Teknik_Sartname.pdf",
+      "sections": {
+        "Nedir?": "Fenilalanin testi, kanda bir aminoasit olan fenilalaninin miktarını ölçer ve yenidoğan fenilketonüri taramasında kullanılır. Tarama sonucu gerektiğinde doğrulama incelemeleriyle değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Fenilalanin metabolizmasıyla ilişkili bir durum için ileri değerlendirme gereksinimini taramaya yardımcı olmak amacıyla ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Fenilalanin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Fenilalanin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Fenilalanin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Fenilalanin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Fenilalanin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Biyotinidaz Aktivitesi",
+      "title": "Biyotinidaz Aktivitesi",
+      "source_title": "T.C. Sağlık Bakanlığı - Ulusal Yenidoğan Metabolik ve Endokrin Tarama Programı",
+      "source_url": "https://hsgm.saglik.gov.tr/depo/ihale-ilanlari/2023/Ulusal_YenidoganMetabolik_ve_Endrokrin_Tarama_Programi_Laboratuvar_Hizmeti/Teknik_Sartname.pdf",
+      "sections": {
+        "Nedir?": "Biyotinidaz aktivitesi testi, biyotinin vücutta yeniden kullanılmasına katkı sağlayan biyotinidaz enziminin etkinliğini değerlendirir. Yenidoğan tarama sonucu gerektiğinde doğrulama testleriyle incelenir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Biyotinidaz enzimiyle ilişkili bir durum için ileri değerlendirme gereksinimini taramaya yardımcı olmak amacıyla ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Biyotinidaz Aktivitesi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Biyotinidaz Aktivitesi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Biyotinidaz Aktivitesi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Biyotinidaz Aktivitesi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Biyotinidaz Aktivitesi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "İmmünoreaktif Tripsinojen",
+      "title": "İmmünoreaktif Tripsinojen",
+      "source_title": "T.C. Sağlık Bakanlığı - Ulusal Yenidoğan Metabolik ve Endokrin Tarama Programı",
+      "source_url": "https://hsgm.saglik.gov.tr/depo/ihale-ilanlari/2023/Ulusal_YenidoganMetabolik_ve_Endrokrin_Tarama_Programi_Laboratuvar_Hizmeti/Teknik_Sartname.pdf",
+      "sections": {
+        "Nedir?": "İmmünoreaktif tripsinojen testi, pankreasla ilişkili bir protein öncülünü ölçer ve yenidoğan kistik fibrozis taramasında kullanılır. Tarama sonucu kesin tanı değildir ve ek değerlendirme gerektirebilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Yenidoğanda kistik fibrozis açısından ileri değerlendirme gereksinimini taramaya yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İmmünoreaktif Tripsinojen sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İmmünoreaktif Tripsinojen sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İmmünoreaktif Tripsinojen sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İmmünoreaktif Tripsinojen sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İmmünoreaktif Tripsinojen sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "SMA Yenidoğan Tarama Testi",
+      "title": "SMA Yenidoğan Tarama Testi",
+      "source_title": "T.C. Sağlık Bakanlığı - Yenidoğan Tarama Programı",
+      "source_url": "https://osmaniyeism.saglik.gov.tr/TR-279540/yenidogan-metabolik-ve-endokrin-tarama-programi-ntp-egitimi-duzenlendi.html",
+      "sections": {
+        "Nedir?": "SMA yenidoğan tarama testi, spinal musküler atrofiyle ilişkili genetik değişiklikleri taramak için kuru kan örneğini inceleyen bir testtir. Tarama sonucu gerektiğinde doğrulama ve uzman değerlendirmesi gerektirir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Yenidoğan döneminde SMA açısından ileri genetik değerlendirme gereksinimini taramaya yardımcı olmak için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "SMA Yenidoğan Tarama Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "SMA Yenidoğan Tarama Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "SMA Yenidoğan Tarama Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Kalsitonin",
+      "title": "Kalsitonin",
+      "source_title": "T.C. Sağlık Bakanlığı - Spesifik Hormon Laboratuvarı",
+      "source_url": "https://izmirataturkeah.saglik.gov.tr/TR%2C204200/laboratuvarlar.html",
+      "sections": {
+        "Nedir?": "Kalsitonin testi, tiroiddeki belirli hücreler tarafından üretilen kalsitonin hormonunun kandaki düzeyini ölçer. Sonuç klinik bulgular ve diğer testlerle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kalsitonin üretimiyle ilişkili klinik değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Kalsitonin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Kalsitonin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Kalsitonin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kalsitonin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Kalsitonin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Eritropoietin",
+      "title": "Eritropoietin",
+      "source_title": "T.C. Sağlık Bakanlığı - Spesifik Hormon Laboratuvarı",
+      "source_url": "https://izmirataturkeah.saglik.gov.tr/TR%2C204200/laboratuvarlar.html",
+      "sections": {
+        "Nedir?": "Eritropoietin testi, çoğunlukla böbreklerden salgılanan ve alyuvar üretiminin düzenlenmesinde rol alan hormonun kandaki düzeyini ölçer. Sonuç kan sayımı ve diğer bulgularla birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Alyuvar üretiminin hormonal düzenlenmesini değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Eritropoietin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Eritropoietin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Eritropoietin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Eritropoietin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Eritropoietin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Androstenedion",
+      "title": "Androstenedion",
+      "source_title": "T.C. Sağlık Bakanlığı - Spesifik Hormon Laboratuvarı",
+      "source_url": "https://izmirataturkeah.saglik.gov.tr/TR%2C204200/laboratuvarlar.html",
+      "sections": {
+        "Nedir?": "Androstenedion testi, böbreküstü bezleri ve üreme organları tarafından üretilen bir steroid hormon öncülünün kandaki düzeyini ölçer. Sonuç diğer hormonlarla birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Steroid hormon üretimiyle ilişkili klinik değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Androstenedion sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Androstenedion sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Androstenedion sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Androstenedion sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Androstenedion sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "IGF-BP3",
+      "title": "IGF Bağlayıcı Protein Üç",
+      "source_title": "T.C. Sağlık Bakanlığı - Spesifik Hormon Laboratuvarı",
+      "source_url": "https://izmirataturkeah.saglik.gov.tr/TR%2C204200/laboratuvarlar.html",
+      "sections": {
+        "Nedir?": "IGF-BP3 testi, büyüme faktörlerini kanda taşıyan başlıca bağlayıcı proteinlerden birinin düzeyini ölçer. Sonuç yaş, büyüme durumu ve diğer hormon testleriyle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Büyüme hormonu ekseniyle ilişkili değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek IGF-BP3 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük IGF-BP3 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "IGF-BP3 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "IGF-BP3 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "IGF-BP3 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Metanefrinler",
+      "title": "Metanefrin ve Normetanefrin",
+      "source_title": "T.C. Sağlık Bakanlığı - Spesifik Hormon Laboratuvarı",
+      "source_url": "https://izmirataturkeah.saglik.gov.tr/TR%2C204200/laboratuvarlar.html",
+      "sections": {
+        "Nedir?": "Metanefrin testleri, katekolamin hormonlarının parçalanmasıyla oluşan metanefrin ve normetanefrini kan veya idrarda ölçer. Örnekleme koşulları sonucu etkileyebilir ve sonuç diğer bulgularla birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Katekolamin üretimiyle ilişkili klinik araştırmaları desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Metanefrinler içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Metanefrinler içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Metanefrinler içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Katekolaminler",
+      "title": "Katekolaminler",
+      "source_title": "T.C. Sağlık Bakanlığı - Spesifik Hormon Laboratuvarı",
+      "source_url": "https://izmirataturkeah.saglik.gov.tr/TR%2C204200/laboratuvarlar.html",
+      "sections": {
+        "Nedir?": "Katekolamin testleri, adrenalin, noradrenalin ve ilişkili hormonları kan veya idrarda değerlendirir. Stres ve örnekleme koşulları sonucu etkileyebilir. Sonuç diğer bulgularla birlikte değerlendirilir ve tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Katekolamin üretimiyle ilişkili klinik değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir yüksek sonuçtan söz edilmez. Her bileşen kendi laboratuvar referans aralığına, diğer sonuçlara ve kişinin sağlık bilgilerine göre değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu panel birden fazla ölçüm içerdiğinden tek bir düşük sonuçtan söz edilmez. Hangi bileşenin düşük olduğu ve diğer bileşenlerle ilişkisi birlikte değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "Katekolaminler içindeki bir bileşen referans aralığı dışında, pozitif, reaktif veya belirsiz raporlandıysa paneli tek tek bileşenleriyle birlikte doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Katekolaminler içindeki hangi bileşenler değerlendirme gerektiriyor? Bileşenler birlikte ne ifade ediyor? Takip veya ek test gerekiyor mu?"
+      },
+      "doctor_questions": [
+        "Katekolaminler içindeki hangi bileşenler değerlendirme gerektiriyor?",
+        "Bileşenler birlikte ne ifade ediyor?",
+        "Takip veya ek test gerekiyor mu?"
+      ]
+    },
+    {
+      "lab_test": "Gastrin",
+      "title": "Gastrin",
+      "source_title": "T.C. Sağlık Bakanlığı - Tıbbi Biyokimya Laboratuvarı",
+      "source_url": "https://gulhaneeah.saglik.gov.tr/TR-1422496/tibbi-biyokimya-laboratuvari.html",
+      "sections": {
+        "Nedir?": "Gastrin testi, mide asidi üretiminin düzenlenmesinde rol alan gastrin hormonunun kandaki düzeyini ölçer. Açlık durumu ve bazı sağlık bilgileri sonucu etkileyebilir. Sonuç diğer bulgularla birlikte değerlendirilir ve tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Gastrin üretimi ve mide asidi düzenlenmesiyle ilişkili değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Gastrin sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Gastrin sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Gastrin sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Gastrin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Gastrin sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Total T4",
+      "title": "Total T4",
+      "source_title": "T.C. Sağlık Bakanlığı - Tıbbi Biyokimya Laboratuvarı",
+      "source_url": "https://gulhaneeah.saglik.gov.tr/TR-1422496/tibbi-biyokimya-laboratuvari.html",
+      "sections": {
+        "Nedir?": "Total T4 testi, kandaki proteine bağlı ve serbest tiroksinin toplamını ölçer. Sonuç TSH, serbest T4 ve bağlayıcı proteinleri etkileyen durumlarla birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Tiroid hormonu üretimiyle ilişkili değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Total T4 sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Total T4 sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Total T4 sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Total T4 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Total T4 sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "11-Deoksikortizol",
+      "title": "11-Deoksikortizol",
+      "source_title": "T.C. Sağlık Bakanlığı - Ulusal Yenidoğan Metabolik ve Endokrin Tarama Programı",
+      "source_url": "https://hsgm.saglik.gov.tr/depo/ihale-ilanlari/2023/Ulusal_YenidoganMetabolik_ve_Endrokrin_Tarama_Programi_Laboratuvar_Hizmeti/Teknik_Sartname.pdf",
+      "sections": {
+        "Nedir?": "11-Deoksikortizol testi, kortizol üretim yolundaki steroid ara ürünlerinden birini ölçer. Sonuç diğer steroid hormonları ve klinik bilgilerle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Böbreküstü bezindeki steroid hormon üretim yolunu değerlendirmeye yardımcı olmak için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek 11-Deoksikortizol sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük 11-Deoksikortizol sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "11-Deoksikortizol sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "11-Deoksikortizol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "11-Deoksikortizol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "21-Deoksikortizol",
+      "title": "21-Deoksikortizol",
+      "source_title": "T.C. Sağlık Bakanlığı - Ulusal Yenidoğan Metabolik ve Endokrin Tarama Programı",
+      "source_url": "https://hsgm.saglik.gov.tr/depo/ihale-ilanlari/2023/Ulusal_YenidoganMetabolik_ve_Endrokrin_Tarama_Programi_Laboratuvar_Hizmeti/Teknik_Sartname.pdf",
+      "sections": {
+        "Nedir?": "21-Deoksikortizol testi, böbreküstü bezindeki steroid üretim yoluyla ilişkili bir ara ürünü ölçer. Sonuç diğer steroid hormonları ve klinik bilgilerle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Steroid hormon üretim yoluyla ilişkili ileri değerlendirmeleri desteklemek için ölçülür.",
+        "Yüksek ne anlama gelebilir?": "Yüksek 21-Deoksikortizol sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük 21-Deoksikortizol sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "21-Deoksikortizol sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "21-Deoksikortizol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "21-Deoksikortizol sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "ABO Kan Grubu",
+      "title": "ABO Kan Grubu",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "ABO kan grubu testi, alyuvar yüzeyindeki ve plazmadaki ABO sistemi özelliklerini değerlendirerek kan grubunu belirler. Kimlik ve örnek doğruluğu sonuç için kritik önemdedir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Kan grubunu belirlemek ve transfüzyon uyumluluğu değerlendirmesini desteklemek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "ABO tiplemesinde yüksek veya düşük sonucu yoktur. Sonuç A, B, AB ya da O kan grubu olarak bildirilir; bu sınıflardan biri diğerinden daha iyi veya kötü değildir.",
+        "Düşük ne anlama gelebilir?": "ABO tiplemesinde düşük sonucu yoktur. Sonucun anlamı, özellikle transfüzyon öncesinde doğru kişi ve doğru örnekle eşleşmesi ve gerektiğinde ileri uygunluk testleriyle birlikte değerlendirilmesidir.",
+        "Ne zaman doktora danışılmalı?": "ABO kan grubu sonucu önceki kayıtla uyuşmuyorsa, raporda tipleme uyumsuzluğu veya tekrar örnek önerisi varsa ya da sonuç gebelik veya transfüzyon için kullanılacaksa sağlık ekibiyle doğrulayın.",
+        "Doktora sorulabilecek sorular": "ABO kan grubum önceki kayıtlarımla uyumlu mu? Sonucun ikinci bir örnekle doğrulanması gerekiyor mu? Transfüzyon veya gebelik açısından başka hangi uyumluluk testleri gerekli?"
+      },
+      "doctor_questions": [
+        "ABO kan grubum önceki kayıtlarımla uyumlu mu?",
+        "Sonucun ikinci bir örnekle doğrulanması gerekiyor mu?",
+        "Transfüzyon veya gebelik açısından başka hangi uyumluluk testleri gerekli?"
+      ]
+    },
+    {
+      "lab_test": "RhD Tiplemesi",
+      "title": "RhD Tiplemesi",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "RhD tiplemesi, alyuvar yüzeyinde RhD antijeninin bulunup bulunmadığını değerlendirir. Sonuç kan grubu ve gerektiğinde ileri immünohematoloji testleriyle birlikte kullanılır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Transfüzyon ve gebelikle ilişkili kan grubu uyumluluğu değerlendirmesini desteklemek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "RhD tiplemesinde yüksek veya düşük sonucu yoktur. RhD pozitif, alyuvarlarda D antijeninin saptandığını; RhD negatif ise saptanmadığını bildirir ve tek başına hastalık anlamına gelmez.",
+        "Düşük ne anlama gelebilir?": "RhD tiplemesinde düşük sonucu yoktur. Zayıf ya da uyumsuz reaksiyon görülürse laboratuvar ileri tipleme isteyebilir; sonuç transfüzyon ve gebelik bağlamında değerlendirilir.",
+        "Ne zaman doktora danışılmalı?": "RhD sonucu önceki kayıtla uyuşmuyorsa, belirsiz veya zayıf reaksiyon bildirildiyse ya da sonuç gebelik veya transfüzyon için kullanılacaksa sağlık ekibiyle doğrulayın.",
+        "Doktora sorulabilecek sorular": "RhD sonucum önceki kayıtlarımla uyumlu mu? Zayıf D veya ileri tipleme gerekiyor mu? Gebelik veya transfüzyon açısından bu sonuç nasıl kullanılacak?"
+      },
+      "doctor_questions": [
+        "RhD sonucum önceki kayıtlarımla uyumlu mu?",
+        "Zayıf D veya ileri tipleme gerekiyor mu?",
+        "Gebelik veya transfüzyon açısından bu sonuç nasıl kullanılacak?"
+      ]
+    },
+    {
+      "lab_test": "Crossmatch",
+      "title": "Serolojik Çapraz Karşılaştırma",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "Crossmatch, alıcı plazması ile verici alyuvarları arasında serolojik uyumsuzluk bulunup bulunmadığını transfüzyon öncesinde değerlendirir. Sonuç kan bankası süreçleri içinde yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Seçilen kan bileşeninin alıcıyla serolojik uyumluluğunu değerlendirmek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Crossmatch sonucunda yüksek veya düşük ifadesi kullanılmaz. Uyumlu sonuç, test edilen verici birimi ile alıcı örneği arasında belirlenen yöntemle uyumsuzluk saptanmadığını bildirir.",
+        "Düşük ne anlama gelebilir?": "Crossmatch sonucunda düşük ifadesi kullanılmaz. Uyumsuz sonuç, ilgili kan bileşeninin kullanılmadan önce transfüzyon laboratuvarınca başka bir birim veya ek testlerle değerlendirilmesi gerektiğini gösterir.",
+        "Ne zaman doktora danışılmalı?": "Crossmatch uyumsuz veya belirsiz raporlandıysa sonuç transfüzyon ekibi tarafından değerlendirilmelidir. Bu testte kullanıcı tek başına kan bileşeni seçimi veya transfüzyon kararı vermemelidir.",
+        "Doktora sorulabilecek sorular": "Crossmatch sonucu uyumlu mu? Uyumsuzluk varsa ek antikor testleri veya başka bir kan birimi gerekiyor mu? Sonuç planlanan transfüzyonu nasıl etkiliyor?"
+      },
+      "doctor_questions": [
+        "Crossmatch sonucu uyumlu mu?",
+        "Uyumsuzluk varsa ek antikor testleri veya başka bir kan birimi gerekiyor mu?",
+        "Sonuç planlanan transfüzyonu nasıl etkiliyor?"
+      ]
+    },
+    {
+      "lab_test": "Direkt Antiglobulin Testi",
+      "title": "Direkt Antiglobulin Testi",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "Direkt antiglobulin testi, alyuvarların yüzeyine bağlanmış antikor veya kompleman bulunup bulunmadığını değerlendirir. Pozitif sonuç tek başına nedeni göstermez ve diğer bulgularla birlikte yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Alyuvarlara bağlanmış bağışıklık bileşenlerini araştırmaya yardımcı olmak için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Direkt Antiglobulin Testi sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Direkt Antiglobulin Testi sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Direkt Antiglobulin Testi sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Eritrosit Antikor Tanımlama",
+      "title": "Eritrosit Antikor Tanımlama",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "Eritrosit antikor tanımlama testi, antikor taramasında saptanan beklenmeyen alyuvar antikorunun özgüllüğünü araştırır. Sonuç transfüzyon laboratuvarı tarafından diğer testlerle birlikte değerlendirilir. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Transfüzyon uyumluluğunu etkileyebilecek eritrosit antikorlarını tanımlamaya yardımcı olmak için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için yüksek ifadesi uygun olmayabilir. Pozitif veya saptandı biçimindeki sonuç diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Bu test çoğunlukla bir bulgunun varlığını veya yokluğunu bildirir; bu nedenle sonuç için düşük ifadesi uygun olmayabilir. Negatif veya saptanmadı sonucu ilgili durumu her zaman tek başına dışlamaz.",
+        "Ne zaman doktora danışılmalı?": "Eritrosit Antikor Tanımlama sonucu pozitif, reaktif, saptandı, uyumsuz veya belirsiz olarak raporlandıysa sonucunuzun doğrulama ya da tekrar gerektirip gerektirmediğini sağlık uzmanıyla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Eritrosit Antikor Tanımlama sonucundaki ifade tam olarak ne anlama geliyor? Doğrulama veya tekrar testi gerekiyor mu? Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      },
+      "doctor_questions": [
+        "Eritrosit Antikor Tanımlama sonucundaki ifade tam olarak ne anlama geliyor?",
+        "Doğrulama veya tekrar testi gerekiyor mu?",
+        "Örnek zamanı ya da test yöntemi sonucu etkileyebilir mi?"
+      ]
+    },
+    {
+      "lab_test": "Rh Alt Grup Tiplemesi",
+      "title": "Rh Alt Grup Tiplemesi",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "Rh alt grup tiplemesi, Rh kan grubu sistemindeki D dışındaki belirli antijenlerin alyuvarlarda bulunup bulunmadığını değerlendirir. Sonuç transfüzyon laboratuvarı süreçlerinde kullanılır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Daha ayrıntılı kan grubu eşleştirmesi ve transfüzyon uyumluluğu değerlendirmesini desteklemek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Rh alt grup tiplemesinde tek bir yüksek sonuç yoktur. Her antijenin varlığı veya yokluğu ayrı bildirilir ve tipleme deseni transfüzyon eşleştirmesinde kullanılır.",
+        "Düşük ne anlama gelebilir?": "Rh alt grup tiplemesinde tek bir düşük sonuç yoktur. Bir antijenin saptanmaması kendi başına hastalık değildir; klinik önemi transfüzyon ve antikor öyküsüne göre değişir.",
+        "Ne zaman doktora danışılmalı?": "Rh alt grup sonucu transfüzyon planlaması, beklenmeyen antikor veya önceki tiplemeyle uyumsuzluk nedeniyle istendiyse transfüzyon ekibiyle birlikte değerlendirilmelidir.",
+        "Doktora sorulabilecek sorular": "Hangi Rh antijenleri saptandı? Bu tipleme uygun kan bileşeni seçimini nasıl etkiliyor? Önceki sonuçlarla uyumsuzluk veya ek test gereksinimi var mı?"
+      },
+      "doctor_questions": [
+        "Hangi Rh antijenleri saptandı?",
+        "Bu tipleme uygun kan bileşeni seçimini nasıl etkiliyor?",
+        "Önceki sonuçlarla uyumsuzluk veya ek test gereksinimi var mı?"
+      ]
+    },
+    {
+      "lab_test": "Zayıf D Testi",
+      "title": "Zayıf D Testi",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "Zayıf D testi, rutin RhD tiplemesinde zayıf veya farklı tepki veren D antijenini daha ayrıntılı değerlendirir. Sonuç transfüzyon ve gebelik bağlamında uzman laboratuvar tarafından yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "RhD durumunun rutin tiplemeyle netleşmediği örneklerde ileri değerlendirmeyi desteklemek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Zayıf D testinde yüksek veya düşük sonucu yoktur. Saptandı sonucu, D antijeninin rutin tiplemede zayıf tepki veren bir biçiminin bulunduğunu gösterebilir ve uzman laboratuvar yorumuna ihtiyaç duyar.",
+        "Düşük ne anlama gelebilir?": "Zayıf D testinde düşük sonucu yoktur. Saptanmadı sonucu kullanılan yöntemle zayıf D reaksiyonu görülmediğini bildirir; RhD sınıflaması klinik bağlama göre laboratuvarca tamamlanır.",
+        "Ne zaman doktora danışılmalı?": "Rutin RhD sonucu belirsizse, Zayıf D saptandıysa veya sonuç gebelik ya da transfüzyon için kullanılacaksa uzman laboratuvar ve sağlık ekibiyle değerlendirin.",
+        "Doktora sorulabilecek sorular": "Zayıf D sonucum kesin RhD sınıflaması için yeterli mi? Genetik veya başka bir doğrulama testi gerekiyor mu? Gebelik ya da transfüzyon kararlarında hangi RhD sınıfı kullanılacak?"
+      },
+      "doctor_questions": [
+        "Zayıf D sonucum kesin RhD sınıflaması için yeterli mi?",
+        "Genetik veya başka bir doğrulama testi gerekiyor mu?",
+        "Gebelik ya da transfüzyon kararlarında hangi RhD sınıfı kullanılacak?"
+      ]
+    },
+    {
+      "lab_test": "İzohemaglutinin Titresi",
+      "title": "İzohemaglutinin Titresi",
+      "source_title": "T.C. Sağlık Bakanlığı - Transfüzyon Merkezi İmmünohematoloji Laboratuvarı",
+      "source_url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586972/transfuzyon-merkezi.html",
+      "sections": {
+        "Nedir?": "İzohemaglutinin titresi, plazmadaki doğal ABO antikorlarının tepkisini seri ölçümlerle değerlendirir. Sonuç kullanılan yönteme ve klinik bağlama göre uzman laboratuvar tarafından yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "ABO antikor düzeyleriyle ilişkili özel transfüzyon değerlendirmelerini desteklemek için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek İzohemaglutinin Titresi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük İzohemaglutinin Titresi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "İzohemaglutinin Titresi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "İzohemaglutinin Titresi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "İzohemaglutinin Titresi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    },
+    {
+      "lab_test": "Kleihauer-Betke Testi",
+      "title": "Kleihauer-Betke Testi",
+      "source_title": "Dünya Sağlık Örgütü - Temel İn Vitro Tanı Listesi",
+      "source_url": "https://www.who.int/publications/i/item/9789240081093",
+      "sections": {
+        "Nedir?": "Kleihauer-Betke testi, anne kanındaki fetal hemoglobin içeren hücreleri değerlendirerek fetomaternal kanama miktarının tahminine yardımcı olur. Sonuç gebelik ve transfüzyon tıbbı bağlamında uzman tarafından yorumlanır. Tek başına tanı koydurmaz.",
+        "Neden ölçülür?": "Fetomaternal kanama olasılığını ve miktarını değerlendirmeye yardımcı olmak için uygulanır.",
+        "Yüksek ne anlama gelebilir?": "Yüksek Kleihauer-Betke Testi sonucu, ölçümün laboratuvarın ilgili referans aralığının üzerinde olduğunu gösterir. Bunun farklı nedenleri olabilir; sonuç tek başına tanı koydurmaz ve diğer bulgularla birlikte değerlendirilir.",
+        "Düşük ne anlama gelebilir?": "Düşük Kleihauer-Betke Testi sonucu, ölçümün laboratuvarın ilgili referans aralığının altında olduğunu gösterir. Bunun anlamı testin türüne ve kişinin sağlık bilgilerine göre değişir; tek başına tanı koydurmaz.",
+        "Ne zaman doktora danışılmalı?": "Kleihauer-Betke Testi sonucunuz referans aralığı dışındaysa, önceki sonuçlara göre belirgin değiştiyse veya yeni şikayetlerle birlikteyse doktorunuzla değerlendirin. Şiddetli veya hızla kötüleşen belirtiler varsa gecikmeden sağlık hizmeti alın.",
+        "Doktora sorulabilecek sorular": "Kleihauer-Betke Testi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz? Sonucu etkilemiş olabilecek geçici bir durum var mı? Takip veya ek test gerekir mi?"
+      },
+      "doctor_questions": [
+        "Kleihauer-Betke Testi sonucumu diğer tahlillerimle birlikte nasıl değerlendirmeliyiz?",
+        "Sonucu etkilemiş olabilecek geçici bir durum var mı?",
+        "Takip veya ek test gerekir mi?"
+      ]
+    }
+  ]
+}

@@ -91,6 +91,10 @@ THRESHOLD_HIGH = 0.71
 THRESHOLD_MEDIUM = 0.41
 
 # --- Section adları ---
+# Cevap yerel modelle değil, onaylı kaynak metninden doğrudan üretildiğinde
+# `llm_provider` alanında bu ad döner (şeffaflık için).
+PROVIDER_SOURCE = "source"
+
 SECTION_WHAT = "Nedir?"
 SECTION_WHY = "Neden ölçülür?"
 SECTION_HIGH = "Yüksek ne anlama gelebilir?"

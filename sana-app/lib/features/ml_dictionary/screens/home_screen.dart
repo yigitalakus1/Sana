@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/branding/sana_mark.dart';
+import '../../medication/screens/medication_reminder_screen.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/app_text_styles.dart';
 import '../../../core/theme/app_theme.dart';
@@ -82,6 +84,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _openProfile() => _open(const ProfileScreen());
 
+  void _openMedication() => _open(const MedicationReminderScreen());
+
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.sizeOf(context).width;
@@ -109,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     icon: Icons.auto_awesome_outlined,
                     title: 'Sonuç Açıkla',
                     subtitle: 'Tek bir tahlil sonucunu kaynaklarıyla açıkla.',
-                    color: AppColors.primary,
+                    color: Theme.of(context).colorScheme.primary,
                     softColor: AppColors.primarySoft,
                     onTap: _openExplain,
                   ),
@@ -148,6 +152,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     onTap: _openHistory,
                   ),
                   _ActionData(
+                    icon: Icons.alarm_outlined,
+                    title: 'İlaç Hatırlatıcı',
+                    subtitle:
+                        'Kendi ilaç ve ölçüm saatlerin için hatırlatma kur.',
+                    color: AppColors.warningText,
+                    softColor: AppColors.warningSoft,
+                    onTap: _openMedication,
+                  ),
+                  _ActionData(
                     icon: Icons.person_outline,
                     title: 'Sağlık Profili',
                     subtitle: 'İsteğe bağlı kişisel bağlamını bu cihazda tut.',
@@ -184,19 +197,7 @@ class _PageHeader extends StatelessWidget {
     return Row(
       children: [
         if (compact) ...[
-          Container(
-            width: 36,
-            height: 36,
-            decoration: BoxDecoration(
-              color: AppColors.primary,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: const Icon(
-              Icons.favorite_rounded,
-              color: Colors.white,
-              size: 19,
-            ),
-          ),
+          const SanaMarkBadge(size: 36),
           const SizedBox(width: AppSpacing.md),
         ],
         Expanded(
@@ -321,16 +322,28 @@ class _ActionTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final scheme = Theme.of(context).colorScheme;
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
+
+    // Her kutucuk kendi rengini korur, ama koyu temada sabit açık zeminler
+    // (ör. #EAF0FF) kullanılmaz: vurgu açılır, zemin aynı renkten düşük
+    // opaklıkla türetilir.
+    final accent = isDark
+        ? Color.lerp(data.color, Colors.white, 0.4)!
+        : data.color;
+    final soft = isDark ? accent.withValues(alpha: 0.16) : data.softColor;
+    final radius = BorderRadius.circular(AppSpacing.radiusLg);
+
     return Material(
       color: scheme.surface,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8),
+        borderRadius: radius,
         side: BorderSide(color: scheme.outlineVariant),
       ),
       child: InkWell(
         onTap: data.onTap,
-        borderRadius: BorderRadius.circular(8),
+        borderRadius: radius,
         child: Padding(
           padding: const EdgeInsets.all(AppSpacing.lg),
           child: Row(
@@ -339,10 +352,10 @@ class _ActionTile extends StatelessWidget {
                 width: 42,
                 height: 42,
                 decoration: BoxDecoration(
-                  color: data.softColor,
-                  borderRadius: BorderRadius.circular(8),
+                  color: soft,
+                  borderRadius: BorderRadius.circular(AppSpacing.radius),
                 ),
-                child: Icon(data.icon, color: data.color, size: 22),
+                child: Icon(data.icon, color: accent, size: 22),
               ),
               const SizedBox(width: AppSpacing.md),
               Expanded(

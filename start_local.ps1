@@ -132,10 +132,22 @@ Write-Host "[4/5] Flutter web sürümü kontrol ediliyor..." -ForegroundColor Cy
 $buildIndex = Join-Path $flutterDir "build\web\index.html"
 $needsBuild = $RebuildWeb -or -not (Test-Path $buildIndex)
 if (-not $needsBuild) {
-    $latestSource = Get-ChildItem (Join-Path $flutterDir "lib") -Recurse -File |
-        Sort-Object LastWriteTimeUtc -Descending |
-        Select-Object -First 1
-    $needsBuild = $latestSource.LastWriteTimeUtc -gt (Get-Item $buildIndex).LastWriteTimeUtc
+    # Yalnız lib/ izlemek yetmiyordu: tema varlıkları (assets/, ör. yazı tipi)
+    # veya pubspec değiştiğinde eski derleme servis edilip "güncel değil"
+    # görünüyordu. Üçü birlikte izlenir.
+    $watched = @()
+    foreach ($rel in @("lib", "assets")) {
+        $dir = Join-Path $flutterDir $rel
+        if (Test-Path $dir) {
+            $watched += Get-ChildItem $dir -Recurse -File
+        }
+    }
+    $pubspec = Join-Path $flutterDir "pubspec.yaml"
+    if (Test-Path $pubspec) { $watched += Get-Item $pubspec }
+
+    $latestSource = $watched | Sort-Object LastWriteTimeUtc -Descending | Select-Object -First 1
+    $needsBuild = $latestSource -and
+        $latestSource.LastWriteTimeUtc -gt (Get-Item $buildIndex).LastWriteTimeUtc
 }
 
 if ($needsBuild) {
@@ -169,6 +181,10 @@ if ($needsBuild) {
                 "web",
                 "--release",
                 "--no-pub",
+                # Service worker yerelde eski sürümü önbellekten servis edip
+                # kullanıcıya "güncel değil" gösteriyordu. Yerel çalıştırmada
+                # PWA önbelleğine gerek yok.
+                "--pwa-strategy=none",
                 "--dart-define=SANA_API_BASE_URL=$backendUrl"
             ) `
             -WindowStyle Hidden `

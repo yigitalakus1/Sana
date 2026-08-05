@@ -12,6 +12,7 @@ import '../models/report_parse_models.dart';
 import '../services/ml_dictionary_service.dart';
 import '../services/report_history_service.dart';
 import '../widgets/common_widgets.dart';
+import '../widgets/status_chip.dart';
 import 'explain_screen.dart';
 import 'report_history_screen.dart';
 
@@ -184,14 +185,7 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
   }
 
   void _explainResult(ParsedLabResult result) {
-    final question = <String>[
-      result.labTest,
-      if (result.rawValue != null) result.rawValue!,
-      if (result.unit != null) result.unit!,
-      'çıktı.',
-      if (result.referenceRange != null)
-        'Rapor referans aralığı: ${result.referenceRange}.',
-    ].join(' ');
+    final question = _resultExplanationQuestion(result);
 
     final callback = widget.onExplainRequested;
     if (callback != null) {
@@ -209,15 +203,7 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
   }
 
   Future<ExplainResponse> _loadResultExplanation(ParsedLabResult result) {
-    final question = <String>[
-      result.labTest,
-      if (result.rawValue != null) result.rawValue!,
-      if (result.unit != null) result.unit!,
-      'çıktı.',
-      if (result.referenceRange != null)
-        'Rapor referans aralığı: ${result.referenceRange}.',
-      'Bu tahlilin neyi ölçtüğünü ve sonucun genel olarak ne anlama gelebileceğini açıkla.',
-    ].join(' ');
+    final question = _resultExplanationQuestion(result);
     return _service.explainLab(question: question, labTest: result.labTest);
   }
 
@@ -445,7 +431,7 @@ class _PdfInput extends StatelessWidget {
           Icon(
             selected ? Icons.task_outlined : Icons.upload_file_outlined,
             size: 34,
-            color: AppColors.primaryDeep,
+            color: Theme.of(context).colorScheme.onPrimaryContainer,
           ),
           const SizedBox(height: AppSpacing.md),
           Text(
@@ -573,7 +559,7 @@ class _ExpandableResultState extends State<_ExpandableResult> {
     return Container(
       decoration: BoxDecoration(
         color: scheme.surface,
-        borderRadius: BorderRadius.circular(8),
+        borderRadius: BorderRadius.circular(AppSpacing.radiusLg),
         border: Border.all(color: scheme.outlineVariant),
       ),
       clipBehavior: Clip.antiAlias,
@@ -587,23 +573,40 @@ class _ExpandableResultState extends State<_ExpandableResult> {
           height: 40,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: AppColors.primarySoft,
-            borderRadius: BorderRadius.circular(8),
+            color: scheme.primaryContainer,
+            borderRadius: BorderRadius.circular(AppSpacing.radius),
           ),
-          child: const Icon(
-            Icons.biotech_outlined,
-            color: AppColors.primaryDeep,
+          child: Icon(
+            Icons.water_drop_outlined,
+            color: scheme.onPrimaryContainer,
             size: 21,
           ),
         ),
         title: Text(result.labTest, style: AppTextStyles.sectionTitle(context)),
+        // Ölçülen değer tabular rakamlarla; birim daha sessiz. Durum çipi
+        // kırmızı kullanmadan aralık ilişkisini gösterir.
         subtitle: value.isEmpty
             ? null
-            : Text(
-                value,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: AppColors.primaryDeep,
-                  fontWeight: FontWeight.w700,
+            : Padding(
+                padding: const EdgeInsets.only(top: 4),
+                child: Wrap(
+                  spacing: AppSpacing.sm,
+                  runSpacing: AppSpacing.xs,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  children: [
+                    Text(
+                      value,
+                      style: TextStyle(
+                        fontSize: 20,
+                        height: 1.1,
+                        fontWeight: FontWeight.w600,
+                        letterSpacing: -0.02 * 20,
+                        fontFeatures: const [FontFeature.tabularFigures()],
+                        color: scheme.onSurface,
+                      ),
+                    ),
+                    SanaStatusChip(status: _statusOf(result.interpretation)),
+                  ],
                 ),
               ),
         children: [
@@ -666,6 +669,50 @@ class _ExpandableResultState extends State<_ExpandableResult> {
     );
   }
 }
+
+/// Raporun değer/referans metninden gelen durum bayrakları.
+///
+/// Bunlar sorunun amacı değil, ham rapor verisidir. Backend bölüm tespitinde
+/// "yüksek/düşük" kelimelerini kullandığı için soruya sızdıklarında tanım
+/// sorusu yüksek/düşük yorumuna kayıyor ve terim hiç açıklanmıyordu.
+final RegExp _statusFlagPattern = RegExp(
+  r'\b(yüksek|yuksek|düşük|dusuk|high|low|normal)\b',
+  caseSensitive: false,
+);
+
+String _withoutStatusFlags(String value) => value
+    .replaceAll(_statusFlagPattern, ' ')
+    .replaceAll(RegExp(r'\s+'), ' ')
+    .trim();
+
+String _resultExplanationQuestion(ParsedLabResult result) {
+  final rawValue = result.rawValue == null
+      ? null
+      : _withoutStatusFlags(result.rawValue!);
+  final reference = result.referenceRange == null
+      ? null
+      : _withoutStatusFlags(result.referenceRange!);
+
+  return <String>[
+    result.labTest,
+    if (rawValue != null && rawValue.isNotEmpty) rawValue,
+    if (result.unit != null) result.unit!,
+    'çıktı.',
+    if (reference != null && reference.isNotEmpty)
+      'Rapor referans aralığı: $reference.',
+    'Bu tahlil nedir, neyi ölçer ve neden ölçülür? '
+        'Sonucu yalnızca genel bilgi olarak açıkla.',
+  ].join(' ');
+}
+
+/// Backend'in `interpretation` alanını görsel duruma çevirir.
+/// Değer yoksa "aralık verilmemiş" olur; uydurma sınıflandırma yapılmaz.
+SanaStatus _statusOf(String? interpretation) => switch (interpretation) {
+  'normal' => SanaStatus.inRange,
+  'high' => SanaStatus.above,
+  'low' => SanaStatus.below,
+  _ => SanaStatus.unknown,
+};
 
 String _interpretationLabel(String interpretation) {
   return switch (interpretation) {
@@ -799,7 +846,7 @@ class _EmptyResults extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Icon(Icons.info_outline, color: AppColors.primaryDeep),
+          Icon(Icons.info_outline, color: Theme.of(context).colorScheme.onPrimaryContainer),
           const SizedBox(width: AppSpacing.sm),
           Expanded(
             child: Text(

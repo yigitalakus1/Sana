@@ -176,7 +176,10 @@ class OllamaProvider:
         system_prompt: Optional[str] = None,
         user_prompt: Optional[str] = None,
         num_ctx: int = 2048,
-        num_predict: int = 256,
+        # Cevaplar 2-4 cümledir; üretim süresi token sayısıyla doğru orantılı
+        # olduğu için üst sınır beklemeyi doğrudan kısaltır. Uzun üretimler
+        # zaten kalite kontrolünde eleniyordu.
+        num_predict: int = 160,
     ) -> str:
         s = self._settings
         if not s.model:

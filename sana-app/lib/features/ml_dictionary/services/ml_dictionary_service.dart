@@ -32,15 +32,20 @@ class MlDictionaryService {
     }
   }
 
+  /// [useSourceText] açıkken cevap yerel modelle yeniden ifade edilmez;
+  /// backend onaylı kaynak metnini doğrudan döndürür. Sözlükteki hazır bölüm
+  /// açıklamalarında beklemeyi ortadan kaldırır.
   Future<ExplainResponse> explainLab({
     required String question,
     String? labTest,
+    bool useSourceText = false,
   }) async {
     final profile = await _profileService.load();
     final json = await _client.explain(
       question: question,
       labTest: labTest,
       profile: profile.isEmpty ? null : profile.toJson(),
+      useSourceText: useSourceText,
     );
     return ExplainResponse.fromJson(json);
   }

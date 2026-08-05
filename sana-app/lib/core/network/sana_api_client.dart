@@ -47,6 +47,7 @@ class SanaApiClient {
     Map<String, dynamic>? profile,
     bool includeSources = true,
     bool includeDoctorQuestions = true,
+    bool useSourceText = false,
   }) {
     final body = <String, dynamic>{
       'question': question,
@@ -56,6 +57,7 @@ class SanaApiClient {
         'language': 'tr',
         'include_sources': includeSources,
         'include_doctor_questions': includeDoctorQuestions,
+        'use_source_text': useSourceText,
       },
     };
     return _postObject('/explain', body, timeout: _llmTimeout);

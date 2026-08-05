@@ -1,4 +1,4 @@
-# Sana — Flutter MVP
+# Sana — Flutter
 
 Sana, laboratuvar sonuçlarını **sade Türkçe** ile açıklayan bir sağlık okuryazarlığı
 uygulamasıdır. Bu Flutter istemcisi, `sana-rag-backend` FastAPI servisine bağlanır.
@@ -10,7 +10,7 @@ uygulamasıdır. Bu Flutter istemcisi, `sana-rag-backend` FastAPI servisine bağ
 Uygulama bir backend'e ihtiyaç duyar. Backend çalışıyor olmalı:
 
 ```powershell
-cd C:\D_DİSKİ_2026\Sana\sana-rag-backend
+cd "C:\d diski\Sana\sana-rag-backend"
 .\.venv\Scripts\activate
 uvicorn app.main:app --reload
 ```
@@ -20,7 +20,7 @@ Backend varsayılan olarak `http://127.0.0.1:8000` adresinde açılır.
 ## Flutter çalıştırma
 
 ```powershell
-cd C:\D_DİSKİ_2026\Sana\sana-app
+cd "C:\d diski\Sana\sana-app"
 flutter pub get
 flutter analyze
 flutter test
@@ -86,4 +86,6 @@ tool/smoke_test.dart              # manuel backend doğrulama (suite dışı)
 
 ## Bağımlılıklar
 
-Yalnız `http`. (Firebase/Riverpod/go_router/OCR/PDF/auth/database **eklenmedi** — minimal MVP.)
+- `http`: backend iletişimi
+- `file_picker`: rapor dosyası seçimi
+- `shared_preferences`: cihaz içi ayarlar, profil ve rapor geçmişi

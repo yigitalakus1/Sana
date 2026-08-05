@@ -1,14 +1,18 @@
-# sana-rag-backend
+# Sana
 
-**Sana** sağlık okuryazarlığı uygulamasının tıbbi açıklama backend'i (Week 2 MVP).
+Sana tamamen ücretsizdir; hesap, profil veya abonelik gerektirmez. Rapor
+geçmişi ve karşılaştırma dahil tüm uygulama özellikleri herkese açıktır.
+
+**Sana**, Flutter istemcisi ve FastAPI tıbbi açıklama backend'inden oluşan bir
+sağlık okuryazarlığı uygulamasıdır.
 Tahlil değerleri hakkında **Türkçe, kaynak gösterimli, güven skorlu ve teşhis koymayan**
 açıklamalar üretir.
 
 > ⚠️ Bu sistem bir teşhis aracı değildir. Amacı, kullanıcının sağlık okuryazarlığını
 > artırmak ve doktoruna daha bilinçli sorular sormasına yardımcı olmaktır.
 
-## Bu MVP'de ne var
-- 10 tahlil değeri: **CRP, Glukoz, Ferritin, B12, Hemoglobin, TSH, Kreatinin, ALT, AST, Trombosit** (Türkçe seed içerik, MedlinePlus kaynak linkleri)
+## Özellikler
+- 240 tahlil değeri için Türkçe seed içerik ve güvenilir kaynak bağlantıları
 - Sorgu normalizasyonu (Türkçe karakter duyarlı), eş anlamlı (synonym) haritası
 - Keyword + exact-match retrieval (embedding yok)
 - Provider seam: varsayılan `DummyLLMProvider`, opsiyonel `ollama` ve `openai_compatible`
@@ -18,8 +22,27 @@ açıklamalar üretir.
 - `GET /health`, `POST /explain`, `POST /query` (deprecated), `POST /chat`, `GET /terms`, `POST /reports/parse`
 - Pytest regresyon testleri
 
-**MVP dışı (sonraki sürümler):** OCR, PDF binary parsing/upload, embedding, scraper,
-kullanıcı hesabı ve streaming.
+## Hızlı başlangıç (Windows)
+
+Tüm sistemi (Ollama + backend + web arayüzü) tek tıkla çalıştırmak için:
+
+```bat
+Kisayol Olustur.cmd
+```
+
+Bu, masaüstünde **Sana** kısayolu oluşturur. Kısayola çift tıklayınca servisler
+başlar ve tarayıcı açılır; pencerede bir tuşa basınca hepsi düzgünce durur.
+
+Kısayol istemiyorsan doğrudan da çalıştırabilirsin:
+
+```bat
+Sana Baslat.cmd     :: başlat (tarayıcıyı da açar)
+status_local.cmd    :: durum
+stop_local.cmd      :: durdur
+```
+
+> Kısayol dosyasının kendisi (`.lnk`) mutlak yol içerdiği için depoda
+> tutulmaz; her bilgisayarda `Kisayol Olustur.cmd` ile üretilir.
 
 ## Kurulum
 ```bash

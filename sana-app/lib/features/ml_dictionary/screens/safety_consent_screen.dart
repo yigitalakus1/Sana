@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/theme/app_spacing.dart';
-import '../../../core/theme/app_theme.dart';
 
 class SafetyConsentScreen extends StatefulWidget {
   const SafetyConsentScreen({super.key, required this.onAccepted});
@@ -41,7 +40,7 @@ class _SafetyConsentScreenState extends State<SafetyConsentScreen> {
                           width: 42,
                           height: 42,
                           decoration: BoxDecoration(
-                            color: AppColors.primary,
+                            color: Theme.of(context).colorScheme.primary,
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: const Icon(
@@ -129,7 +128,7 @@ class _SafetyItem extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Icon(icon, size: 21, color: AppColors.primaryDeep),
+        Icon(icon, size: 21, color: Theme.of(context).colorScheme.onPrimaryContainer),
         const SizedBox(width: AppSpacing.md),
         Expanded(
           child: Text(

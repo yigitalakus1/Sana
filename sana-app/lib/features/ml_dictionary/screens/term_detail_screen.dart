@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../core/network/sana_api_client.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/app_text_styles.dart';
-import '../../../core/theme/app_theme.dart';
 import '../models/explain_response.dart';
 import '../models/term_models.dart';
 import '../services/ml_dictionary_service.dart';
@@ -104,6 +103,9 @@ class _TermDetailScreenState extends State<TermDetailScreen> {
       final res = await _service.explainLab(
         question: _buildQuestion(labTest, section),
         labTest: labTest,
+        // Sözlük bölümleri zaten hazır ve onaylı içeriktir; modeli çalıştırıp
+        // beklemek yerine kaynak metni doğrudan gösterilir.
+        useSourceText: true,
       );
       if (!mounted) return;
       setState(() {
@@ -235,15 +237,15 @@ class _TermHeader extends StatelessWidget {
             height: 52,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: AppColors.primarySoft,
-              borderRadius: BorderRadius.circular(8),
+              color: Theme.of(context).colorScheme.primaryContainer,
+              borderRadius: BorderRadius.circular(AppSpacing.radius),
             ),
             child: Text(
               detail.labTest.isNotEmpty ? detail.labTest.substring(0, 1) : '?',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 22,
-                fontWeight: FontWeight.w800,
-                color: AppColors.primaryDeep,
+                fontWeight: FontWeight.w700,
+                color: Theme.of(context).colorScheme.onPrimaryContainer,
               ),
             ),
           ),
@@ -295,11 +297,13 @@ class _SectionCard extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: AppSpacing.md),
       child: Card(
         clipBehavior: Clip.antiAlias,
-        color: expanded ? AppColors.primarySoft.withValues(alpha: 0.55) : null,
+        // Açılmış bölüm: temadan gelen kap rengi. Sabit açık yeşil koyu temada
+        // metni okunmaz hâle getiriyordu.
+        color: expanded ? scheme.primaryContainer.withValues(alpha: 0.35) : null,
         shape: expanded
             ? RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(AppSpacing.radiusLg),
-                side: const BorderSide(color: AppColors.primary, width: 1.4),
+                side: BorderSide(color: scheme.primary, width: 1.4),
               )
             : null,
         child: Column(
@@ -347,7 +351,7 @@ class _SectionCard extends StatelessWidget {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             SizedBox(width: AppSpacing.md),
-            Text('Yerel model açıklamayı hazırlıyor...'),
+            Text('Açıklama hazırlanıyor...'),
           ],
         ),
       );

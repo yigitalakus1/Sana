@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import '../../../core/network/sana_api_client.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/theme/app_text_styles.dart';
-import '../../../core/theme/app_theme.dart';
 import '../models/chat_models.dart';
 import '../services/ml_dictionary_service.dart';
 import '../widgets/common_widgets.dart';
@@ -262,12 +261,12 @@ class _AssistantHeader extends StatelessWidget {
                 width: 38,
                 height: 38,
                 decoration: BoxDecoration(
-                  color: AppColors.primarySoft,
-                  borderRadius: BorderRadius.circular(8),
+                  color: Theme.of(context).colorScheme.primaryContainer,
+                  borderRadius: BorderRadius.circular(AppSpacing.radius),
                 ),
-                child: const Icon(
+                child: Icon(
                   Icons.forum_rounded,
-                  color: AppColors.primaryDeep,
+                  color: Theme.of(context).colorScheme.onPrimaryContainer,
                   size: 20,
                 ),
               ),
@@ -287,7 +286,7 @@ class _AssistantHeader extends StatelessWidget {
           ),
           const SizedBox(height: AppSpacing.md),
           const StatusChip(
-            label: 'Yerel model · Kaynaklı yanıt',
+            label: 'Kaynaklı yanıt',
             icon: Icons.health_and_safety_outlined,
           ),
         ],
@@ -336,7 +335,7 @@ class _MessageBubble extends StatelessWidget {
               vertical: AppSpacing.md,
             ),
             decoration: BoxDecoration(
-              color: AppColors.primary,
+              color: Theme.of(context).colorScheme.primary,
               borderRadius: BorderRadius.circular(8),
             ),
             child: Text(
@@ -408,10 +407,10 @@ class _AssistantAnswerCard extends StatelessWidget {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Icon(
+                    Icon(
                       Icons.link,
                       size: 18,
-                      color: AppColors.primaryDeep,
+                      color: Theme.of(context).colorScheme.onPrimaryContainer,
                     ),
                     const SizedBox(width: AppSpacing.sm),
                     Expanded(
@@ -454,21 +453,23 @@ class _ResponseTypeNotice extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(AppSpacing.md),
       decoration: BoxDecoration(
-        color: AppColors.warningSoft,
-        borderRadius: BorderRadius.circular(AppSpacing.radiusSm),
+        color: Theme.of(context).colorScheme.tertiaryContainer,
+        borderRadius: BorderRadius.circular(AppSpacing.radiusLg),
       ),
       child: Row(
         children: [
-          const Icon(
+          Icon(
             Icons.info_outline,
-            color: AppColors.warningText,
+            color: Theme.of(context).colorScheme.onTertiaryContainer,
             size: 18,
           ),
           const SizedBox(width: AppSpacing.sm),
           Expanded(
             child: Text(
               label,
-              style: const TextStyle(color: AppColors.warningText),
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.onTertiaryContainer,
+              ),
             ),
           ),
         ],
@@ -507,7 +508,7 @@ class _TypingBubble extends StatelessWidget {
             const SizedBox(width: AppSpacing.sm),
             Text(
               longWait
-                  ? 'Yerel model hazırlanıyor, biraz daha sürebilir...'
+                  ? 'Yanıt hazırlanıyor, biraz daha sürebilir...'
                   : 'Yanıt hazırlanıyor...',
             ),
           ],

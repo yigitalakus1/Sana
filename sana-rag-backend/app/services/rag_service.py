@@ -1,6 +1,7 @@
 """RAG orkestrasyonu: tüm katmanları birleştirip ExplainResponse üretir."""
 
 import uuid
+from collections import OrderedDict
 from typing import Optional
 
 from app.core import constants as C
@@ -14,6 +15,7 @@ from app.services import (
     retrieval_service,
     safety_service,
 )
+from app.services.llm.source_content import combine_source_content
 from app.services.llm_provider import get_llm_provider
 from app.services.normalization_service import normalize
 from app.utils import text_utils
@@ -25,6 +27,67 @@ def new_request_id() -> str:
     return str(uuid.uuid4())
 
 
+
+# Üretilen cevaplar için küçük, süreç içi önbellek.
+#
+# Aynı soru + aynı kaynak bağlamı her zaman aynı cevabı üretmelidir; kullanıcı
+# bir terime ikinci kez baktığında yerel modeli tekrar çalıştırmak yalnızca
+# bekletir. Yalnız bellekte tutulur, diske yazılmaz ve süreç kapanınca silinir.
+_ANSWER_CACHE_LIMIT = 256
+_answer_cache: "OrderedDict[tuple, str]" = OrderedDict()
+
+
+def clear_answer_cache() -> None:
+    """Testler ve içerik güncellemeleri için önbelleği boşaltır."""
+    _answer_cache.clear()
+
+
+def _generate_cached(provider, *, question, lab_test, intent, retrieved, result_context):
+    key = (
+        provider.name,
+        normalize(question),
+        lab_test,
+        intent,
+        tuple(item.chunk.chunk_id for item in retrieved),
+        repr(result_context),
+    )
+    cached = _answer_cache.get(key)
+    if cached is not None:
+        _answer_cache.move_to_end(key)
+        return cached
+
+    answer = provider.generate(
+        question=question,
+        lab_test=lab_test,
+        intent=intent,
+        retrieved=retrieved,
+        result_context=result_context,
+    )
+    _answer_cache[key] = answer
+    if len(_answer_cache) > _ANSWER_CACHE_LIMIT:
+        _answer_cache.popitem(last=False)
+    return answer
+
+
+def _with_definition(normalized: str, lab_test: str, primary):
+    """Birincil bölümün ardına "Nedir?" parçasını ekler (varsa).
+
+    Tanım her zaman ikinci sırada kalır; citation tekilleştirmesinde birincil
+    bölümün seçilmesini korumak için skoru birincilin altında tutulur.
+    """
+    definition = retrieval_service.retrieve_for_query(
+        normalized, lab_test, C.SECTION_WHAT, top_k=1
+    )
+    if not definition or definition[0].chunk.chunk_id == primary[0].chunk.chunk_id:
+        return primary
+    return primary + [
+        retrieval_service.RetrievedChunk(
+            chunk=definition[0].chunk,
+            score=min(definition[0].score, primary[0].score - 0.01),
+        )
+    ]
+
+
 def _retrieve_explanation_context(normalized: str, lab_test: str, section: str):
     """Genel açıklamayı kaynakta tutarak biraz daha kapsamlı hale getirir.
 
@@ -32,14 +95,25 @@ def _retrieve_explanation_context(normalized: str, lab_test: str, section: str):
     olduğu kadar neden ölçüldüğü de yararlı olduğundan ikinci parça eklenir.
     Yüksek, düşük ve doktora danışma soruları tek özel bölümde kalır.
     """
-    asks_what_and_why = section == C.SECTION_WHY and any(
+    asks_definition = any(
         pattern in normalized for pattern in C.DEFINITION_PATTERNS
     )
+    asks_what_and_why = section == C.SECTION_WHY and asks_definition
     primary_section = C.SECTION_WHAT if asks_what_and_why else section
     primary = retrieval_service.retrieve_for_query(
         normalized, lab_test, primary_section, top_k=1
     )
-    if not primary or primary_section != C.SECTION_WHAT:
+    if not primary:
+        return primary
+
+    if primary_section != C.SECTION_WHAT:
+        # Rapor metninden gelen "yüksek/düşük" kelimeleri section tespitini
+        # kaydırabilir (ör. referans sütunu "Düşük <132, Yüksek >173" veya
+        # testin kendi adında "Düşük Yoğunluklu Lipoprotein" geçmesi). Kullanıcı
+        # açıkça "nedir" diye sorduysa tanım her zaman eklenir; aksi halde cevap
+        # terimi hiç açıklamadan yalnız yüksek/düşük yorumu döner.
+        if asks_definition:
+            return _with_definition(normalized, lab_test, primary)
         return primary
 
     secondary = retrieval_service.retrieve_for_query(
@@ -163,13 +237,21 @@ def process(request: QueryRequest, request_id: Optional[str] = None) -> ExplainR
     # 6) Cevap üretimi (provider) + safety filtre
     #    Provider hatası (config/ağ) buradan yükselir; route güvenli generic
     #    error döndürür (secret/teknik detay sızmaz).
-    raw_answer = provider.generate(
-        question=request.question,
-        lab_test=match.lab_test,
-        intent=intent,
-        retrieved=retrieved,
-        result_context=result_context,
-    )
+    #    Aynı soru + aynı bağlam için üretim tekrarlanmaz (bkz. _answer_cache).
+    if request.options is not None and request.options.use_source_text:
+        # Onaylı kaynak metni doğrudan sunulur: model çağrılmaz, bekleme olmaz
+        # ve içerik kaynaktan sapamaz. Güvenlik filtreleri yine uygulanır.
+        provider_name = C.PROVIDER_SOURCE
+        raw_answer = combine_source_content(retrieved)
+    else:
+        raw_answer = _generate_cached(
+            provider,
+            question=request.question,
+            lab_test=match.lab_test,
+            intent=intent,
+            retrieved=retrieved,
+            result_context=result_context,
+        )
     # Referans aralığı/yorum yokken sayısal değer sınıflandırmasını engelle.
     raw_answer = safety_service.strip_value_classification(
         raw_answer, match.lab_test, result_context

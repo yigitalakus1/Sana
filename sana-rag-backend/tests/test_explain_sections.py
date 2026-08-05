@@ -34,6 +34,20 @@ def test_section_nedir():
     assert top_section(b) == "Nedir?" or "Nedir?" in sections(b)
 
 
+def test_report_card_question_returns_specific_definition_content():
+    body = explain(
+        "Hemoglobin 160 g/L çıktı. Rapor referans aralığı: 132 - 173. "
+        "Bu tahlil nedir, neyi ölçer ve neden ölçülür? "
+        "Sonucu yalnızca genel bilgi olarak açıkla.",
+        lab_test="Hemoglobin",
+    )
+
+    assert top_section(body) == "Nedir?"
+    assert "oksijeni vücuda taşıyan" in body["answer"]
+    assert "tam kan sayımının bir parçası" in body["answer"]
+    assert "Değeriniz referans aralığının dışındaysa" not in body["answer"]
+
+
 def test_section_neden_olculur_differs_from_nedir():
     nedir = explain("CRP nedir?")
     neden = explain("CRP neden ölçülür?")

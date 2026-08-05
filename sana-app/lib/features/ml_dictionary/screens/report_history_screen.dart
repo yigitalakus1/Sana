@@ -8,11 +8,6 @@ import '../models/report_parse_models.dart';
 import '../services/report_history_service.dart';
 import '../widgets/common_widgets.dart';
 
-// NOT: Premium erişim katmanı (lib/core/entitlements/, lib/features/premium/)
-// hazırdır ancak bu ekrana bilinçli olarak BAĞLI DEĞİLDİR. Ürün işleri
-// tamamlandıktan sonra kilit yeniden bağlanacaktır; yeniden bağlama adımları
-// CLAUDE_HANDOFF.md içinde yazılıdır.
-
 class ReportHistoryScreen extends StatefulWidget {
   const ReportHistoryScreen({super.key, this.service, this.initialLabTest});
 

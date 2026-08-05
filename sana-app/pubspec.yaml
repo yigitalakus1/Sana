@@ -1,5 +1,5 @@
 name: sana_app
-description: "A new Flutter project."
+description: "Sade Türkçe laboratuvar sonucu açıklamaları sunan sağlık okuryazarlığı uygulaması."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Material pencereleri (saat/tarih seçici, "Vazgeç/Tamam") Türkçe olsun.
+  flutter_localizations:
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -37,6 +40,9 @@ dependencies:
   http: ^1.6.0
   file_picker: ^11.0.2
   shared_preferences: ^2.5.5
+  flutter_local_notifications: ^22.2.0
+  timezone: ^0.11.1
+  flutter_timezone: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +65,20 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # Marka yazı tipi uygulamayla birlikte paketlenir; çalışma anında ağdan
+  # indirilmez. Uygulama çevrimdışı da aynı görünür.
+  fonts:
+    - family: HankenGrotesk
+      fonts:
+        - asset: assets/fonts/HankenGrotesk-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/HankenGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/HankenGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/HankenGrotesk-Bold.ttf
+          weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:

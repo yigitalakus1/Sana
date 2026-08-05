@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/branding/sana_mark.dart';
 import '../../../core/theme/app_spacing.dart';
-import '../../../core/theme/app_theme.dart';
 import 'assistant_screen.dart';
 import 'explain_screen.dart';
 import 'home_screen.dart';
@@ -216,27 +216,18 @@ class _RailBrand extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    // Marka: nabız halkası işareti + küçük harf kelime markası.
+    return const Row(
       children: [
-        Container(
-          width: 36,
-          height: 36,
-          decoration: BoxDecoration(
-            color: AppColors.primary,
-            borderRadius: BorderRadius.circular(8),
-          ),
-          child: const Icon(
-            Icons.favorite_rounded,
-            color: Colors.white,
-            size: 19,
-          ),
-        ),
-        const SizedBox(width: AppSpacing.md),
+        SanaMarkBadge(size: 36),
+        SizedBox(width: AppSpacing.md),
         Text(
-          'Sana',
-          style: Theme.of(
-            context,
-          ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
+          'sana',
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w500,
+            letterSpacing: -0.2,
+          ),
         ),
       ],
     );

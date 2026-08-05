@@ -15,6 +15,11 @@ class QueryOptions(BaseModel):
     language: str = "tr"
     include_sources: bool = True
     include_doctor_questions: bool = True
+    # Cevabı yerel modelle yeniden ifade etmeden, onaylı kaynak metninden
+    # doğrudan üretir. Sözlükteki bölüm açıklamaları gibi zaten hazır ve
+    # hekim onaylı içeriklerde beklemeyi ortadan kaldırır. Güvenlik ve
+    # no-results dalları değişmez. Varsayılan kapalı (geriye uyumlu).
+    use_source_text: bool = False
 
 
 class QueryRequest(BaseModel):

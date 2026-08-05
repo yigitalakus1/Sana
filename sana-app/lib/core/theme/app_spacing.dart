@@ -11,9 +11,23 @@ class AppSpacing {
   static const double xl = 24;
   static const double xxl = 32;
 
-  static const double radius = 8;
-  static const double radiusLg = 8;
-  static const double radiusSm = 6;
+  // Yarıçap — tasarım kararı: eski tekdüze 8 yerine amaca göre ayrışıyor.
+  // Kartlar yumuşak (16), kontroller orta (12), çipler tam yuvarlak, alt
+  // sayfalar üstten 24.
+  /// Kart, panel, uyarı kutusu.
+  static const double radiusLg = 16;
+
+  /// Buton, giriş alanı, ikon kutusu — dokunulan her şey.
+  static const double radius = 12;
+
+  /// Küçük iç öğeler.
+  static const double radiusSm = 8;
+
+  /// Çip ve rozetler (tam yuvarlak).
+  static const double radiusPill = 100;
+
+  /// Alt sayfa (bottom sheet) üst köşeleri.
+  static const double radiusSheet = 24;
 
   /// Büyük ekranlarda içeriğin aşırı yayılmaması için.
   static const double maxContentWidth = 960;

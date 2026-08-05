@@ -10,7 +10,6 @@ import 'package:sana_app/features/ml_dictionary/screens/report_history_screen.da
 import 'package:sana_app/features/ml_dictionary/screens/settings_screen.dart';
 import 'package:sana_app/features/ml_dictionary/screens/profile_screen.dart';
 import 'package:sana_app/features/ml_dictionary/services/report_history_service.dart';
-import 'package:sana_app/features/premium/screens/premium_screen.dart';
 
 /// Dar telefon: taşma en çok burada görünür.
 const _phone = Size(360, 690);
@@ -39,28 +38,13 @@ void main() {
       await _pump(
         tester,
         brightness: brightness,
-        child: SettingsScreen(
-          historyService: _FakeHistoryService(_entries()),
-        ),
-      );
-      expect(tester.takeException(), isNull);
-    });
-
-    testWidgets('premium — büyük yazı, $themeName tema', (tester) async {
-      await _pump(
-        tester,
-        brightness: brightness,
-        child: const PremiumScreen(),
+        child: SettingsScreen(historyService: _FakeHistoryService(_entries())),
       );
       expect(tester.takeException(), isNull);
     });
 
     testWidgets('sağlık profili — büyük yazı, $themeName tema', (tester) async {
-      await _pump(
-        tester,
-        brightness: brightness,
-        child: const ProfileScreen(),
-      );
+      await _pump(tester, brightness: brightness, child: const ProfileScreen());
       expect(tester.takeException(), isNull);
     });
   }

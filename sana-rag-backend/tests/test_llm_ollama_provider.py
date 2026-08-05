@@ -106,7 +106,7 @@ def test_ollama_payload_has_stream_false_and_messages():
     assert payload["think"] is False
     assert payload["options"] == {
         "num_ctx": 2048,
-        "num_predict": 256,
+        "num_predict": 160,
         "temperature": 0.2,
     }
     assert [m["role"] for m in payload["messages"]] == ["system", "user"]

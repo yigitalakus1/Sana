@@ -43,6 +43,7 @@ dependencies:
   flutter_local_notifications: ^22.2.0
   timezone: ^0.11.1
   flutter_timezone: ^5.1.0
+  pdf: ^3.12.0
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +66,12 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # Yazı tipleri ayrıca asset olarak bildirilir: PDF çıktısı bunları
+  # `rootBundle` ile okuyup belgeye gömer (varsayılan PDF yazı tipleri
+  # `ş/ğ/ı/İ` gliflerini içermiyor).
+  assets:
+    - assets/fonts/
 
   # Marka yazı tipi uygulamayla birlikte paketlenir; çalışma anında ağdan
   # indirilmez. Uygulama çevrimdışı da aynı görünür.

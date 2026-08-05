@@ -44,6 +44,36 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <!--
+    Geliştirme sırasında uygulama `--pwa-strategy=none` ile derleniyor, ama daha
+    önce bir kez kaydolmuş service worker tarayıcıda kalıcıdır: yeni derleme
+    yapılsa bile eski dosyaları önbellekten servis etmeye devam eder ve uygulama
+    "güncellenmiyor" görünür. Aşağıdaki blok kalan kaydı ve önbelleği temizler,
+    sonra sayfayı bir kez yeniler.
+  -->
+  <script>
+    (function () {
+      if (!('serviceWorker' in navigator)) return;
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        if (registrations.length === 0) return;
+        Promise.all(registrations.map(function (registration) {
+          return registration.unregister();
+        })).then(function () {
+          if (!window.caches) return null;
+          return caches.keys().then(function (keys) {
+            return Promise.all(keys.map(function (key) {
+              return caches.delete(key);
+            }));
+          });
+        }).then(function () {
+          // Yalnız gerçekten kayıt bulunduğunda yenilenir; döngüye girmez.
+          window.location.reload();
+        });
+      }).catch(function () {
+        // Temizlik yapılamazsa uygulama yine de açılır.
+      });
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

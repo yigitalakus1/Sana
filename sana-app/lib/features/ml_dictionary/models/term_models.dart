@@ -6,6 +6,10 @@ List<String> _asStringList(dynamic v) =>
 Map<String, dynamic> _asMap(dynamic v) =>
     v is Map ? Map<String, dynamic>.from(v) : <String, dynamic>{};
 
+Map<String, String> _asStringMap(dynamic v) => v is Map
+    ? v.map((key, value) => MapEntry(key.toString(), value.toString()))
+    : <String, String>{};
+
 const String _turkishAlphabet = 'ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ';
 
 String _turkishUpper(String value) =>
@@ -63,12 +67,21 @@ class TermDetail {
     this.title,
     required this.sections,
     required this.sources,
+    this.aliases = const [],
+    this.sectionContents = const {},
   });
 
   final String labTest;
   final String? title;
   final List<String> sections;
   final List<Citation> sources;
+  final List<String> aliases;
+  final Map<String, String> sectionContents;
+
+  String? contentForSection(String section) {
+    final content = sectionContents[section]?.trim();
+    return content == null || content.isEmpty ? null : content;
+  }
 
   factory TermDetail.fromJson(Map<String, dynamic> json) => TermDetail(
     labTest: (json['lab_test'] ?? '').toString(),
@@ -77,5 +90,7 @@ class TermDetail {
     sources: (json['sources'] is List ? json['sources'] as List : const [])
         .map((e) => Citation.fromJson(_asMap(e)))
         .toList(),
+    aliases: _asStringList(json['aliases']),
+    sectionContents: _asStringMap(json['section_contents']),
   );
 }

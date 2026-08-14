@@ -82,14 +82,15 @@ class _TermDetailScreenState extends State<TermDetailScreen> {
     }
   }
 
-  void _toggle(String labTest, String section) {
+  void _toggle(TermDetail detail, String section) {
     if (_expanded == section) {
       setState(() => _expanded = null);
       return;
     }
     setState(() => _expanded = section);
+    if (detail.contentForSection(section) != null) return;
     if (!_responses.containsKey(section) && !(_loading[section] ?? false)) {
-      _fetch(labTest, section);
+      _fetch(detail.labTest, section);
     }
   }
 
@@ -178,11 +179,12 @@ class _TermDetailScreenState extends State<TermDetailScreen> {
                 for (final section in detail.sections)
                   _SectionCard(
                     section: section,
+                    localContent: detail.contentForSection(section),
                     expanded: _expanded == section,
                     loading: _loading[section] ?? false,
                     error: _errors[section],
                     response: _responses[section],
-                    onTap: () => _toggle(detail.labTest, section),
+                    onTap: () => _toggle(detail, section),
                   ),
                 if (detail.sources.isNotEmpty) ...[
                   const SizedBox(height: AppSpacing.lg),
@@ -276,6 +278,7 @@ class _TermHeader extends StatelessWidget {
 class _SectionCard extends StatelessWidget {
   const _SectionCard({
     required this.section,
+    required this.localContent,
     required this.expanded,
     required this.loading,
     required this.error,
@@ -284,6 +287,7 @@ class _SectionCard extends StatelessWidget {
   });
 
   final String section;
+  final String? localContent;
   final bool expanded;
   final bool loading;
   final String? error;
@@ -299,7 +303,9 @@ class _SectionCard extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         // Açılmış bölüm: temadan gelen kap rengi. Sabit açık yeşil koyu temada
         // metni okunmaz hâle getiriyordu.
-        color: expanded ? scheme.primaryContainer.withValues(alpha: 0.35) : null,
+        color: expanded
+            ? scheme.primaryContainer.withValues(alpha: 0.35)
+            : null,
         shape: expanded
             ? RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(AppSpacing.radiusLg),
@@ -340,6 +346,9 @@ class _SectionCard extends StatelessWidget {
   }
 
   Widget _buildPanel(BuildContext context) {
+    if (localContent != null) {
+      return _LocalSectionExplanation(content: localContent!);
+    }
     if (loading) {
       return const Padding(
         padding: EdgeInsets.symmetric(vertical: AppSpacing.sm),
@@ -362,6 +371,32 @@ class _SectionCard extends StatelessWidget {
     final res = response;
     if (res == null) return const SizedBox.shrink();
     return _SectionExplanation(response: res);
+  }
+}
+
+class _LocalSectionExplanation extends StatelessWidget {
+  const _LocalSectionExplanation({required this.content});
+
+  static const String _disclaimer =
+      'Bu açıklama yalnızca bilgilendirme amaçlıdır; tanı, tedavi veya tıbbi '
+      'karar önerisi değildir. Sonuçlarınızı doktorunuzla birlikte '
+      'değerlendiriniz.';
+
+  final String content;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          content,
+          style: Theme.of(context).textTheme.bodyMedium?.copyWith(height: 1.5),
+        ),
+        const SizedBox(height: AppSpacing.md),
+        const DisclaimerBox(text: _disclaimer),
+      ],
+    );
   }
 }
 

@@ -27,12 +27,20 @@ class NotificationService {
   final FlutterLocalNotificationsPlugin _plugin =
       FlutterLocalNotificationsPlugin();
   bool _ready = false;
+  bool _canScheduleExact = false;
 
   /// Zamanlanmış bildirim yalnız mobilde güvenilir biçimde çalışır.
   bool get supported =>
       !kIsWeb &&
       (defaultTargetPlatform == TargetPlatform.android ||
           defaultTargetPlatform == TargetPlatform.iOS);
+
+  /// Tam zamanlı alarm kurulabiliyor mu.
+  ///
+  /// `false` ise hatırlatıcı yine çalışır ama Android güç tasarrufu nedeniyle
+  /// saati kaydırabilir. İlaç saati için bu, kullanıcıya söylenmesi gereken
+  /// bir bilgidir; sessizce geç bildirim göndermek yanılticıdır.
+  bool get canScheduleExact => _canScheduleExact;
 
   static const AndroidNotificationDetails _androidDetails =
       AndroidNotificationDetails(
@@ -94,6 +102,8 @@ class NotificationService {
           try {
             await android?.requestExactAlarmsPermission();
           } catch (_) {}
+          _canScheduleExact =
+              await android?.canScheduleExactNotifications() ?? false;
         }
         return granted
             ? NotificationPermission.granted
@@ -104,7 +114,11 @@ class NotificationService {
             IOSFlutterLocalNotificationsPlugin
           >();
       final granted =
-          await ios?.requestPermissions(alert: true, badge: true, sound: true) ??
+          await ios?.requestPermissions(
+            alert: true,
+            badge: true,
+            sound: true,
+          ) ??
           true;
       return granted
           ? NotificationPermission.granted
@@ -115,17 +129,25 @@ class NotificationService {
   }
 
   /// Her gün aynı saatte tekrar eden bir bildirim kurar.
-  Future<void> scheduleDaily({
+  Future<bool> scheduleDaily({
     required int id,
     required String title,
     required String body,
     required int hour,
     required int minute,
   }) async {
-    if (!supported) return;
+    if (!supported) return false;
     await init();
-    if (!_ready) return;
+    if (!_ready) return false;
     try {
+      if (defaultTargetPlatform == TargetPlatform.android) {
+        final android = _plugin
+            .resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin
+            >();
+        _canScheduleExact =
+            await android?.canScheduleExactNotifications() ?? false;
+      }
       await _plugin.zonedSchedule(
         id: id,
         title: title,
@@ -134,11 +156,14 @@ class NotificationService {
         notificationDetails: _details,
         // İlaç saatinde gecikme istenmez; izin yoksa sistem kendiliğinden
         // yaklaşık zamanlamaya düşer.
-        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        androidScheduleMode: _canScheduleExact
+            ? AndroidScheduleMode.exactAllowWhileIdle
+            : AndroidScheduleMode.inexactAllowWhileIdle,
         matchDateTimeComponents: DateTimeComponents.time,
       );
+      return true;
     } catch (_) {
-      // Tek bir zamanlama başarısız olursa diğerleri kurulmaya devam eder.
+      return false;
     }
   }
 

@@ -1,0 +1,66 @@
+name: CI
+
+# Her iki parça da ayrı iş olarak koşar: biri kırılınca diğerinin sonucu yine
+# görünür. Testlerin hiçbiri ağa, Ollama'ya veya harici OCR servisine çıkmaz,
+# bu yüzden CI'da ek servis gerekmez.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  backend:
+    name: Backend (pytest)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sana-rag-backend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: sana-rag-backend/requirements.txt
+
+      - name: Bağımlılıkları kur
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Testler
+        # Foundry smoke testleri SANA_RUN_FOUNDRY_SMOKE olmadan atlanır.
+        run: pytest -q
+
+  app:
+    name: Mobil uygulama (analyze + test)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sana-app
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Paketleri indir
+        run: flutter pub get
+
+      # Not: `dart format` kapısı bilinçli olarak yok. Depoda hâlâ
+      # biçimlendirilmemiş dosyalar var; kapıyı şimdi eklemek ya CI'ı kırar ya
+      # da işle ilgisiz büyük bir diff yaratır. Önce `dart format .` çalıştırıp
+      # ayrı bir commit'te eklenmeli.
+      - name: Statik analiz
+        run: flutter analyze
+
+      - name: Testler
+        run: flutter test --no-pub

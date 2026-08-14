@@ -11,26 +11,76 @@ açıklamalar üretir.
 > ⚠️ Bu sistem bir teşhis aracı değildir. Amacı, kullanıcının sağlık okuryazarlığını
 > artırmak ve doktoruna daha bilinçli sorular sormasına yardımcı olmaktır.
 
-## Özellikler
-- 240 tahlil değeri için Türkçe seed içerik ve güvenilir kaynak bağlantıları
-- Sorgu normalizasyonu (Türkçe karakter duyarlı), eş anlamlı (synonym) haritası
-- Keyword + exact-match retrieval (embedding yok)
-- Provider seam: varsayılan `DummyLLMProvider`, opsiyonel `ollama` ve `openai_compatible`
-- Güven skoru (confidence) + etiket (high/medium/low)
-- Citation (yalnızca retrieval'dan, URL dedup)
-- Safety katmanı (ilaç/doz, teşhis, tedavi, pediatrik, acil, doktordan kaçınma)
+## Neden farklı: her şey cihazda çalışır
+
+Sağlık verisi hassastır, bu yüzden **ücretli dış AI API'si kullanılmaz** (OpenAI,
+Azure OpenAI, Anthropic, Gemini) ve API anahtarı gerekmez. Metin üretimi
+[Microsoft Foundry Local](https://learn.microsoft.com/azure/ai-foundry/foundry-local/)
+veya Ollama ile **cihaz üzerinde** yapılır.
+
+Foundry Local OpenAI-uyumlu bir uç nokta sunduğu için, ileride Azure OpenAI'a
+geçiş bir yapılandırma değişikliğidir; yeniden yazım değil.
+
+Mobil uygulamada raporun telefondan hiç çıkmaz:
+
+| İşlem | Nerede |
+|---|---|
+| 240 tahlil sözlüğü ve bölüm açıklamaları | cihazda (uygulamayla paketli) |
+| PDF metin çıkarma | cihazda |
+| Kamera/galeri OCR (ML Kit, Latin modeli APK'da gömülü) | cihazda |
+| Tahlil eşleştirme, birim ve referans aralığı ayrıştırma | cihazda |
+| Rapor geçmişi, trend grafiği, PDF özeti, ilaç hatırlatıcı | cihazda |
+| Sana Asistan (kontrollü sohbet) | **tek internet gerektiren özellik** |
+
+Uçak modunda Asistan dışındaki her şey çalışır; bu bir iddia değil,
+`sana-app/test/offline_privacy_test.dart` içinde her ağ çağrısında fırlatan
+sahte istemciyle doğrulanmış bir davranıştır.
+
+## Mobil uygulama (sana-app)
+- PDF yükle, kamerayla tara, galeriden seç veya metin yapıştır
+- Ayrıştırılan değerler **kaydedilmeden önce** düzeltme/onay ekranından geçer
+- Tanınmayan satırlar sessizce atlanmaz, kullanıcıya listelenir
+- Rapor geçmişi, aynı tahlil için trend grafiği ve karşılaştırma
+- Doktora gösterilebilecek PDF rapor özeti
+- İlaç/ölçüm hatırlatıcısı (günlük veya N saatte bir yerel bildirim)
+- Açık/koyu tema, Türkçe arayüz, 24 saat gösterim
+
+## Backend (sana-rag-backend)
+- 240 tahlil değeri için Türkçe seed içerik ve kaynak bağlantıları
+- Sorgu normalizasyonu (Türkçe `I`/`İ` duyarlı), eş anlamlı haritası
+- Keyword + exact-match retrieval; `SANA_RAG_MODE=local` ile SQLite + BM25-benzeri
+- Provider seam: `dummy` (varsayılan) · `foundry_local` · `ollama` · `openai_compatible`
+- Güven skoru (confidence) + etiket, yalnız retrieval'dan gelen citation
+- Safety katmanı: ilaç/doz, teşhis, tedavi, pediatrik, acil, doktordan kaçınma
 - `GET /health`, `POST /explain`, `POST /query` (deprecated), `POST /chat`, `GET /terms`, `POST /reports/parse`
-- Pytest regresyon testleri
+
+## Güvenlik yaklaşımı (Responsible AI)
+
+| İlke | Uygulaması |
+|---|---|
+| Güvenilirlik | İlaç/doz sorusunda **retrieval bile yapılmaz**, LLM hiç çağrılmaz |
+| Şeffaflık | Her cevapta kaynak, güven skoru ve sorumluluk reddi |
+| Gizlilik | Sağlık verisi cihazda işlenir, API anahtarı yoktur |
+| Hesap verebilirlik | Kaynak yoksa kaynak uydurulmaz; referans aralığı yoksa sınıflandırma yapılmaz |
+
+`safety_block` ve `no_results` durumlarında sağlayıcının çağrılmadığı testle
+sabittir (`test_safety_block_does_not_call_provider`).
 
 ## Hızlı başlangıç (Windows)
 
-Tüm sistemi (Ollama + backend + web arayüzü) tek tıkla çalıştırmak için:
+Ön koşullar: Python 3.11+, Flutter ve Ollama bilgisayarda kurulu olmalıdır.
+Depoyu GitHub'dan ilk kez indirdikten sonra şunu çalıştırın:
 
 ```bat
-Kisayol Olustur.cmd
+Kurulum.cmd
 ```
 
-Bu, masaüstünde **Sana** kısayolu oluşturur. Kısayola çift tıklayınca servisler
+Kurulum betiği backend sanal ortamını ve Flutter paketlerini hazırlar, yerel
+`llama3.2:3b` modelini gerekirse indirir, RAG veritabanını oluşturur ve
+masaüstünde **Sana** kısayolunu hazırlar. Model ve paketlerin ilk kurulumu için
+internet bağlantısı gerekir.
+
+Sonraki kullanımlarda masaüstündeki **Sana** kısayoluna çift tıklayın. Servisler
 başlar ve tarayıcı açılır; pencerede bir tuşa basınca hepsi düzgünce durur.
 
 Kısayol istemiyorsan doğrudan da çalıştırabilirsin:
@@ -44,8 +94,9 @@ stop_local.cmd      :: durdur
 > Kısayol dosyasının kendisi (`.lnk`) mutlak yol içerdiği için depoda
 > tutulmaz; her bilgisayarda `Kisayol Olustur.cmd` ile üretilir.
 
-## Kurulum
+## Manuel backend kurulumu
 ```bash
+cd sana-rag-backend
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
@@ -63,9 +114,19 @@ Sunucu varsayılan olarak `http://127.0.0.1:8000` adresinde açılır.
 Etkileşimli dokümantasyon: `http://127.0.0.1:8000/docs`
 
 ## Test
+
+Backend (`sana-rag-backend/`):
 ```bash
 pytest
 ```
+
+Mobil uygulama (`sana-app/`):
+```bash
+flutter analyze && flutter test
+```
+
+Toplam **571 test**: 398 backend (+2 opsiyonel Foundry smoke) ve 173 Flutter.
+Hiçbir test gerçek ağa, Ollama'ya veya harici OCR servisine çıkmaz.
 
 ## Örnek curl
 
@@ -198,14 +259,14 @@ app/
   services/                # normalization, intent, retrieval,
                            # confidence, citation, safety, llm_provider, rag_service, chat_service
   utils/                   # text_utils
-tests/                     # 305 geçen pytest testi + 2 opsiyonel Foundry smoke testi
+tests/                     # 398 geçen pytest testi + 2 opsiyonel Foundry smoke testi
 ```
 
-## Week 3 planı
-- **Retrieval v1:** BM25 / TF-IDF + (opsiyonel) çok dilli embedding + hybrid retrieval (RRF veya ağırlıklı skor)
-- **Flutter entegrasyonu:** `MlDictionaryService` → `POST /explain` bağlantısı, Asistan sekmesi için `/chat`
-- **LLM:** local `ollama` veya OpenAI-compatible provider; çalışmazsa demo için `DummyLLMProvider`
-- **Değerlendirme:** 20 soruluk test seti üzerinde precision@3 ölçümü
+## Sıradaki işler
+- Fiziksel Android cihazda uçtan uca doğrulama (PDF seçme, kamera, bildirimler)
+- Tanınmayan satırlar için satır bazında güven işaretlemesi
+- Release APK'da `--split-per-abi` (ML Kit native kütüphaneleri boyutu büyütüyor)
+- Hekim gözden geçirmesi ve MedlinePlus bağlantılarının doğrulanması
 
 ## Not
 Tüm tıbbi seed içerik kasıtlı olarak genel ve temkinlidir; üretime alınmadan önce bir hekim

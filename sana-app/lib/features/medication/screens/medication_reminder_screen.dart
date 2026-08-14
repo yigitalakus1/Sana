@@ -29,6 +29,9 @@ class _MedicationReminderScreenState extends State<MedicationReminderScreen> {
   bool _loading = true;
   bool _permissionDenied = false;
 
+  /// Tam zamanlı alarm kurulabiliyor mu; kapalıysa hatırlatma kayabilir.
+  bool _canScheduleExact = true;
+
   @override
   void initState() {
     super.initState();
@@ -64,22 +67,36 @@ class _MedicationReminderScreenState extends State<MedicationReminderScreen> {
       final permission = await NotificationService.instance.requestPermission();
       if (!mounted) return;
       setState(
-        () => _permissionDenied = permission == NotificationPermission.denied,
+        () {
+          _permissionDenied = permission == NotificationPermission.denied;
+          _canScheduleExact = NotificationService.instance.canScheduleExact;
+        },
       );
     }
 
-    final items = await _service.save(result);
+    final saveResult = await _service.saveWithStatus(result);
     if (!mounted) return;
-    setState(() => _items = items);
-    _notify(
-      existing == null ? 'Hatırlatıcı kuruldu' : 'Hatırlatıcı güncellendi',
-    );
+    setState(() => _items = saveResult.items);
+    if (result.active && !saveResult.notificationsScheduled) {
+      _notify(
+        'Hatırlatıcı kaydedildi ancak bildirim kurulamadı. Telefon ayarlarını kontrol et.',
+      );
+    } else {
+      _notify(
+        existing == null ? 'Hatırlatıcı kuruldu' : 'Hatırlatıcı güncellendi',
+      );
+    }
   }
 
   Future<void> _toggle(MedicationReminder reminder, bool active) async {
-    final items = await _service.save(reminder.copyWith(active: active));
+    final saveResult = await _service.saveWithStatus(
+      reminder.copyWith(active: active),
+    );
     if (!mounted) return;
-    setState(() => _items = items);
+    setState(() => _items = saveResult.items);
+    if (active && !saveResult.notificationsScheduled) {
+      _notify('Bildirim kurulamadı. Telefon ayarlarını kontrol et.');
+    }
   }
 
   Future<void> _delete(MedicationReminder reminder) async {
@@ -148,6 +165,32 @@ class _MedicationReminderScreenState extends State<MedicationReminderScreen> {
                       text:
                           'Hatırlatıcılar kaydedildi ama bildirim gönderilemez. '
                           'Telefon ayarlarından Sana için bildirimlere izin ver.',
+                    ),
+                  ] else ...[
+                    if (!_canScheduleExact) ...[
+                      const SizedBox(height: AppSpacing.md),
+                      const DisclaimerBox.attention(
+                        title: 'Hatırlatma gecikebilir',
+                        text:
+                            'Tam zamanlı alarm izni kapalı. Bildirim yine gelir '
+                            'ama telefon güç tasarrufundayken birkaç dakika '
+                            'kayabilir. Ayarlar > Uygulamalar > Sana > Alarmlar '
+                            've hatırlatıcılar bölümünden açabilirsin.',
+                      ),
+                    ],
+                    const SizedBox(height: AppSpacing.md),
+                    // Üretici pil yönetimi, kaçırılan hatırlatmaların en sık
+                    // sebebidir; kod tarafında engellenemez, kullanıcıya
+                    // söylemek tek çare.
+                    const DisclaimerBox(
+                      title: 'Bildirim gelmiyorsa',
+                      text:
+                          'Bazı telefonlar (Xiaomi, Samsung, Oppo, Huawei) arka '
+                          'plandaki hatırlatmaları kapatabilir. Telefon '
+                          'ayarlarından Sana\'yı pil optimizasyonundan çıkarman '
+                          'gerekebilir. Uygulamayı "zorla durdurursan" '
+                          'hatırlatmalar iptal olur; uygulamayı bir kez açman '
+                          'yeterlidir.',
                     ),
                   ],
                   const SizedBox(height: AppSpacing.lg),
@@ -222,10 +265,7 @@ class _ReminderCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  reminder.name,
-                  style: AppTextStyles.sectionTitle(context),
-                ),
+                Text(reminder.name, style: AppTextStyles.sectionTitle(context)),
                 const SizedBox(height: 2),
                 Text(
                   reminder.scheduleLabel,

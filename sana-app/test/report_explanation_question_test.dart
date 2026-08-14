@@ -9,11 +9,19 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:sana_app/features/ml_dictionary/models/explain_response.dart';
 import 'package:sana_app/features/ml_dictionary/models/report_parse_models.dart';
+import 'package:sana_app/features/ml_dictionary/models/term_models.dart';
 import 'package:sana_app/features/ml_dictionary/screens/report_parse_screen.dart';
 import 'package:sana_app/features/ml_dictionary/services/ml_dictionary_service.dart';
 
 class _FlaggedReportService extends MlDictionaryService {
   String? lastExplainQuestion;
+
+  @override
+  Future<TermDetail> getTermDetail(String labTest) async {
+    throw StateError(
+      'Force legacy /explain fallback for this regression test.',
+    );
+  }
 
   @override
   Future<ReportParseResponse> parseReport(String text) async {
@@ -78,6 +86,11 @@ void main() {
     await tester.tap(find.text('Metin yapıştır'));
     await tester.pump();
     await tester.tap(find.text('Metni tara'));
+    await tester.pumpAndSettle();
+
+    // Ayrıştırma artık doğrudan kaydetmiyor: önce onay ekranı açılıyor.
+    // Sonuç listesine ulaşmak için değerleri onaylamak gerekiyor.
+    await tester.tap(find.text('Onayla ve geçmişe kaydet'));
     await tester.pumpAndSettle();
 
     await tester.drag(find.byType(ListView), const Offset(0, -260));

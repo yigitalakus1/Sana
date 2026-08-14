@@ -9,11 +9,14 @@ import '../../../core/theme/app_text_styles.dart';
 import '../../../core/theme/app_theme.dart';
 import '../models/explain_response.dart';
 import '../models/report_parse_models.dart';
+import '../services/local_ocr_service.dart';
+import '../services/local_pdf_text_extractor.dart';
 import '../services/ml_dictionary_service.dart';
 import '../services/report_history_service.dart';
 import '../widgets/common_widgets.dart';
 import '../widgets/status_chip.dart';
 import 'explain_screen.dart';
+import 'report_confirm_screen.dart';
 import 'report_history_screen.dart';
 
 const String _sampleReport = 'CRP: 13.5 mg/L\nGlukoz 92 mg/dL\nB12 350 pg/mL';
@@ -28,12 +31,14 @@ class ReportParseScreen extends StatefulWidget {
     this.onAskAssistant,
     this.service,
     this.historyService,
+    this.ocrService,
   });
 
   final void Function(String question, String? labTest)? onExplainRequested;
   final ValueChanged<String>? onAskAssistant;
   final MlDictionaryService? service;
   final ReportHistoryService? historyService;
+  final LocalOcrService? ocrService;
 
   @override
   State<ReportParseScreen> createState() => _ReportParseScreenState();
@@ -52,7 +57,13 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
   Uint8List? _pdfBytes;
   String? _pdfName;
   bool _loading = false;
+  late final LocalOcrService _ocrService =
+      widget.ocrService ?? LocalOcrService();
   bool _manualCorrectionSuggested = false;
+  bool _ocrSuggested = false;
+
+  /// Metin kameradan/galeriden geldiyse kullanıcı uyarılır: OCR hata yapar.
+  bool _textFromOcr = false;
   String? _error;
   ReportParseResponse? _result;
 
@@ -67,6 +78,8 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
       _mode = mode;
       _error = null;
       _manualCorrectionSuggested = false;
+      _ocrSuggested = false;
+      _textFromOcr = false;
       _result = null;
     });
   }
@@ -127,24 +140,26 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
     setState(() {
       _loading = true;
       _error = null;
+      _ocrSuggested = false;
+      _manualCorrectionSuggested = false;
       _result = null;
     });
     try {
       final result = await action();
-      if (result.results.isNotEmpty) {
-        try {
-          await _historyService.save(
-            sourceName: _mode == _ReportInputMode.pdf
-                ? (_pdfName ?? 'PDF raporu')
-                : 'Yapıştırılan rapor',
-            results: result.results,
-            reportDate: result.reportDate,
-          );
-        } catch (_) {
-          // Ayrıştırma sonucu, yerel geçmiş yazılamasa da gösterilir.
-        }
-      }
       if (mounted) setState(() => _result = result);
+      // Kayıt burada YAPILMAZ. Ayrıştırma bir öneridir; kullanıcı değerleri
+      // görüp onaylamadan rapor geçmişine hiçbir şey yazılmaz.
+      if (result.results.isNotEmpty) await _confirmAndSave(result);
+    } on PdfExtractionException catch (error) {
+      // Cihaz üzerinde çözülemedi. Sebep kullanıcıya açıkça söylenir; taranmış
+      // PDF "sonuç bulunamadı" gibi gizlenmez, OCR'a yönlendirilir.
+      if (mounted) {
+        setState(() {
+          _error = error.message;
+          _ocrSuggested = error.suggestsOcr;
+          _manualCorrectionSuggested = true;
+        });
+      }
     } on SanaApiException catch (error) {
       if (mounted) {
         setState(() {
@@ -158,6 +173,87 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
     } finally {
       if (mounted) setState(() => _loading = false);
     }
+  }
+
+  /// Kamera veya galeriden görüntü okur ve metni düzenlenebilir alana koyar.
+  ///
+  /// OCR sonucu **doğrudan kaydedilmez**: metin kullanıcıya düzeltilebilir
+  /// biçimde gösterilir, ayrıştırma ondan sonra çalışır ve kayıt yine onay
+  /// ekranından geçer. Görüntü saklanmaz, sunucuya gönderilmez.
+  Future<void> _scanImage(OcrSource source) async {
+    setState(() {
+      _loading = true;
+      _error = null;
+      _ocrSuggested = false;
+      _manualCorrectionSuggested = false;
+      _result = null;
+    });
+    try {
+      final text = await _ocrService.scan(source);
+      if (!mounted) return;
+      setState(() {
+        _mode = _ReportInputMode.text;
+        _textCtrl.text = text;
+        _textFromOcr = true;
+      });
+    } on OcrException catch (error) {
+      // Vazgeçmek hata değildir; ekranda kırmızı kutu gösterilmez.
+      if (!mounted || error.isCancellation) return;
+      setState(() {
+        _error = error.message;
+        _manualCorrectionSuggested = !error.needsSettings;
+      });
+    } catch (_) {
+      if (mounted) setState(() => _error = 'Görüntü okunamadı.');
+    } finally {
+      if (mounted) setState(() => _loading = false);
+    }
+  }
+
+  /// Kullanıcıya değerleri düzeltme/onaylama şansı verir ve **yalnız onay
+  /// verirse** rapor geçmişine yazar. Vazgeçerse hiçbir şey kaydedilmez.
+  Future<void> _confirmAndSave(ReportParseResponse result) async {
+    final sourceName = _mode == _ReportInputMode.pdf
+        ? (_pdfName ?? 'PDF raporu')
+        : 'Yapıştırılan rapor';
+
+    final confirmed = await Navigator.of(context).push<List<ParsedLabResult>>(
+      MaterialPageRoute<List<ParsedLabResult>>(
+        builder: (_) => ReportConfirmScreen(
+          results: result.results,
+          sourceName: sourceName,
+          reportDate: result.reportDate,
+          disclaimer: result.disclaimer,
+          service: _service,
+          unmatchedLines: result.unmatchedLines,
+        ),
+      ),
+    );
+    if (!mounted || confirmed == null || confirmed.isEmpty) return;
+
+    try {
+      await _historyService.save(
+        sourceName: sourceName,
+        results: confirmed,
+        reportDate: result.reportDate,
+      );
+    } catch (_) {
+      // Geçmiş yazılamasa da ekrandaki sonuç kullanılabilir kalır.
+    }
+    if (!mounted) return;
+    setState(() {
+      _result = ReportParseResponse(
+        parserStatus: result.parserStatus,
+        results: confirmed,
+        disclaimer: result.disclaimer,
+        reportDate: result.reportDate,
+      );
+    });
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
+        SnackBar(content: Text('${confirmed.length} değer geçmişe kaydedildi.')),
+      );
   }
 
   void _openHistory() {
@@ -202,9 +298,37 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
     );
   }
 
-  Future<ExplainResponse> _loadResultExplanation(ParsedLabResult result) {
-    final question = _resultExplanationQuestion(result);
-    return _service.explainLab(question: question, labTest: result.labTest);
+  Future<_ReportExplanation> _loadResultExplanation(
+    ParsedLabResult result,
+  ) async {
+    try {
+      final detail = await _service.getTermDetail(result.labTest);
+      final what = detail.contentForSection('Nedir?');
+      final why = detail.contentForSection('Neden ölçülür?');
+      final parts = <String>[?what, ?why];
+      if (parts.isNotEmpty) {
+        return _ReportExplanation(
+          answer: parts.join('\n\n'),
+          citations: detail.sources,
+          disclaimer:
+              'Bu açıklama yalnızca bilgilendirme amaçlıdır; tanı, tedavi veya '
+              'tıbbi karar önerisi değildir. Sonuçlarınızı doktorunuzla '
+              'birlikte değerlendiriniz.',
+        );
+      }
+    } catch (_) {
+      // Bundled catalog is preferred; the existing API remains a fallback.
+    }
+
+    final response = await _service.explainLab(
+      question: _resultExplanationQuestion(result),
+      labTest: result.labTest,
+    );
+    return _ReportExplanation(
+      answer: response.answer,
+      citations: response.citations,
+      disclaimer: response.disclaimer,
+    );
   }
 
   void _compareResult(ParsedLabResult result) {
@@ -245,8 +369,17 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
             ),
             const SizedBox(height: AppSpacing.xs),
             Text(
-              'PDF yükle veya rapor metnini yapıştır. Bulunan tahliller aşağıda ayrı ayrı listelenir.',
+              'PDF yükle, kamerayla tara veya rapor metnini yapıştır. Bulunan '
+              'tahliller aşağıda ayrı ayrı listelenir.',
               style: AppTextStyles.caption(context),
+            ),
+            const SizedBox(height: AppSpacing.md),
+            const DisclaimerBox(
+              title: 'Veriler bu cihazda işlenir',
+              text:
+                  'PDF okuma, kamera taraması ve tahlil eşleştirmesi telefonunda '
+                  'yapılır. Raporun ve fotoğrafın sunucuya gönderilmez; '
+                  'internet olmadan da çalışır.',
             ),
             const SizedBox(height: AppSpacing.lg),
             SegmentedButton<_ReportInputMode>(
@@ -267,7 +400,43 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
                   ? null
                   : (selection) => _setMode(selection.first),
             ),
+            if (_ocrService.isSupported) ...[
+              const SizedBox(height: AppSpacing.sm),
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      onPressed: _loading
+                          ? null
+                          : () => _scanImage(OcrSource.camera),
+                      icon: const Icon(Icons.photo_camera_outlined),
+                      label: const Text('Kamerayla çek'),
+                    ),
+                  ),
+                  const SizedBox(width: AppSpacing.sm),
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      onPressed: _loading
+                          ? null
+                          : () => _scanImage(OcrSource.gallery),
+                      icon: const Icon(Icons.photo_library_outlined),
+                      label: const Text('Galeriden seç'),
+                    ),
+                  ),
+                ],
+              ),
+            ],
             const SizedBox(height: AppSpacing.lg),
+            if (_textFromOcr && _mode == _ReportInputMode.text) ...[
+              DisclaimerBox.attention(
+                title: 'Metin görüntüden okundu',
+                text:
+                    'Kamera okuması hata yapabilir; özellikle rakamları ve '
+                    'birimleri kontrol et. Düzelttikten sonra tara. Görüntü '
+                    'saklanmadı ve hiçbir yere gönderilmedi.',
+              ),
+              const SizedBox(height: AppSpacing.lg),
+            ],
             if (_mode == _ReportInputMode.pdf)
               _PdfInput(
                 fileName: _pdfName,
@@ -287,6 +456,25 @@ class _ReportParseScreenState extends State<ReportParseScreen> {
             if (_error != null) ...[
               const SizedBox(height: AppSpacing.lg),
               ErrorBox(message: _error!),
+              if (_ocrSuggested && _ocrService.isSupported) ...[
+                const SizedBox(height: AppSpacing.sm),
+                FilledButton.icon(
+                  onPressed: _loading
+                      ? null
+                      : () => _scanImage(OcrSource.camera),
+                  icon: const Icon(Icons.document_scanner_outlined),
+                  label: const Text('Kamerayla tara'),
+                ),
+              ],
+              if (_ocrSuggested) ...[
+                const SizedBox(height: AppSpacing.sm),
+                const DisclaimerBox(
+                  title: 'Taranmış PDF',
+                  text:
+                      'Taranmış belgelerde metin katmanı bulunmaz. Değerleri '
+                      'elle yazabilirsin; girdiğin her şey bu cihazda işlenir.',
+                ),
+              ],
               if (_manualCorrectionSuggested) ...[
                 const SizedBox(height: AppSpacing.sm),
                 OutlinedButton.icon(
@@ -526,7 +714,7 @@ class _ExpandableResult extends StatefulWidget {
   });
 
   final ParsedLabResult result;
-  final Future<ExplainResponse> Function() onLoadExplanation;
+  final Future<_ReportExplanation> Function() onLoadExplanation;
   final VoidCallback onExplain;
   final VoidCallback onCompare;
 
@@ -535,7 +723,7 @@ class _ExpandableResult extends StatefulWidget {
 }
 
 class _ExpandableResultState extends State<_ExpandableResult> {
-  Future<ExplainResponse>? _explanation;
+  Future<_ReportExplanation>? _explanation;
 
   void _loadExplanation() {
     final explanation = widget.onLoadExplanation();
@@ -635,7 +823,7 @@ class _ExpandableResultState extends State<_ExpandableResult> {
                     value: _interpretationLabel(result.interpretation!),
                   ),
                 const SizedBox(height: AppSpacing.sm),
-                FutureBuilder<ExplainResponse>(
+                FutureBuilder<_ReportExplanation>(
                   future: _explanation,
                   builder: (context, snapshot) => _InlineExplanation(
                     snapshot: snapshot,
@@ -726,7 +914,7 @@ String _interpretationLabel(String interpretation) {
 class _InlineExplanation extends StatelessWidget {
   const _InlineExplanation({required this.snapshot, required this.onRetry});
 
-  final AsyncSnapshot<ExplainResponse> snapshot;
+  final AsyncSnapshot<_ReportExplanation> snapshot;
   final VoidCallback onRetry;
 
   @override
@@ -799,6 +987,18 @@ class _InlineExplanation extends StatelessWidget {
   }
 }
 
+class _ReportExplanation {
+  const _ReportExplanation({
+    required this.answer,
+    required this.citations,
+    required this.disclaimer,
+  });
+
+  final String answer;
+  final List<Citation> citations;
+  final String disclaimer;
+}
+
 class _DetailRow extends StatelessWidget {
   const _DetailRow({required this.label, required this.value});
 
@@ -846,7 +1046,10 @@ class _EmptyResults extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(Icons.info_outline, color: Theme.of(context).colorScheme.onPrimaryContainer),
+          Icon(
+            Icons.info_outline,
+            color: Theme.of(context).colorScheme.onPrimaryContainer,
+          ),
           const SizedBox(width: AppSpacing.sm),
           Expanded(
             child: Text(

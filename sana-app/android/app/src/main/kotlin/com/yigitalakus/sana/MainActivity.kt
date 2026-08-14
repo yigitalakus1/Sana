@@ -1,4 +1,4 @@
-package com.example.sana_app
+package com.yigitalakus.sana
 
 import io.flutter.embedding.android.FlutterActivity
 

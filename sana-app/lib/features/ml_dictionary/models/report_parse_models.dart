@@ -53,11 +53,19 @@ class ReportParseResponse {
     required this.results,
     required this.disclaimer,
     this.reportDate,
+    this.unmatchedLines = const [],
   });
 
   final String parserStatus; // parsed | no_results
   final List<ParsedLabResult> results;
   final String disclaimer;
+
+  /// Ölçüm gibi görünüp hiçbir tahlile bağlanamayan satırlar.
+  ///
+  /// Yalnız cihaz üzerindeki parser doldurur; backend yanıtında böyle bir alan
+  /// yoktur ve orada boş kalır. Sessizce kaybolan satırları kullanıcıya
+  /// göstermek için var.
+  final List<String> unmatchedLines;
 
   /// Rapor metnindeki etiketli tarih. Backend emin olamazsa null döner.
   final DateTime? reportDate;

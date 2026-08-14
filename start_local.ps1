@@ -10,6 +10,14 @@ param(
 $ErrorActionPreference = "Stop"
 $env:PYTHONUTF8 = "1"
 
+# Masaustu kisayoluna art arda tiklandiginda iki Flutter derlemesinin ayni
+# build klasorune yazmasini engelle. Mutex surec kapanirsa otomatik serbest kalir.
+$launcherMutex = [System.Threading.Mutex]::new($false, "Local\SanaLocalLauncher")
+if (-not $launcherMutex.WaitOne(0)) {
+    Write-Host "Sana zaten baslatiliyor. Lutfen acilan pencerenin tamamlanmasini bekleyin." -ForegroundColor DarkYellow
+    exit 0
+}
+
 $root = $PSScriptRoot
 $backendDir = Join-Path $root "sana-rag-backend"
 $flutterDir = Join-Path $root "sana-app"

@@ -108,14 +108,20 @@ void main() {
     testWidgets('akşam saati AM/PM ile değil 24 saatlik gösterilir', (
       tester,
     ) async {
-      final value = await formatted(tester, const TimeOfDay(hour: 20, minute: 0));
+      final value = await formatted(
+        tester,
+        const TimeOfDay(hour: 20, minute: 0),
+      );
 
       expect(value, '20:00');
       expect(value.toUpperCase(), isNot(contains('PM')));
     });
 
     testWidgets('sabah saati sıfır dolgulu gösterilir', (tester) async {
-      final value = await formatted(tester, const TimeOfDay(hour: 8, minute: 5));
+      final value = await formatted(
+        tester,
+        const TimeOfDay(hour: 8, minute: 5),
+      );
 
       expect(value, '08:05');
       expect(value.toUpperCase(), isNot(contains('AM')));
@@ -123,6 +129,15 @@ void main() {
   });
 
   group('kalıcılık', () {
+    test('bildirim kimliği kararlı algoritmayla üretilir', () {
+      final first = MedicationReminderService.notificationIdFor('r1', 0);
+      final second = MedicationReminderService.notificationIdFor('r1', 0);
+
+      expect(first, second);
+      expect(first, 516240);
+      expect(MedicationReminderService.notificationIdFor('r1', 1), first + 1);
+    });
+
     test('kaydedilir, yüklenir ve silinir', () async {
       final service = MedicationReminderService(
         notifications: NotificationService.instance,

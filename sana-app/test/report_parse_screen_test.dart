@@ -4,12 +4,27 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:sana_app/features/ml_dictionary/models/explain_response.dart';
 import 'package:sana_app/features/ml_dictionary/models/report_parse_models.dart';
+import 'package:sana_app/features/ml_dictionary/models/term_models.dart';
 import 'package:sana_app/features/ml_dictionary/screens/report_history_screen.dart';
 import 'package:sana_app/features/ml_dictionary/screens/report_parse_screen.dart';
 import 'package:sana_app/features/ml_dictionary/services/ml_dictionary_service.dart';
 
 class _FakeReportService extends MlDictionaryService {
   String? lastExplainQuestion;
+
+  @override
+  Future<TermDetail> getTermDetail(String labTest) async => const TermDetail(
+    labTest: 'CRP',
+    title: 'C-Reaktif Protein',
+    sections: ['Nedir?', 'Neden ölçülür?'],
+    sources: [Citation(sourceTitle: 'MedlinePlus')],
+    sectionContents: {
+      'Nedir?':
+          'CRP, vücuttaki iltihaplanma süreçleriyle ilişkili bir belirteçtir.',
+      'Neden ölçülür?':
+          'İltihaplanma süreçlerini değerlendirmeye yardımcı olur.',
+    },
+  );
 
   @override
   Future<ReportParseResponse> parseReport(String text) async {
@@ -37,21 +52,7 @@ class _FakeReportService extends MlDictionaryService {
     bool useSourceText = false,
   }) async {
     lastExplainQuestion = question;
-    return const ExplainResponse(
-      requestId: 'test',
-      responseType: 'answer',
-      labTest: 'CRP',
-      matchedTerm: 'crp',
-      answer:
-          'CRP, vücuttaki iltihaplanma süreçleriyle ilişkili bir belirteçtir.',
-      confidence: 0.9,
-      confidenceLabel: 'high',
-      citations: [Citation(sourceTitle: 'MedlinePlus')],
-      doctorQuestions: [],
-      disclaimer: 'Bilgilendirme amaçlıdır.',
-      safetyNotes: [],
-      retrievedChunks: [],
-    );
+    throw StateError('Bundled explanation must not call /explain.');
   }
 }
 
@@ -78,6 +79,11 @@ void main() {
     await tester.tap(find.text('Metni tara'));
     await tester.pumpAndSettle();
 
+    // Ayrıştırma artık doğrudan kaydetmiyor: önce onay ekranı açılıyor.
+    // Sonuç listesine ulaşmak için değerleri onaylamak gerekiyor.
+    await tester.tap(find.text('Onayla ve geçmişe kaydet'));
+    await tester.pumpAndSettle();
+
     expect(find.text('Bulunan tahliller'), findsOneWidget);
     await tester.drag(find.byType(ListView), const Offset(0, -260));
     await tester.pumpAndSettle();
@@ -93,20 +99,18 @@ void main() {
     expect(find.text('0 - 5'), findsOneWidget);
     expect(find.text('Aralığa göre durum'), findsOneWidget);
     expect(find.text('Yüksek'), findsOneWidget);
+    expect(service.lastExplainQuestion, isNull);
     expect(
-      service.lastExplainQuestion,
-      contains('Rapor referans aralığı: 0 - 5'),
-    );
-    expect(service.lastExplainQuestion, contains('Bu tahlil nedir'));
-    expect(service.lastExplainQuestion, contains('neden ölçülür'));
-    expect(
-      find.text(
+      find.textContaining(
         'CRP, vücuttaki iltihaplanma süreçleriyle ilişkili bir belirteçtir.',
       ),
       findsOneWidget,
     );
     expect(find.text('MedlinePlus'), findsOneWidget);
-    expect(find.text('Bilgilendirme amaçlıdır.'), findsWidgets);
+    expect(
+      find.textContaining('yalnızca bilgilendirme amaçlıdır'),
+      findsWidgets,
+    );
 
     final compare = find.byKey(const ValueKey('compare-CRP'));
     await tester.scrollUntilVisible(

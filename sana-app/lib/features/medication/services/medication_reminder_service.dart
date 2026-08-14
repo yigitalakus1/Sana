@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/notifications/notification_service.dart';
@@ -58,6 +59,12 @@ class MedicationReminderService {
 
   /// Kaydeder (yeni ya da güncel) ve bildirimlerini yeniden kurar.
   Future<List<MedicationReminder>> save(MedicationReminder reminder) async {
+    return (await saveWithStatus(reminder)).items;
+  }
+
+  Future<MedicationSaveResult> saveWithStatus(
+    MedicationReminder reminder,
+  ) async {
     final items = [...await load()];
     final index = items.indexWhere((item) => item.id == reminder.id);
     if (index == -1) {
@@ -66,8 +73,11 @@ class MedicationReminderService {
       items[index] = reminder;
     }
     await _persist(items);
-    await _reschedule(reminder);
-    return items;
+    final scheduled = await _reschedule(reminder);
+    return MedicationSaveResult(
+      items: items,
+      notificationsScheduled: scheduled,
+    );
   }
 
   Future<List<MedicationReminder>> delete(String id) async {
@@ -89,24 +99,27 @@ class MedicationReminderService {
     }
   }
 
-  Future<void> _reschedule(MedicationReminder reminder) async {
+  Future<bool> _reschedule(MedicationReminder reminder) async {
     await _cancelAll(reminder);
-    if (!reminder.active) return;
+    if (!reminder.active) return true;
 
     final occurrences = reminder.occurrences();
     final body = (reminder.note == null || reminder.note!.trim().isEmpty)
         ? 'Hatırlatma zamanı geldi.'
         : reminder.note!.trim();
 
+    var allScheduled = true;
     for (var i = 0; i < occurrences.length && i < _idsPerReminder; i++) {
-      await _notifications.scheduleDaily(
+      final scheduled = await _notifications.scheduleDaily(
         id: _notificationId(reminder.id, i),
         title: reminder.name.trim(),
         body: body,
         hour: occurrences[i].hour,
         minute: occurrences[i].minute,
       );
+      allScheduled = allScheduled && scheduled;
     }
+    return allScheduled;
   }
 
   Future<void> _cancelAll(MedicationReminder reminder) async {
@@ -117,7 +130,26 @@ class MedicationReminderService {
 
   /// Kayıt kimliğinden kararlı (deterministik) bildirim kimliği üretir.
   static int _notificationId(String reminderId, int index) {
-    final base = reminderId.hashCode.abs() % 80000;
+    var hash = 5381;
+    for (final unit in reminderId.codeUnits) {
+      hash = ((hash * 33) ^ unit) & 0x7fffffff;
+    }
+    final base = hash % 80000;
     return base * _idsPerReminder + index;
   }
+
+  @visibleForTesting
+  static int notificationIdFor(String reminderId, int index) =>
+      _notificationId(reminderId, index);
+}
+
+@immutable
+class MedicationSaveResult {
+  const MedicationSaveResult({
+    required this.items,
+    required this.notificationsScheduled,
+  });
+
+  final List<MedicationReminder> items;
+  final bool notificationsScheduled;
 }

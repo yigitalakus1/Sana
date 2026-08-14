@@ -44,6 +44,9 @@ dependencies:
   timezone: ^0.11.1
   flutter_timezone: ^5.1.0
   pdf: ^3.12.0
+  syncfusion_flutter_pdf: ^33.2.13
+  google_mlkit_text_recognition: ^0.16.0
+  image_picker: ^1.2.3
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +75,7 @@ flutter:
   # `ş/ğ/ı/İ` gliflerini içermiyor).
   assets:
     - assets/fonts/
+    - assets/data/
 
   # Marka yazı tipi uygulamayla birlikte paketlenir; çalışma anında ağdan
   # indirilmez. Uygulama çevrimdışı da aynı görünür.

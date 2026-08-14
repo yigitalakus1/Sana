@@ -25,8 +25,10 @@ değişmedi.
 | Ayrıştırılan değerler doğrudan kaydediliyordu | Önce **düzeltme/onay ekranı**; kullanıcı onaylamadan kayıt yok |
 | Sürekli entegrasyon yoktu | Her push'ta backend + uygulama testleri otomatik koşuyor |
 
-Rapor okumanın cihaza taşınmasından önceki son sürüm `751e036` commit'idir
-(`git checkout 751e036`).
+Videodaki sürüm **[`video-demo`](https://github.com/yigitalakus1/Sana/tree/video-demo)**
+etiketiyle işaretlidir (`751e036`, 5 Ağustos 2026); yukarıdaki değişikliklerin
+hepsi bu noktadan sonra geldi. Tam o hâli görmek için:
+`git checkout video-demo`.
 
 ## Neden farklı: her şey cihazda çalışır
 

@@ -47,8 +47,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Sürüm sabitlenir. Önce `channel: stable` yazılmıştı; bu "her koşuda en
+      # yeni Flutter'ı indir" demek ve CI 3.47.0 kullanırken proje 3.41.1 ile
+      # geliştirildiği için 9 widget testi kırıldı (Checkbox/Switch/ListTile
+      # ölçüleri sürümler arasında değişiyor). Araç zincirini sabitlemek
+      # koşuları tekrarlanabilir kılar.
+      #
+      # Güncel stable'a yükseltme ayrı bir iş: `flutter upgrade` sonrası
+      # kırılanlar düzeltilip bu satır güncellenmeli.
       - uses: subosito/flutter-action@v2
         with:
+          flutter-version: 3.41.1
           channel: stable
           cache: true
 
@@ -66,14 +75,21 @@ jobs:
       # günlüğü görmek için giriş ister; anotasyonlar giriş yapmadan da
       # görünür, böylece kırık bir koşu dışarıdan da teşhis edilebilir.
       - name: Testler
+        env:
+          # Türkçe test adları ve mesajları bozulmadan yazılsın.
+          LANG: C.UTF-8
+          LC_ALL: C.UTF-8
         run: |
           set +e
           flutter test --no-pub --reporter expanded 2>&1 | tee test-output.txt
           code=${PIPESTATUS[0]}
           if [ "$code" -ne 0 ]; then
             echo "::error::Flutter testleri başarısız (çıkış kodu $code)"
-            grep -E '\[E\]|^  Expected:|^    Actual:' test-output.txt \
-              | head -40 \
+            # Her hatanın kendisi değil, ardındaki blok da lazım: asıl sebep
+            # "Expected/Actual" veya istisna satırlarında yazıyor.
+            grep -A 14 -E '\[E\]$' test-output.txt \
+              | grep -vE '^\s*$|^--$|package:flutter_test|package:matcher|asynchronous suspension|^#[0-9]' \
+              | head -80 \
               | while IFS= read -r line; do echo "::error::${line}"; done
           fi
           exit "$code"

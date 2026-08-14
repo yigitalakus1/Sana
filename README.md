@@ -11,6 +11,23 @@ açıklamalar üretir.
 > ⚠️ Bu sistem bir teşhis aracı değildir. Amacı, kullanıcının sağlık okuryazarlığını
 > artırmak ve doktoruna daha bilinçli sorular sormasına yardımcı olmaktır.
 
+## Tanıtım videosu hakkında
+
+Tanıtım videosu projenin **daha erken bir sürümünü** anlatır. Videodan sonra
+rapor okuma tamamen cihaza taşındı; anlatılan temel ilkeler (teşhis koymama,
+kaynak gösterme, ücretli dış AI kullanmama, 240 tahlilin çevrimdışı çalışması)
+değişmedi.
+
+| Videodaki sürüm | Bugünkü depo |
+|---|---|
+| PDF metni backend'de çıkarılıyordu | **Cihazda** çıkarılıyor, backend çağrılmıyor |
+| Kamera/OCR yoktu | Kamera ve galeriden **cihaz üzerinde OCR** (ML Kit, model uygulamaya gömülü) |
+| Ayrıştırılan değerler doğrudan kaydediliyordu | Önce **düzeltme/onay ekranı**; kullanıcı onaylamadan kayıt yok |
+| Sürekli entegrasyon yoktu | Her push'ta backend + uygulama testleri otomatik koşuyor |
+
+Rapor okumanın cihaza taşınmasından önceki son sürüm `751e036` commit'idir
+(`git checkout 751e036`).
+
 ## Neden farklı: her şey cihazda çalışır
 
 Sağlık verisi hassastır, bu yüzden **ücretli dış AI API'si kullanılmaz** (OpenAI,

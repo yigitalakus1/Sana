@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+
+import 'test_surface.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:sana_app/core/settings/app_settings_controller.dart';
@@ -29,6 +31,7 @@ void main() {
   });
 
   testWidgets('settings screen toggles appearance controls', (tester) async {
+    useRoomyTestSurface(tester);
     final settings = AppSettingsController();
     await tester.pumpWidget(
       MaterialApp(home: SettingsScreen(controller: settings)),

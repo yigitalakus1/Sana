@@ -62,5 +62,18 @@ jobs:
       - name: Statik analiz
         run: flutter analyze
 
+      # Başarısız test adları `::error::` ile anotasyona yazılır. GitHub ham
+      # günlüğü görmek için giriş ister; anotasyonlar giriş yapmadan da
+      # görünür, böylece kırık bir koşu dışarıdan da teşhis edilebilir.
       - name: Testler
-        run: flutter test --no-pub
+        run: |
+          set +e
+          flutter test --no-pub --reporter expanded 2>&1 | tee test-output.txt
+          code=${PIPESTATUS[0]}
+          if [ "$code" -ne 0 ]; then
+            echo "::error::Flutter testleri başarısız (çıkış kodu $code)"
+            grep -E '\[E\]|^  Expected:|^    Actual:' test-output.txt \
+              | head -40 \
+              | while IFS= read -r line; do echo "::error::${line}"; done
+          fi
+          exit "$code"

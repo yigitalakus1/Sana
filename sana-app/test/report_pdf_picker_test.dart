@@ -8,6 +8,8 @@ import 'package:sana_app/features/ml_dictionary/models/report_parse_models.dart'
 import 'package:sana_app/features/ml_dictionary/screens/settings_screen.dart';
 import 'package:sana_app/features/ml_dictionary/services/report_history_service.dart';
 
+import 'test_surface.dart';
+
 /// Geçmişi bellekten veren sahte servis.
 ///
 /// Gerçek servis `SharedPreferences`'a gider; `testWidgets` içinde bu çağrıyı
@@ -41,6 +43,7 @@ Future<void> pumpSettings(
   WidgetTester tester,
   List<ReportHistoryEntry> entries,
 ) async {
+  useRoomyTestSurface(tester);
   await tester.pumpWidget(
     MaterialApp(home: SettingsScreen(historyService: _FakeHistoryService(entries))),
   );
